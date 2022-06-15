@@ -1,0 +1,4 @@
+<resources>
+
+    <style name="Theme.GPS_Popular" parent="android:Theme.Material.Light.DarkActionBar" />
+</resources>
