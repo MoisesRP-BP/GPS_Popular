@@ -16,7 +16,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.GPS_Popular"
-        tools:targetApi="31">
+        tools:targetApi="31"
+        tools:ignore="ExtraText">
 
         <!--
              TODO: Before you run your application, you need a Google Maps API key.
@@ -29,9 +30,10 @@
              project's local.properties file (e.g. MAPS_API_KEY=Aiza...), and replace the
              "YOUR_API_KEY" string in this file with "${MAPS_API_KEY}".
         -->
+
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="${MAPS_API_KEY}" />
+            android:value="AIzaSyDiOvM129xoEGcsvMQekRyy7Ow1HmillL8" />
 
         <activity
             android:name=".MapsActivity"

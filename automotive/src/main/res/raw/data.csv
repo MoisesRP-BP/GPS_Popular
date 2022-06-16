@@ -1,0 +1,837 @@
+﻿id,type,name,name_en,area,phone,fax,hours_weekly_range,hours,address,city,lat,lng,distance
+750,3,Centro de Banca Internacional,Centro de Banca Internacional,PR,787-723-7210,787-723-7244,FALSE,LMMJVSD,"""Ave. Ponce de Leon 1500, Parada 22, Piso 2, San Juan, PR""",San Juan,18.445945,-66.068358,53.23833085
+751,2,Sucursal San Juan,San Juan Branch,PR,787-725-2636,787-723-3910,FALSE,LMMJVSD,"""Calle Tetuan 206, San Juan, PR""",San Juan,18.464325,-66.115256,56.51898363
+752,2,Sucursal Carolina Highway,Carolina Highway Branch,PR,787-750-2440,787-257-1677,FALSE,LMMJVSD,"""Ave. 65 de Infanteria Esq. Calle Ignacio Arzuaga Km. 10.3, Carolina, PR""",Carolina,18.38078,-65.962161,45.77659438
+753,2,Sucursal Cupey Center (Evertec),Cupey Center (Evertec) Branch,PR,787-766-0777,787-764-7846,FALSE,LMMJVSD,"""Carr. 176 Km. 1.2, San Juan, PR""",San Juan,18.380254,-66.05493,52.19662443
+754,2,Sucursal Calle Loiza,Calle Loiza Branch,PR,787-728-3400,787-728-3408,FALSE,LMMJVSD,"""Cale Loiza 1812, San Juan, PR""",San Juan,18.451288,-66.058589,52.57575005
+755,2,Sucursal Condado,Condado Branch,PR,787-725-4197,787-722-0897,FALSE,LMMJVSD,"""Ave. Ashford 1060, San Juan, PR""",San Juan,18.457221,-66.07498,53.72140173
+756,2,Sucursal Plaza Las Americas,Plaza Las Americas Branch,PR,787-753-4590,787-753-4455,FALSE,LMMJVSD,"""525 Ave. Roosevelt, Plaza Las Americas, Primer Nivel, San Juan, PR""",San Juan,18.423133,-66.074902,53.64434285
+758,2,Sucursal Parada 22,Parada 22 Branch,PR,787-725-5129,787-725-4041,FALSE,LMMJVSD,"""Ave. Ponce de Leon 1500, Pda. 22, San Juan, PR""",San Juan,18.445963,-66.068384,53.24016655
+759,2,Sucursal Barrio Obrero,Barrio Obrero Branch,PR,787-726-1045,787-726-1613,FALSE,LMMJVSD,"""Ave. Borinquen 2250, Bo. Obrero, Santurce, San Juan, PR""",San Juan,18.435032,-66.048112,51.81612748
+760,2,Sucursal Miramar,Miramar Branch,PR,787-723-8078,787-724-6730,FALSE,LMMJVSD,"""Edif. Centro de Seguros, Ave. Ponce de Leon 701, San Juan, PR""",San Juan,18.456071,-66.083322,54.29471462
+761,2,Sucursal Buchanan,Buchanan Branch,PR,787-783-8048,787-281-4268,FALSE,LMMJVSD,"""Edif. 501 South Health Clinic, Fort Buchanan, San Juan, PR""",San Juan,18.413093,-66.12051,56.78127819
+762,2,Sucursal Parada 26,Parada 26 Branch,PR,787-727-8010,787-727-8215,FALSE,LMMJVSD,"""Ave. Ponce de Leon 1900, Pda. 26, San Juan, PR""",San Juan,18.438235,-66.059943,52.64032405
+763,2,Sucursal Puerto Nuevo,Puerto Nuevo Branch,PR,787-783-9280,787-993-6446,FALSE,LMMJVSD,"""301 Ave. De Diego, Esq. Ave. Roosevelt, San Juan, PR""",San Juan,18.413272,-66.089112,54.6097137
+764,2,Sucursal Popular Center,Popular Center Branch,PR,787-754-4002,787-756-3976,FALSE,LMMJVSD,"""Ave. Ponce De Leon 208, Ave. Muñoz Rivera 209, San Juan, PR""",San Juan,18.427128,-66.058535,52.52045634
+765,2,Sucursal Plaza Del Mercado Río Piedras,Plaza Del Mercado Río Piedras Branch,PR,787-765-9050,787-758-1812,FALSE,LMMJVSD,"""Calle de Diego 155, San Juan, PR""",San Juan,18.398439,-66.049453,51.84258303
+766,2,Sucursal Universidad de PR (Rio Piedras),Universidad de PR (Rio Piedras) Branch,PR,787-751-0238,787-751-7840,FALSE,LMMJVSD,"""Recinto de Rio Piedras, Edif. Janer, Ave. Ponce de Leon, San Juan, PR""",San Juan,18.403214,-66.049988,51.88704017
+767,2,Sucursal Parada 34 - Hato Rey,Parada 34 - Hato Rey Branch,PR,787-753-0195,787-993-6444,FALSE,LMMJVSD,"""Ave. Ponce de Leon 526, Esq. Calle Guayama, San Juan, PR""",San Juan,18.415763,-66.055698,52.30314065
+768,2,Sucursal San Jose,San Jose Branch,PR,787-767-0909,787-765-0084,FALSE,LMMJVSD,"""Calle Alda 1565, Urb. El Caribe, San Juan, PR""",San Juan,18.383402,-66.06729,53.05609936
+770,2,Sucursal Barbosa,Barbosa Branch,PR,787-766-2020,787-751-0096,FALSE,LMMJVSD,"""Ave. Barbosa 618, Esq. Calle Mayaguez, San Juan, PR""",San Juan,18.411714,-66.043644,51.46244675
+771,2,Sucursal Parque Escorial,Parque Escorial Branch,PR,787-757-0300,787-276-1725,FALSE,LMMJVSD,"""Centro Comercial Parque Escorial, 65 de Infanteria Km. 5, Carolina, PR""",Carolina,18.394474,-66.000264,48.43338291
+772,2,Sucursal Las Catalinas,Las Catalinas Branch,PR,787-286-0011,787-993-6442,FALSE,LMMJVSD,"""Las Catalinas Mall, Bo. Bairoa Carr. 156 Km. 0.2, Caguas, PR""",Caguas,18.241304,-66.038765,51.05759095
+773,2,Sucursal San Lorenzo,San Lorenzo Branch,PR,787-736-8454,787-736-4000,FALSE,LMMJVSD,"""Carrretera 183 KM 10.3 Bo. Hato, San Lorenzo, San Lorenzo, PR""",San Lorenzo,18.1788469,-65.9701639,46.40857305
+774,2,Sucursal Cidra,Cidra Branch,PR,787-739-8431,787-739-3517,FALSE,LMMJVSD,"""60 Calle Barcelo, Esq. Jaime Bonet, Cidra, PR""",Cidra,18.176493,-66.159351,59.4908217
+775,2,Sucursal Gurabo,Gurabo Branch,PR,787-737-2391,787-737-8266,FALSE,LMMJVSD,"""Calle Andres Aruz Rivera 250-E, Gurabo, PR""",Gurabo,18.254018,-65.968563,46.1844449
+776,2,Sucursal Aguas Buenas,Aguas Buenas Branch,PR,787-732-3591,787-732-3119,FALSE,LMMJVSD,"""Calle Muñoz Rivera 20, Aguas Buenas, PR""",Aguas Buenas,18.256529,-66.10317,55.50588044
+777,2,Sucursal San Alfonso,San Alfonso Branch,PR,787-743-6626,787-743-2666,FALSE,LMMJVSD,"""Plaza San Alfonso Carr. 1  Ave. Degetau, Esq. Gautier Benitez, Caguas, PR""",Caguas,18.223313,-66.03976,51.14643477
+778,2,Sucursal Cayey Montellano,Cayey Montellano Branch,PR,787-738-2828,787-263-5842,FALSE,LMMJVSD,"""Carr. 1 Km. 56.6, Bo. Montellanos, Cayey, PR""",Cayey,18.116082,-66.146614,58.7400799
+779,2,Sucursal Condadito,Condadito Branch,PR,787-746-4000,787-749-4300,FALSE,LMMJVSD,"""Calle Amapola 14, Urb. Condadito, Caguas, PR""",Caguas,18.236953,-66.026443,50.20876984
+780,2,Sucursal Lomas Verdes,Lomas Verdes Branch,PR,787-787-1030,787-798-7373,FALSE,LMMJVSD,"""Ave. Lomas Verdes Sur, Urb. Royal Palm 1-A-100, Bayamon, PR""",Bayamon,18.382771,-66.144535,58.40273253
+781,2,Sucursal Bayamon Center,Bayamon Center Branch,PR,787-787-5049,787-993-6452,FALSE,LMMJVSD,"""Edif. 300, Ave. Ramon Rodriguez, Urb. Flamboyan Gardens, Bayamon, PR""",Bayamon,18.391952,-66.157788,59.33105481
+782,2,Sucursal Comerio,Comerio Branch,PR,787-875-2675,787-875-4606,FALSE,LMMJVSD,"""Calle Georgetti 57, Comerio, PR""",Comerio,18.219212,-66.225495,64.00979303
+783,2,Sucursal Corozal,Corozal Branch,PR,787-859-2636,787-993-6478,FALSE,LMMJVSD,"""Corozal Plaza Shopping Center, Carr. 159 Km. 15.1, Corozal, PR""",Corozal,18.34221,-66.31126,69.91877349
+785,2,Sucursal Vega Alta,Vega Alta Branch,PR,787-883-2530,787-883-8419,FALSE,LMMJVSD,"""Centro Gran Caribe Mall, Carr. 2 Km. 29.7, Vega Alta, PR""",Vega Alta,18.413592,-66.3282,71.1540914
+786,2,Sucursal Dorado,Dorado Branch,PR,(787) 796-2010,787-796-7854,FALSE,LMMJVSD,"""Calle Mendez Vigo 349, Edif. Pabellón Comercial, Dorado, PR""",Dorado,18.460564,-66.266074,66.93102727
+787,2,Sucursal Toa Alta,Toa Alta Branch,PR,787-870-2050,787-870-1095,FALSE,LMMJVSD,"""Carr. 165 Km. 11.5, Toa Alta, PR""",Toa Alta,18.391081,-66.253186,65.93438373
+788,2,Manatí Popular Center,Manatí Popular Center,PR,787-854-2030,787-854-2206,FALSE,LMMJVSD,"""Monte Real Shopping Center, Carr. 2 km 45.6, Espacio #5, Manati, PR""",Manati,18.392008,-66.157724,59.32669385
+789,2,Sucursal Vega Baja,Vega Baja Branch,PR,787-858-1331,787-858-2350,FALSE,LMMJVSD,"""Carr. 2, Marginal, Km. 38.2, Vega Baja, PR""",Vega Baja,18.44597,-66.386033,75.20185279
+790,2,Sucursal Ciales,Ciales Branch,PR,787-871-3100,787-871-1295,FALSE,LMMJVSD,"""Calle Palmer 46 A, Ciales, PR""",Ciales,18.334212,-66.468578,80.81527484
+791,2,Sucursal Morovis,Morovis Branch,PR,787-862-2160,787-862-1549,FALSE,LMMJVSD,"""Carr. PR 155, Int. Carr. PR 6623, Morovis Sur, Morovis, PR""",Morovis,18.322991,-66.406107,76.48370743
+792,2,Sucursal Barceloneta Prime Outlets,Barceloneta Prime Outlets Branch,PR,787-846-3100,787-993-6841,FALSE,LMMJVSD,"""Barceloneta Prime Outlets Shopping Center, Carr. 2, Km. 54.8 & PR 140, Barceloneta, PR""",Barceloneta,18.43793,-66.542382,86.01040733
+793,2,Sucursal Utuado,Utuado Branch,PR,787-894-2700,787-894-2415,FALSE,LMMJVSD,"""93 Calle Dr. Cueto, Utuado, PR""",Utuado,18.266321,-66.704076,97.13348391
+795,2,Sucursal Hatillo,Hatillo Branch,PR,787-898-4160,787-262-2034,FALSE,LMMJVSD,"""Carr. 2 Km. 86.6, Bo. Pueblo, Hatillo, PR""",Hatillo,18.488495,-66.800418,103.9372745
+796,2,Sucursal Camuy,Camuy Branch,PR,787-898-4950, 787-993-6503,FALSE,LMMJVSD,"""160 Ave. Muñoz Rivera Oeste, Camuy, PR""",Camuy,18.483516,-66.847925,107.2181721
+797,2,Sucursal Cruce Davila,Cruce Davila Branch,PR,787-846-4620,787-846-5548,FALSE,LMMJVSD,"""Carr. 2 Km. 57.3, Bo. Cruce Davila, Barceloneta, PR""",Barceloneta,18.434912,-66.547615,86.36886841
+798,2,Sucursal Ponce Plaza (Frente Alcaldia),Ponce Plaza Branch,PR,787-843-8000,787-993-6475,FALSE,LMMJVSD,"""Edificio Ponce Plaza, Plaza Degetau, Esq. Calle Comercio, Ponce, PR""",Ponce,18.011315,-66.613342,91.21082449
+799,2,Sucursal Coamo,Coamo Branch,PR,787-825-1135,787-993-6461,FALSE,LMMJVSD,"""Calle Mario Brashi 7 Bajos, Coamo, PR""",Coamo,18.081062,-66.35688,73.33852738
+800,2,Sucursal Florida,Florida Branch,PR,787-822-0829,787-822-2415,FALSE,LMMJVSD,"""Calle Muñoz Rivera 225, Florida, PR""",Florida,18.363056,-66.567401,87.67484304
+801,2,Sucursal Orocovis,Orocovis Branch,PR,787-867-2425,787-867-4395,FALSE,LMMJVSD,"""Carr. 155 Km. 24.5, Salida Hacia Coamo, Orocovis, PR""",Orocovis,18.226985,-66.392722,75.58363867
+802,2,Sucursal Yauco Plaza,Yauco Plaza Branch,PR,787-267-8000,787-993-6431,FALSE,LMMJVSD,"""Yauco Plaza Shopping Center II, Carr. 128 Int. #2 Carr. 663, Yauco, PR""",Yauco,18.026613,-66.854406,107.8231595
+803,2,Sucursal Guayama Mall,Guayama Mall Branch,PR,787-866-0185,787-993-6430,FALSE,LMMJVSD,"""Carr. 3 Km. 134.9, Ave. Los Veteranos, Guayama, PR""",Guayama,17.97918,-66.097972,55.89406624
+804,2,Sucursal San Sebastian Pueblo,San Sebastian Pueblo Branch,PR,(787) 896-2275,787-896-9330,FALSE,LMMJVSD,"""Carr. 111, Int. 446 Km. 18 Bo. Guatemala, San Sebastian, PR""",San Sebastian,18.347331,-66.998766,117.5558781
+806,2,Sucursal Ramey,Ramey Branch,PR,787-890-4141,787-890-5575,FALSE,LMMJVSD,"""17 West Parade, Antigua Base Ramey, Aguadilla, PR""",Aguadilla,18.500717,-67.139216,127.4031388
+807,2,Sucursal Isabela,Isabela Branch,PR,787-872-3100,787-993-6490,FALSE,LMMJVSD,"""Plazoleta de Isabela Barrio Mora, Carr. #4494 Este Km.1 Int. Carr.#2, Isabela, PR""",Isabela,18.47269,-67.0242,119.407504
+808,2,Sucursal Quebradillas,Quebradillas Branch,PR,787-895-2530,787-895-1367,FALSE,LMMJVSD,"""108 Calle Honorio Hernandez, Quebradillas, PR""",Quebradillas,18.473738,-66.937841,113.4298218
+809,2,Sucursal Moca,Moca Branch,PR,787-877-2880,787-877-4800,FALSE,LMMJVSD,"""Calle Jose Calazan 108, Moca, PR""",Moca,18.396032,-67.114025,125.5637162
+810,2,Sucursal Aguada,Aguada Branch,PR,787-868-2380,787-993-6463,FALSE,LMMJVSD,"""Ave. Nativo Alers, Desvio Sur, Aguada, PR""",Aguada,18.377693,-67.190159,130.829132
+811,2,Sucursal Rincon,Rincon Branch,PR,787-823-2260,787-823-2261,FALSE,LMMJVSD,"""Carr. 115 Km. 12.4, Calle Albizu Campos, Rincon, PR""",Rincon,18.330209,-67.248696,134.8707988
+812,2,Sucursal Mayaguez Suau,Mayaguez Suau,PR,787-831-6845,787-993-6432,FALSE,LMMJVSD,"""1 Calle Suau, Mayaguez, PR""",Mayaguez,18.203902,-67.145852,127.7708176
+813,2,Sucursal San Germán Plaza del Oeste,San Germán Plaza del Oeste Branch,PR,787-264-2595,787-264-2210,FALSE,LMMJVSD,"""Plaza del Oeste Shopping Center, Carr. 2, Ave. Casto Perez, San German, PR""",San German,18.090518,-67.030125,119.8681178
+814,2,Sucursal Muñoz Rivera,Muñoz Rivera Branch,PR,787-767-1150,787-765-8235,FALSE,LMMJVSD,"""Ave. Muñoz Rivera 1125, San Juan, PR""",San Juan,18.399274,-66.05584,52.2857492
+815,2,Sucursal Aeropuerto Luis Muñoz Marín,Aeropuerto Luis Muñoz Marín Branch,PR,787-791-0325,787-791-8400,FALSE,LMMJVSD,"""Aeropuerto Luis Muñoz Marin, Primer Piso Terminal B, Carolina, PR""",Carolina,18.438711,-66.004862,48.83660675
+816,2,Sucursal Montehiedra,Montehiedra Branch,PR,787-287-6060,787-287-6070,FALSE,LMMJVSD,"""Carr. Los Romero Km. 1.9, Bo. Caimito, San Juan, PR""",San Juan,18.340383,-66.071112,53.28106797
+817,2,Sucursal Reparto Metropolitano,Reparto Metropolitano Branch,PR,787-758-8500,787-764-2625,FALSE,LMMJVSD,"""1008 Ave. Americo Miranda, Reparto Metropolitano Shopping Center, San Juan, PR""",San Juan,18.400684,-66.075377,53.6396064
+818,2,Sucursal Fajardo,Fajardo Branch,PR,787-863-0101,787-993-6434,FALSE,LMMJVSD,"""Ave. Garrido Morales Final, Carr. 3, Fajardo, PR""",Fajardo,18.326204,-65.65548,24.4821822
+819,2,Sucursal Vieques,Vieques Branch,PR,(787) 741-2071,787-741-2073,FALSE,LMMJVSD,"""Calle Muñoz Rivera 115, Vieques, PR""",Vieques,18.14891,-65.44245,10.67000129
+820,2,Sucursal Santa Rosa,Santa Rosa Branch,PR,787-798-6688,787-786-9035,FALSE,LMMJVSD,"""Santa Rosa Shopping Center, Carr. 2, Bayamon, PR""",Bayamon,18.39047,-66.15684,59.26361451
+823,2,Sucursal Plaza del Caribe,Plaza del Caribe Branch,PR,787-848-5260,787-993-6420,FALSE,LMMJVSD,"""2050 Ponce ByPass, Plaza del Caribe, Segundo Nivel Suite 420, Ponce, PR""",Ponce,17.992836,-66.611636,91.1416192
+824,2,Sucursal Guayanilla,Guayanilla Branch,PR,787-835-3330,787-993-6486,FALSE,LMMJVSD,"""Calle Muñoz Rivera 38-40, Guayanilla, PR""",Guayanilla,18.018824,-66.791411,103.4870285
+825,2,Sucursal Peñuelas,Peñuelas Branch,PR,787-836-1025,787-993-6528,FALSE,LMMJVSD,"""Calle Muñoz Rivera 318, Peñuelas, PR""",Peñuelas,18.054601,-66.721695,98.59565609
+826,2,Sucursal Santa Isabel,Santa Isabel Branch,PR,787-845-5000,787-993-6423,FALSE,LMMJVSD,"""Carr. 153 Int. Carr. 542, Km. 57.7 Bo. Felicia Dos, Santa Isabel, PR""",Santa Isabel,18.010187,-66.383242,75.35265599
+827,2,Sucursal Villalba,Villalba Branch,PR,787-847-4500,787-993-6539,FALSE,LMMJVSD,"""Calle Muñoz Rivera 69, Villalba, PR""",Villalba,18.128134,-66.492812,82.635623
+828,2,Sucursal Ceiba,Ceiba Branch,PR,787-885-2001,787-993-6505,FALSE,LMMJVSD,"""Ave. Lauro Piñero 248, Ceiba, PR""",Ceiba,18.264809,-65.647834,23.96589993
+829,2,Sucursal Luquillo,Luquillo Branch,PR,787-889-2610,787-993-6457,FALSE,LMMJVSD,"""Condominio Playa Azul, Carr. 193 Esq. Calle B, Luquillo, PR""",Luquillo,18.379767,-65.720274,29.0480392
+830,2,Sucursal San Patricio Gallery,San Patricio Gallery Branch,PR,787-792-2960,787-792-5437,FALSE,LMMJVSD,"""Ave. Gonzalez Giusti, Bloque 9 B-10, Guaynabo, PR""",Guaynabo,18.406276,-66.105683,55.7448801
+831,2,Sucursal Campo Rico,Campo Rico Branch,PR,787-769-5479,787-769-7355,FALSE,LMMJVSD,"""Ave. Roberto Sanchez Vilella (Antes Ave. Campo Rico), Esq. Expreso Loiza, Carolina, PR""",Carolina,18.41669,-65.98889,47.68613388
+832,2,Sucursal Ponce Rambla,Ponce Rambla Branch,PR,787-843-5030,787-993-6422,FALSE,LMMJVSD,"""La Rambla Shopping Center, Ave. Tito Castro, Carr. 14, Ponce, PR""",Ponce,18.025925,-66.598247,90.13272393
+833,2,Sucursal Patillas,Patillas Branch,PR,787-839-2130,787-993-6527,FALSE,LMMJVSD,"""Calle Muñoz Rivera 33, Esq Iglesias, Patillas, PR""",Patillas,18.005045,-66.014472,50.06879684
+834,2,Sucursal San Patricio Mall,San Patricio Mall Branch,PR,787-273-0463,787-281-4172,FALSE,LMMJVSD,"""San Patricio Shopping Center, 1er Nivel, Guaynabo, PR""",Guaynabo,18.409108,-66.105382,55.72843984
+835,2,Sucursal Añasco,Añasco Branch,PR,787-826-1520,787-826-1085,FALSE,LMMJVSD,"""Carr. 2 Km. 143.3, Esq. Carr. 402, Bo. Caracol, Añasco, PR""",Añasco,18.299274,-67.157884,128.5753705
+836,2,Sucursal Albergue Olimpico,Albergue Olimpico Branch,PR,787-824-2071,,FALSE,LMMJVSD,"""Expreso Luis A. Ferré, Albergue Olimpico, Salinas, PR""",Salinas,18.035367,-66.238267,65.29327163
+837,2,Sucursal Expreso Garden Hills ,Sucursal Expreso Garden Hills ,PR,787-781-6230,787-783-8850,FALSE,LMMJVSD,"""Garden Hills Plaza, Carr. 19 Int. Ave.Ramirez de Arellano, Guaynabo, PR""",Guaynabo,18.40032,-66.108542,55.93387957
+839,2,Sucursal UPR Mayaguez,UPR Mayaguez Branch,PR,787-805-4745,787-834-7970,FALSE,LMMJVSD,"""Edif. Centro de Estudiantes Bajos, 259 Carr 2 Esq. Calle Post Norte, Mayaguez, PR""",Mayaguez,18.210366,-67.141003,127.4311277
+840,2,Sucursal Humacao Palma Real,Humacao Palma Real Branch,PR,(787) 285-3333,787-993-6468,FALSE,LMMJVSD,"""Triumph Plaza Lote 5, Carr. 3 KM 83.6 Humacao, Humacao, PR""",Humacao,18.1468522,-65.8153763,35.82728779
+841,2,Sucursal Galeria Los Paseos,Galeria Los Paseos Branch,PR,787-760-7550,787-760-7685,FALSE,LMMJVSD,"""100 Grand Boulevard, Ave. Felisa Rincon de Gautier, San Juan, PR""",San Juan,18.356875,-66.064133,52.80955906
+842,2,Sucursal Yauco Pueblo,Yauco Pueblo Branch,PR,787-856-1072,787-993-6489,FALSE,LMMJVSD,"""Calle Betances, Esq. Mattei Lluberas, Yauco, PR""",Yauco,18.035665,-66.849208,107.4459338
+843,2,Sucursal Lares,Lares Branch,PR,787-897-2525,787-897-2892,FALSE,LMMJVSD,"""Ave. Patriotas 562, Lares, PR""",Lares,18.295204,-66.877263,109.1294269
+844,2,Sucursal Arecibo Aeropuerto,Arecibo Aeropuerto Branch,PR,787-881-0310,787-881-0307,FALSE,LMMJVSD,"""Carr. 2 Km. 69.8, Bo. Santana, Arecibo, PR""",Arecibo,18.44799,-66.676876,95.3329015
+845,2,Sucursal Adjuntas,Adjuntas Branch,PR,787-829-2120,787-993-6492,FALSE,LMMJVSD,"""Calle San Joaquin 19-21, Adjuntas, PR""",Adjuntas,18.162395,-66.723616,98.56064477
+846,2,Sucursal Jayuya,Jayuya Branch,PR,787-828-3350,787-993-6484,FALSE,LMMJVSD,"""Calle Guillermo Esteves 84, Jayuya, PR""",Jayuya,18.218572,-66.591992,89.39258217
+847,2,Sucursal Juana Diaz,Juana Diaz Branch,PR,787-837-2400,787-993-6460,FALSE,LMMJVSD,"""Calle Comercio 90, Juana Diaz, PR""",Juana Diaz,18.052551,-66.505719,83.68151099
+849,2,Sucursal Valencia Park,Valencia Park Branch,PR,787-782-0400,787-273-8643,FALSE,LMMJVSD,"""Edif. Telefonica Larga Distancia, Carr. 165 Lote 1, Guaynabo, PR""",Guaynabo,18.415132,-66.106429,55.81057422
+850,2,Sucursal Arecibo Highway ,Arecibo Highway Branch,PR,787-879-2707,787-880-6094,FALSE,LMMJVSD,"""Plaza del Atlantico Mall, Carr. 2 Km. 80.4, Bo. San Daniel, Arecibo, PR""",Arecibo,18.478754,-66.759093,101.0637679
+851,2,Sucursal Levittown,Levittown Branch,PR,787-795-6610,787-281-4225,FALSE,LMMJVSD,"""Ave. Los Dominicos, Esq. Rosa de Tejas, Toa Baja, PR""",Toa Baja,18.443782,-66.175584,60.64360137
+852,2,Sucursal Hormigueros,Hormigueros Branch,PR,787-849-5050,787-849-4010,FALSE,LMMJVSD,"""Plaza Peregrinos, Carr. 2 Km. 164.5, Bo. Lavadero, Hormigueros, PR""",Hormigueros,18.133594,-67.112386,125.5105604
+853,2,Sucursal Mayaguez Mall Centro,Mayaguez Mall Centro Branch,PR,787-834-2927,787-834-2913,FALSE,LMMJVSD,"""Centro Comercial Mayaguez Mall 975 Ave. Hostos, Suite 290, Mayaguez, PR""",Mayaguez,18.157398,-67.141678,127.516138
+854,2,Sucursal Maricao,Maricao Branch,PR,787-838-3660,787-838-2890,FALSE,LMMJVSD,"""Baldorioty 4, Esq. Calle Zuzuaregui, Maricao, PR""",Maricao,18.180308,-66.979673,116.2757243
+855,2,Sucursal Las Marias,Las Marias Branch,PR,(787) 827-3670,787-827-3719,FALSE,LMMJVSD,"""85 Calle Matías Brugman, Esq. Carr. 119 Km 49 Hm 3, Las Marias, PR""",Las Marias,18.252069,-66.990109,116.9573227
+856,2,Sucursal Aguadilla Sur,Aguadilla Sur Branch,PR,787-891-9500,787-891-9561,FALSE,LMMJVSD,""" Carr. 2 Km. 129.2, Bo. Victoria, Aguadilla, PR""",Aguadilla,18.410426,-67.153324,128.2953014
+857,2,Sucursal Orange Grove,Orange Grove Branch,VI,(340) 693-2902,340-693-2918,FALSE,LMMJVSD,"""3009 Orange Grove, Shopping Center, St. Croix, VI""",St. Croix,17.746361,-64.720753,43.4480078
+858,2,Sucursal Sunny Isle,Sunny Isle Branch,VI,(340) 693-2935,340-693-2938,FALSE,LMMJVSD,"""Sunny Isle Shopping Center,  4500 Sion Farm, St. Croix, VI""",St. Croix,17.728972,-64.74765,41.92410934
+859,2,Sucursal Hibiscus Alley,Hibiscus Alley Branch,VI,(340) 693-2822,340-693-2829,FALSE,LMMJVSD,"""34-35 Dronningens Gade, St. Thomas, VI""",St. Thomas,18.340825,-64.931783,25.69175554
+860,2,Sucursal VI Popular Center,VI Popular Center Branch,VI,(340) 693-2704,340-693-2782,FALSE,LMMJVSD,"""193 Altona & Welgunst, Charlotte Amalie, St. Thomas, VI""",St. Thomas,18.338194,-64.945853,24.7145806
+861,2,Sucursal Fort Mylner,Fort Mylner Branch,VI,(340) 693-2860,340-693-2868,FALSE,LMMJVSD,"""10-A Estate Charlotte Amalie, St. Thomas, VI""",St. Thomas,18.334978,-64.890097,28.57081854
+862,2,Sucursal Sugar Estate,Sugar Estate Branch,VI,(340) 693-2880,340-693-2888,FALSE,LMMJVSD,"""Lockhart Gardens, Shopping Center 1-A, Estate Thomas, St. Thomas, VI""",St. Thomas,18.338933,-64.915047,26.84781562
+863,2,Sucursal Tortola,Tortola Branch,VI,(284) 852-2600,284-494-5542,FALSE,LMMJVSD,"""1 Administration Road, Road Town, Tortola, VI""",Tortola,18.422669,-64.616761,47.62243593
+864,2,Sucursal Red Hook,Red Hook Branch,VI,(340) 693-2873,340-693-2878,FALSE,LMMJVSD,"""Red Hook Shopping Center 1, 2 &3 Red Hook Quarters Estate Smith Bay, St. Thomas, VI""",St. Thomas,18.325633,-64.852661,31.15560512
+865,2,Sucursal Sunshine Mall,Sunshine Mall Branch,VI,(340) 693-2970,340-713-5559,FALSE,LMMJVSD,"""Sunshine Mall 1, Estate Cane, Suite 201-203, St. Croix, VI""",St. Croix,17.706825,-64.842708,36.27753658
+866,2,Sucursal Condado Gallery,Condado Gallery Branch,PR,787-721-1400,787-721-1408,FALSE,LMMJVSD,"""Ave. Roberto H. Todd 100, San Juan, PR""",San Juan,18.4527,-66.073639,53.61828171
+867,2,Sucursal Mendez Vigo Mayaguez,Mendez Vigo Mayaguez Branch,PR,787-832-0475,787-834-7575,FALSE,LMMJVSD,"""Mendez Vigo 15 Oeste, Mayaguez, PR""",Mayaguez,18.202022,-67.141856,127.49511
+869,2,Sucursal Aibonito,Aibonito Branch,PR,787-735-3681,787-735-8695,FALSE,LMMJVSD,"""Carr. 14, Km 51.3, Bo. El Roble, Aibonito, PR""",Aibonito,18.140785,-66.260428,66.54488868
+870,2,Sucursal Barranquitas ,Barranquitas Branch,PR,787-857-4380,787-857-4240,FALSE,LMMJVSD,"""San Cristobal Mall, Carr. 156 Km. 7.1, Barranquitas, PR""",Barranquitas,18.105953,-66.175289,60.74469157
+871,2,Sucursal Salinas,Salinas Branch,PR,787-824-2777,787-993-6459,FALSE,LMMJVSD,"""Calle Muñoz Rivera 1, Salinas, PR""",Salinas,17.996012,-66.271546,67.71816418
+872,2,Sucursal Arroyo,Arroyo Branch,PR,787-839-2285,787-993-6498,FALSE,LMMJVSD,"""Carr. 753, Esq. Carr. 3, Arroyo, PR""",Arroyo,17.974715,-66.05801,53.18844002
+873,2,Sucursal El Mercado Plaza,El Mercado Plaza,PR,787-869-3350,787-869-3311,FALSE,LMMJVSD,"""Carr. 152 Km. 14.6, Bo. Cedro Arriba, Naranjito, PR""",Naranjito,18.272377,-66.273093,67.26989874
+874,2,Sucursal Ave. de 65 Infanteria Shopping Center,Ave. de 65 Infanteria Shopping Center Branch,PR,787-763-0606,787-763-0952,FALSE,LMMJVSD,"""Ave. 65 de Infanteria Shopping Center, San Juan, PR""",San Juan,18.395497,-66.041157,51.26415904
+875,2,Sucursal Centro del Sur Mall - Ponce,Centro del Sur Mall - Ponce Branch,PR,787-840-3636,787-993-6421,FALSE,LMMJVSD,"""Ave. Boulevard, Miguel Pou 1497, Ponce, PR""",Ponce,18.012059,-66.601248,90.37449836
+877,2,Sucursal Plaza Carolina,Plaza Carolina Branch,PR,787-752-8585,787-752-8519,FALSE,LMMJVSD,"""Exp. Loiza, Salida Ave. Fragoso, Ruta 26, Carolina, PR""",Carolina,18.391906,-65.975518,46.71742153
+878,2,Sucursal Arecibo San Luis,Arecibo San Luis Branch,PR,787-878-4949,787-993-6497,FALSE,LMMJVSD,"""Ave. San Luis 614, Arecibo, PR""",Arecibo,18.468769,-66.73041,99.06504595
+879,2,Sucursal San Francisco,San Francisco Branch,PR,787-763-0088,787-767-0750,FALSE,LMMJVSD,"""San Francisco Shopping Center, Ave. De Diego 201, San Juan, PR""",San Juan,18.386574,-66.082034,54.08066658
+880,2,Sucursal Humacao Este,Humacao Este Branch,PR,787-852-2066,787-993-6433,FALSE,LMMJVSD,"""Triumph Plaza, Lote 6, Carr. 3, Humacao, PR""",Humacao,18.147789,-65.817053,35.93923216
+881,2,Sucursal Isla Verde,Isla Verde Branch,PR,787-726-8500,787-726-5740,FALSE,LMMJVSD,"""Ave. Baldorioty de Castro, Esq. Calle 6, Carolina, PR""",Carolina,18.443634,-66.027671,50.42304344
+882,2,Sucursal Bayamon Oeste,Bayamon Oeste Branch,PR,787-780-5447,787-780-5357,FALSE,LMMJVSD,"""Bayamon Oeste Shopping Center, Carr. 2 Km. 14.8, Bayamon, PR""",Bayamon,18.408492,-66.187946,61.44023685
+883,2,Sucursal El Señorial Shopping Center,El Señorial Shopping Center Branch,PR,(787) 751-4515,787-751-0128,FALSE,LMMJVSD,"""Ave. Winston Churchill 22, Esq. Parana, San Juan, PR""",San Juan,18.370016,-66.067907,53.08339233
+884,2,Sucursal Ponce Towne Center,Ponce Towne Center Branch,PR,787-844-7200,787-993-6487,FALSE,LMMJVSD,"""Calle Maruca Local 3-A, Bo. Canas Carr. PR 2, Ponce, PR""",Ponce,17.997269,-66.636956,92.87612447
+885,2,Sucursal Trujillo Alto Shopping Center,Trujillo Alto Shopping Center Branch,PR,787-755-1920,787-755-1616,FALSE,LMMJVSD,"""Carr. 181 Km. 3.5, Trujillo Alto, PR""",Trujillo Alto,18.370858,-66.016988,49.55890249
+887,2,Sucursal Centro Medico,Centro Medico Branch,PR,787-753-8989,787-753-3821,FALSE,LMMJVSD,"""Hospital Centro Medico, Glorieta Central, Ave. Americo Miranda, Bo. Monacillos, San Juan, PR""",San Juan,18.395915,-66.073242,53.48486869
+888,2,Sucursal Rio Hondo,Rio Hondo Branch,PR,787-261-1805,787-993-6447,FALSE,LMMJVSD,"""Rio Hondo Shopping Center, Ave. Comerio, Bayamon, PR""",Bayamon,18.421937,-66.163681,59.78186808
+889,2,Sucursal Xtra Plaza Fajardo,Xtra Plaza Fajardo Branch,PR,787-860-5353,787-860-5353,FALSE,LMMJVSD,"""Plaza Fajardo Shopping Center, Carr. 3 Km. 42, Fajardo, PR""",Fajardo,18.333046,-65.652345,24.27158359
+890,2,Sucursal Mayaguez Mall Sur,Mayaguez Mall Sur Branch,PR,787-834-2929,787-993-6436,FALSE,LMMJVSD,"""Centro Comercial Mayaguez Mall 975 Ave. Hostos, Suite 2000, Mayaguez, PR""",Mayaguez,18.156256,-67.145128,127.7560982
+891,2,Sucursal Culebra,Culebra Branch,PR,787-742-3573,787-742-3573,FALSE,LMMJVSD,"""Calle Pedro Marquez 9, Culebra, PR""",Culebra,18.301739,-65.30226,0
+892,2,Sucursal Palmas del Mar,Palmas del Mar Branch,PR,787-850-2705,787-850-3140,FALSE,LMMJVSD,"""Palmanova Plaza, Humacao, PR""",Humacao,18.082553,-65.799243,35.00287108
+893,2,Sucursal Las Piedras,Las Piedras Branch,PR,787-733-8454,787-733-8525,FALSE,LMMJVSD,"""Carr. 183 Km. 21.1, Las Piedras, PR""",Las Piedras,18.176572,-65.873407,39.73353718
+894,2,Sucursal Loiza,Loiza Branch,PR,787-876-3535,787-256-2540,FALSE,LMMJVSD,"""Calle San Patricio 64, Loiza, PR""",Loiza,18.432759,-65.879519,40.17060144
+895,2,Sucursal Maunabo,Maunabo Branch,PR,787-861-5705,787-861-0903,FALSE,LMMJVSD,"""Calle Santiago Iglesia 1, Maunabo, PR""",Maunabo,18.007542,-65.899732,42.24464293
+896,2,Sucursal Naguabo,Naguabo Branch,PR,787-874-2880,787-993-6471,FALSE,LMMJVSD,"""Calle Juan R. Garzot 19, Esq. Muñoz Rivera, Naguabo, PR""",Naguabo,18.211555,-65.73623,30.17831927
+897,2,Sucursal Plaza del Yunque,Plaza del Yunque Branch,PR,787-887-3535,787-993-6439,FALSE,LMMJVSD,"""Carr. Estatal 3 Km. 22.2, Rio Grande, PR""",Rio Grande,18.378996,-65.792637,34.04730231
+898,2,Sucursal Lajas,Lajas Branch,PR,787-808-0200,787-808-0225,FALSE,LMMJVSD,"""Calle 65 Infanteria 34, Lajas, PR""",Lajas,18.047297,-67.059474,121.9639826
+899,2,Sucursal Ralph Food Warehouse Juncos,Ralph Food Warehouse Juncos Branch,PR,787-734-2444,787-993-6470,FALSE,LMMJVSD,"""Urb. Valencia 2, Calle Santiago, Fernandez 20, Juncos, PR""",Juncos,18.22593,-65.915981,42.57641135
+900,2,Sucursal Plaza Del Sol,Plaza Del Sol Branch,PR,787-778-3190,787-281-4175,FALSE,LMMJVSD,"""Centro Comercial Plaza del Sol, Ave. West Main 725, Sierra Bayamon, Bayamon, PR""",Bayamon,18.406818,-66.164029,59.78280071
+901,2,Sucursal Sabana Grande,Sabana Grande Branch,PR,787-873-6770,787-873-0033,FALSE,LMMJVSD,"""Ave. Vicente Quilichini 8, Sabana Grande, PR""",Sabana Grande,18.073545,-66.959379,114.9978682
+902,2,Sucursal Caguas Pueblo,Caguas Pueblo Branch,PR,787-746-1951,787-743-7500,FALSE,LMMJVSD,"""Calle Muñoz Rivera 20, Esq. Ruiz Belvis, Caguas, PR""",Caguas,18.235404,-66.03564,50.84720035
+903,2,Sucursal Guaynabo Las Cumbres,Guaynabo Las Cumbres Branch,PR,787-708-0555,787-287-6515,FALSE,LMMJVSD,"""Jardines Reales Shopping Center, Ave. Las Cumbres, Int. Juan Carlos de Borbon,Bo. Santa Rosa, Guaynabo, PR""",Guaynabo,18.362623,-66.119427,56.64394408
+904,2,Sucursal Walmart Pda 18,Walmart Pda 18 Branch,PR,787-725-0500,787-725-9629,FALSE,LMMJVSD,"""Roberto H.Todd Ave. Parada 18 San Juan, PR""",San Juan,18.448008,-66.075994,53.7703415
+906,2,Sucursal Supermax de Diego,Supermax de Diego Branch,PR,(787) 721-4083,787-721-4350,FALSE,LMMJVSD,"""114 Ave. de Diego, San Juan, PR""",San Juan,18.451341,-66.065032,53.02078822
+908,2,Sucursal City View Plaza,City View Plaza Branch,PR,787-277-0448,787-749-9527,FALSE,LMMJVSD,"""Carr. 165 Km 1.2, Guaynabo, PR""",Guaynabo,18.417124,-66.108985,55.99068288
+909,2,Sucursal Canovanas Outlet,Canovanas Outlet Branch,PR,787-256-9378,787-256-5270,FALSE,LMMJVSD,"""Canovanas Outlet, Carr. 3 Km.18.4, Canovanas, PR""",Canovanas,18.374595,-65.884637,40.40327884
+910,2,Sucursal Walmart Cayey,Walmart Cayey Branch,PR,787-263-2044,787-263-2005,FALSE,LMMJVSD,"""Carr. 1 Km. 54.9, Bo. Montellano, Cayey, PR""",Cayey,18.115211,-66.158289,59.54788452
+911,2,Sucursal Yabucoa Panoramica,Yabucoa Panoramica Branch,PR,787-266-2600,787-993-6435,FALSE,LMMJVSD,"""Carr. Ernesto Carrasquillo 561, Yabucoa, PR""",Yabucoa,18.044301,-65.867018,39.81853116
+914,2,Sucursal Ralph Food Warehouse Bairoa,Ralph Food Warehouse Bairoa Branch,PR,787-747-8495,787-747-8492,FALSE,LMMJVSD,"""Marginal P-1 Calle 10, Bo. Bairoa, Caguas, PR""",Caguas,18.251728,-66.034693,50.76635938
+915,2,Sucursal Altamira Center,Altamira Center Branch,PR,(787) 706-0042,787-706-0518,FALSE,LMMJVSD,"""Edif. Altamira, Ave. Martinez Nadal, Esq. Jesus T. Piñero, San Juan, PR""",San Juan,18.394337,-66.103722,55.59197035
+916,2,Sucursal Los Colobos Shopping Center,Los Colobos Shopping Center Branch,PR,787-776-0159,787-776-0142,FALSE,LMMJVSD,"""Carr. 3 Km. 15.2, Bo. Canovanillas, Carolina, PR""",Carolina,18.37657,-65.919763,42.83669638
+917,2,Sucursal Econo Manati,Econo Manati Branch,PR,787-854-3869,787-854-399,FALSE,LMMJVSD,"""Carr. 670 Km. 1.1, Cordova Davila, Manati, PR""",Manati,18.423649,-66.482965,81.87977832
+918,2,Sucursal Walmart Caguas,Walmart Caguas Branch,PR,787-745-4591,787-745-4528,TRUE,LMMJVSD,"""Ave. Rafael Cordero, Int. PR 30, Caguas, PR""",Caguas,18.231795,-66.034104,50.74480801
+919,2,Sucursal Plaza Los Prados,Plaza Los Prados Branch,PR,787-743-4111,787-281-4071,FALSE,LMMJVSD,"""Carr. PR 156 Km. 56.3, Caguas, PR""",Caguas,18.2339593,-66.058949,52.46262011
+920,2,Sucursal Rexville Town Center,Rexville Town Center Branch,PR,787-279-2229,787-281-4183,FALSE,LMMJVSD,"""Rexville Town Center, 3011 Carr. 167 Km. 0.60 Bayamon, PR""",Bayamon,18.361435,-66.188974,61.4596783
+921,2,Sucursal Señorial Center ,Señorial Center Branch,PR,787-766-3853,787-281-4184,FALSE,LMMJVSD,"""Ave. Lomas Verdes, Int. Carrs 177 y 52, San Juan, PR""",San Juan,18.368567,-66.073404,53.46251367
+922,2,Sucursal Condado Centro,Condado Centro Branch,PR,787-721-5656,787-281-4181,FALSE,LMMJVSD,"""Ave. Ashford 1358, San Juan, PR""",San Juan,18.45511,-66.068674,53.2810338
+923,2,Sucursal Aguadilla Mall,Aguadilla Mall Branch,PR,787-882-8100,787-882-8130,FALSE,LMMJVSD,"""Ave. Los Corazones, Carr. 2 Km. 126.5, Aguadilla, PR""",Aguadilla,18.425406,-67.149039,128.0090667
+924,2,Sucursal Plaza Centro Sur,Plaza Centro Sur Branch,PR,787-745-8000,787-745-8115,FALSE,LMMJVSD,"""Plaza Centro II, 200 Rafael Cordero Ave. Ste. 151, Caguas, PR""",Caguas,18.247612,-66.025225,50.11410718
+926,2,Sucursal Río Grande Pueblo,Río Grande Pueblo Branch,PR,787-887-2316,787-281-4249,FALSE,LMMJVSD,"""Villas de Rio Grande Shopping Center, Calle Pimental 99, Rio Grande, PR""",Rio Grande,18.3799,-65.834439,36.93937428
+927,2,Sucursal Cabo Rojo La Hacienda,Cabo Rojo La Hacienda Branch,PR,787-255-5014,787-255-5050,FALSE,LMMJVSD,"""Carr. 100 Km 7.5, Bo. Miradero, Cabo Rojo, PR""",Cabo Rojo,18.088754,-67.156637,128.6266593
+928,2,Sucursal Mayaguez Plaza,Mayaguez Plaza Branch,PR,787-831-9000,787-265-7780,FALSE,LMMJVSD,"""53 Calle de la Candelaria, Mayaguez, PR""",Mayaguez,18.201402,-67.139197,127.3112755
+929,2,Sucursal Ponce Towne Center Sur,Ponce Towne Center Sur Branch,PR,787-812-8000,787-756-2216,FALSE,LMMJVSD,"""Centro Comercial Towne Center, Carr. 2 Km. 222.4, Ponce, PR""",Ponce,17.996481,-66.636989,92.880463
+930,2,Sucursal San Juan Los Puertos,San Juan Los Puertos Branch,PR,787-289-8000,787-721-4028,FALSE,LMMJVSD,"""454 Comercio St., San Juan, PR""",San Juan,18.464803,-66.111412,56.25469658
+932,2,Sucursal Plaza Dorada,Plaza Dorada Branch,PR,787-626-0272,,FALSE,LMMJVSD,"""Plaza Dorada Carr. 693 KM 8.5, Bo Higuillar Ave. Jesús Efrón, Dorado, PR""",Dorado,18.465441,-66.282711,68.09046232
+933,2,Sucursal Plaza Guaynabo,Plaza Guaynabo Branch,PR,787-708-3535,,FALSE,LMMJVSD,"""Plaza Guaynabo Shopping Center, Expreso Martínez Nadal, Carr. #20, Guaynabo, PR""",Guaynabo,18.36896,-66.10972,55.97759456
+936,2,Sucursal Toa Baja,Toa Baja Branch,PR,787-625-4636,,FALSE,LMMJVSD,"""Carretera #2, Km 18.6, Barrio Candelaria, Toa Baja, PR""",Toa Baja,18.404426,-66.223125,63.86938943
+937,2,Sucursal Trujillo Alto Pueblo,Trujillo Alto Pueblo Branch,PR,,,FALSE,LMMJVSD,"""3 Calle Muñoz Rivera, Trujillo Alto, PR""",Trujillo Alto,18.382909,-66.008893,49.01358738
+938,2,Sucursal Caparra Center,Caparra Center Branch,PR,787-474-6222,787-474-6890,FALSE,LMMJVSD,"""1451 Ave FD Roosevelt, San Juan, PR""",San Juan,18.374595,-65.962161,45.76819037
+939,2,Sucursal Ponce El Monte ,Ponce El Monte Branch,PR,787-651-1501,787-999-9384,FALSE,LMMJVSD,"""Monte Town Center Carr. #14 Km 6.0, Ponce Ponce, PR""",Ponce,18.041693,-66.578181,88.70980806
+943,3,Renta Diaria Carolina,Renta Diaria Carolina,PR,787-257-4848,787-769-3360,FALSE,LMMJVSD,"""1054 Av. Isla Verde, Carolina, PR""",Carolina,18.383396,-65.966018,46.0472398
+944,3,Renta Diaria Hato Rey,Renta Diaria Hato Rey,PR,787-763-4848,787-769-3360,FALSE,LMMJVSD,"""Ave. Ponce de León #1530.3, San Juan, PR""",San Juan,18.428627,-66.058344,52.5101918
+945,3,Centro Hipotecario Bayamón,Mortgage Center Bayamón,PR,787-785-4848,787-769-3360,FALSE,LMMJVSD,"""Sucursal BPPR Urb. Flamboyán Gardens, #300 Ave. Ramón Rodríguez, Bayamon, PR""",Bayamon,18.392003,-66.157584,59.31699665
+946,3,Renta Diaria Caguas,Renta Diaria Caguas,PR,787-258-4848,787-769-3360,FALSE,LMMJVSD,"""Carretera #1, Km. 33.2, Bo. Bairoa, Caguas, PR""",Caguas,18.256982,-66.104336,55.58634976
+947,3,Renta Diaria Mayagüez,Renta Diaria Mayagüez,PR,787-265-4848,787-769-3360,FALSE,LMMJVSD,"""Carretera #2, Km. 158, Hm. 6, Suite 6, Mayaguez, PR""",Mayaguez,18.212037,-67.146268,127.794977
+948,3,Renta Diaria Ponce,Renta Diaria Ponce,PR,787-259-4848,787-769-3360,FALSE,LMMJVSD,"""Urb. Industrial, Los Caobos #6, Calle #1, Ponce, PR""",Ponce,18.000961,-66.519541,84.76989803
+949,3,Popular Auto San Juan,Popular Auto San Juan,PR,787-751-4848,,FALSE,LMMJVSD,"""Edif. Popular Auto, 1504 Ave. Roosevelt, 4to. Piso, San Juan, PR""",San Juan,18.413262,-66.099512,55.32904918
+950,3,Popular Auto Ponce,Popular Auto Ponce,PR,787-842-5000,,FALSE,LMMJVSD,"""2023 Blvd. Luis A. Ferré, Ponce, PR""",Ponce,18.003954,-66.629504,92.34471692
+951,3,Popular Auto Isabela,Popular Auto Isabela,PR,787-830-4545,,FALSE,LMMJVSD,"""Carr. 2 KM 108.3 Bo. Cotto, Isabela, PR""",Isabela,18.479346,-66.988256,116.9267003
+952,3,Centro Hipotecario Arecibo,Mortgage Center Arecibo,PR,787-879-9081,,FALSE,LMMJVSD,"""Galería del Norte III, Carr. #2 Km 81.3, Arecibo, PR""",Arecibo,18.481306,-66.764702,101.4554979
+953,3,Centro Hipotecario Caguas,Mortgage Center Caguas,PR,787-653-4070,,FALSE,LMMJVSD,"""AB-1 Ave. Luis Muñoz Marín, Caguas, PR""",Caguas,18.246126,-66.024078,50.0360044
+954,3,Centro Hipotecario Mayagüez Bechara,Mortgage Center Mayagüez Bechara,PR,787-806-1170,,FALSE,LMMJVSD,"""Edificio Bechara, 637 Ave. Santa Teresa Journet Sur, Mayaguez, PR""",Mayaguez,18.167116,-67.150345,128.1081582
+955,3,Centro Hipotecario Ponce Rambla,Mortgage Center Ponce Rambla,PR,787-812-7730,,FALSE,LMMJVSD,"""Suite 111; La Rambla Plaza, Ave. Tito Castro, Carr. #14, Ponce, PR""",Ponce,18.025585,-66.59884,90.17448368
+956,1,ATM San Juan 1,San Juan 1 ATM,PR,,,FALSE,LMMJVSD,"""Calle Tetuán 206, San Juan, PR""",San Juan,18.464067,-66.115255,56.51831092
+957,1,ATM San Juan 2,San Juan 2 ATM,PR,,,FALSE,LMMJVSD,"""Calle Tetuán 206, San Juan, PR""",San Juan,18.464067,-66.115255,56.51831092
+958,1,ATM Carolina Highway 1,Carolina Highway 1 ATM,PR,,,FALSE,LMMJVSD,"""Ave. 65 de Infanteria Esq. Calle Ignacio Arzuaga Km. 10.3, Carolina, PR""",Carolina,18.38078,-65.962161,45.77659438
+959,1,ATM Carolina Highway 2,Carolina Highway 2 ATM,PR,,,FALSE,LMMJVSD,"""Ave. 65 de Infanteria Esq. Calle Ignacio Arzuaga Km. 10.4, Carolina, PR""",Carolina,18.38078,-65.962161,45.77659438
+960,1,ATM Cupey Center Branch 2,Cupey Center Branch 2 ATM,PR,,,FALSE,LMMJVSD,"""Carr 176, Km 1.2, San Juan, PR""",San Juan,18.380399,-66.055003,52.20185575
+961,1,ATM Calle Loiza 1,Calle Loiza 1 ATM,PR,,,FALSE,LMMJVSD,"""Cale Loiza 1812, San Juan, PR""",San Juan,18.451288,-66.058589,52.57575005
+963,1,ATM Plaza Las Americas 1,Plaza Las Americas 1  ATM,PR,,,FALSE,LMMJVSD,"""525 Ave. Roosevelt, Plaza Las Americas, Primer Nivel, San Juan, PR""",San Juan,18.422582,-66.073194,53.52523742
+964,1,ATM Plaza Las Americas 2,Plaza Las Americas 2 ATM,PR,,,FALSE,LMMJVSD,"""525 Ave. Roosevelt, Plaza Las Americas, Primer Nivel, San Juan, PR""",San Juan,18.422582,-66.073194,53.52523742
+965,1,ATM Plaza Las Americas 3,Plaza Las Americas 3 ATM,PR,,,FALSE,LMMJVSD,"""525 Ave. Roosevelt, Plaza Las Americas, Primer Nivel, San Juan, PR""",San Juan,18.422582,-66.073194,53.52523742
+966,1,ATM Plaza Las Americas 4,Plaza Las Americas 4 ATM,PR,,,FALSE,LMMJVSD,"""525 Ave. Roosevelt, Plaza Las Americas, Primer Nivel, San Juan, PR""",San Juan,18.422582,-66.073194,53.52523742
+967,1,ATM Plaza Las Americas 5,Plaza Las Americas 5 ATM,PR,,,FALSE,LMMJVSD,"""525 Ave. Roosevelt, Plaza Las Americas, Primer Nivel, San Juan, PR""",San Juan,18.422582,-66.073194,53.52523742
+969,1,ATM Parada 22 - 1,Stop 22 - 1 ATM,PR,,,FALSE,LMMJVSD,"""Ave. Ponce de Leon 1500, Pda. 22, San Juan, PR""",San Juan,18.446004,-66.068356,53.23832306
+970,1,ATM Parada 22 - 2,Stop 22 - 2 ATM,PR,,,FALSE,LMMJVSD,"""Ave. Ponce de Leon 1500, Pda. 22, San Juan, PR""",San Juan,18.446004,-66.068356,53.23832306
+971,1,ATM Barrio Obrero 1,Barrio Obrero 1 ATM,PR,,,FALSE,LMMJVSD,"""Ave. Borinquen 2250, Bo. Obrero, Santurce, San Juan, PR""",San Juan,18.435076,-66.04802,51.80986313
+972,1,ATM Barrio Obrero 2,Barrio Obrero 2 ATM,PR,,,FALSE,LMMJVSD,"""Ave. Borinquen 2250, Bo. Obrero, Santurce, San Juan, PR""",San Juan,18.435076,-66.04802,51.80986313
+973,1,ATM Miramar,Miramar ATM,PR,,,FALSE,LMMJVSD,"""Edif. Centro de Seguros, Ave. Ponce de Leon 701, San Juan, PR""",San Juan,18.456071,-66.083322,54.29471462
+974,1,ATM Buchanan,Buchanan ATM,PR,,,FALSE,LMMJVSD,"""Edif. 501 South Health Clinic, Fort Buchanan, San Juan, PR""",San Juan,18.413093,-66.12051,56.78127819
+975,1,ATM Parada 26,Stop 26 ATM,PR,,,FALSE,LMMJVSD,"""Ave. Ponce de Leon 1900, Pda. 26, San Juan, PR""",San Juan,18.438235,-66.059943,52.64032405
+976,1,ATM Puerto Nuevo 1,Puerto Nuevo 1 ATM,PR,,,FALSE,LMMJVSD,"""301 Ave. De Diego, Esq. Ave. Roosevelt, San Juan, PR""",San Juan,18.413459,-66.089117,54.610371
+977,1,ATM Puerto Nuevo 2,Puerto Nuevo 2 ATM,PR,,,FALSE,LMMJVSD,"""301 Ave. De Diego, Esq. Ave. Roosevelt, San Juan, PR""",San Juan,18.413459,-66.089117,54.610371
+978,1,ATM Puerto Nuevo 3,Puerto Nuevo 3 ATM,PR,,,FALSE,LMMJVSD,"""301 Ave. De Diego, Esq. Ave. Roosevelt, San Juan, PR""",San Juan,18.413459,-66.089117,54.610371
+979,1,ATM Wall Popular Center 1,Wall Popular Center 1 ATM,PR,,,FALSE,LMMJVSD,"""Ave. Ponce De Leon 208, Ave. Muñoz Rivera 209, San Juan, PR""",San Juan,18.427777,-66.058435,52.51481164
+980,1,ATM Wall Popular Center 2,Wall Popular Center 2 ATM,PR,,,FALSE,LMMJVSD,"""Ave. Ponce De Leon 208, Ave. Muñoz Rivera 209, San Juan, PR""",San Juan,18.427777,-66.058435,52.51481164
+981,1,ATM Wall Popular Center 3,Wall Popular Center 3 ATM,PR,,,FALSE,LMMJVSD,"""Ave. Ponce De Leon 208, Ave. Muñoz Rivera 209, San Juan, PR""",San Juan,18.427777,-66.058435,52.51481164
+982,1,ATM Wall Popular Center 4,Wall Popular Center 4 ATM,PR,,,FALSE,LMMJVSD,"""Ave. Ponce De Leon 208, Ave. Muñoz Rivera 209, San Juan, PR""",San Juan,18.427777,-66.058435,52.51481164
+983,1,ATM Plaza Del Mercado Río Piedras,Plaza Del Mercado Río Piedras ATM,PR,,,FALSE,LMMJVSD,"""Calle de Diego 155, San Juan, PR""",San Juan,18.398564,-66.050279,51.89992148
+984,1,ATM Universidad de PR Río Piedras,University of PR Río Piedras ATM,PR,,,FALSE,LMMJVSD,"""Recinto de Rio Piedras, Edif. Janer, Ave. Ponce de Leon, San Juan, PR""",San Juan,18.403214,-66.049988,51.88704017
+985,1,ATM Parada 34 - 1,Stop 34 - 1 ATM,PR,,,FALSE,LMMJVSD,"""Ave. Ponce de Leon 526, Esq. Calle Guayama, San Juan, PR""",San Juan,18.415788,-66.055697,52.30311597
+986,1,ATM Parada 34 - 2,Stop 34 - 2 ATM,PR,,,FALSE,LMMJVSD,"""Ave. Ponce de Leon 526, Esq. Calle Guayama, San Juan, PR""",San Juan,18.415788,-66.055697,52.30311597
+987,1,ATM San Jose 1,San Jose 1  ATM,PR,,,FALSE,LMMJVSD,"""Calle Alda 1565, Urb. El Caribe, San Juan, PR""",San Juan,18.383895,-66.066768,53.02058814
+988,1,ATM San Jose 2,San Jose 2 ATM,PR,,,FALSE,LMMJVSD,"""Calle Alda 1565, Urb. El Caribe, San Juan, PR""",San Juan,18.383895,-66.066768,53.02058814
+989,1,ATM Trujillo Alto,Trujillo Alto ATM,PR,,,FALSE,LMMJVSD,"""Calle Muñoz Rivera 3, Trujillo Alto, PR""",Trujillo Alto,18.356232,-66.005822,48.77072906
+990,1,ATM Barbosa 1,Barbosa 1 ATM,PR,,,FALSE,LMMJVSD,"""Ave. Barbosa 618, Esq. Calle Mayaguez, San Juan, PR""",San Juan,18.244221,-66.23734,64.80807622
+991,1,ATM Barbosa 2,Barbosa 2 ATM,PR,,,FALSE,LMMJVSD,"""Ave. Barbosa 618, Esq. Calle Mayaguez, San Juan, PR""",San Juan,18.244221,-66.23734,64.80807622
+992,1,ATM Parque Escorial 1,Parque Escorial 1 ATM,PR,,,FALSE,LMMJVSD,"""Centro Comercial Parque Escorial, 65 de Infanteria Km. 5, Carolina, PR""",Carolina,18.394474,-66.000264,48.43338291
+993,1,ATM Parque Escorial 2,Parque Escorial 2 ATM,PR,,,FALSE,LMMJVSD,"""Centro Comercial Parque Escorial, 65 de Infanteria Km. 5, Carolina, PR""",Carolina,18.394474,-66.000264,48.43338291
+994,1,ATM Parque Escorial 3,Parque Escorial 3 ATM,PR,,,FALSE,LMMJVSD,"""Centro Comercial Parque Escorial, 65 de Infanteria Km. 5, Carolina, PR""",Carolina,18.394474,-66.000264,48.43338291
+995,1,ATM Las Catalinas 1,Las Catalinas 1 ATM,PR,,,FALSE,LMMJVSD,"""Las Catalinas Mall, Bo. Bairoa Carr. 156 Km. 0.2, Caguas, PR""",Caguas,18.240689,-66.038227,51.02093385
+996,1,ATM Las Catalinas 2,Las Catalinas 2 ATM,PR,,,FALSE,LMMJVSD,"""Las Catalinas Mall, Bo. Bairoa Carr. 156 Km. 0.2, Caguas, PR""",Caguas,18.240689,-66.038227,51.02093385
+997,1,ATM Las Catalinas 3,Las Catalinas 3 ATM,PR,,,FALSE,LMMJVSD,"""Las Catalinas Mall, Bo. Bairoa Carr. 156 Km. 0.2, Caguas, PR""",Caguas,18.240689,-66.038227,51.02093385
+998,1,ATM San Lorenzo 1,San Lorenzo 1  ATM,PR,,,FALSE,LMMJVSD,"""Carrretera 183 KM 10.3 Bo. Hato, San Lorenzo, San Lorenzo, PR""",San Lorenzo,18.1788469,-65.9701639,46.40857305
+999,1,ATM San Lorenzo 2,San Lorenzo 2  ATM,PR,,,FALSE,LMMJVSD,"""Carrretera 183 KM 10.3 Bo. Hato, San Lorenzo, San Lorenzo, PR""",San Lorenzo,18.1788469,-65.9701639,46.40857305
+1000,1,ATM San Lorenzo 3,San Lorenzo 3 ATM,PR,,,FALSE,LMMJVSD,"""Carrretera 183 KM 10.3 Bo. Hato, San Lorenzo, San Lorenzo, PR""",San Lorenzo,18.1788469,-65.9701639,46.40857305
+1001,1,ATM Cidra 1,Cidra 1 ATM,PR,,,FALSE,LMMJVSD,"""60 Calle Barcelo, Esq. Jaime Bonet, Cidra, PR""",Cidra,18.176493,-66.159351,59.4908217
+1002,1,ATM Cidra 2,Cidra 2 ATM,PR,,,FALSE,LMMJVSD,"""60 Calle Barcelo, Esq. Jaime Bonet, Cidra, PR""",Cidra,18.176493,-66.159351,59.4908217
+1003,1,ATM Gurabo,Gurabo ATM,PR,,,FALSE,LMMJVSD,"""Calle Andres Aruz Rivera 250-E, Gurabo, PR""",Gurabo,18.254018,-65.968563,46.1844449
+1004,1,ATM Aguas Buenas,Aguas Buenas ATM,PR,,,FALSE,LMMJVSD,"""Calle Muñoz Rivera 20, Aguas Buenas, PR""",Aguas Buenas,18.256558,-66.10308,55.49962699
+1005,1,ATM San Alfonso 1,San Alfonso 1 ATM,PR,,,FALSE,LMMJVSD,"""Plaza San Alfonso Carr. 1  Ave. Degetau, Esq. Gautier Benitez, Caguas, PR""",Caguas,18.222874,-66.040096,51.17024335
+1006,1,ATM San Alfonso 2,San Alfonso 2 ATM,PR,,,FALSE,LMMJVSD,"""Plaza San Alfonso Carr. 1  Ave. Degetau, Esq. Gautier Benitez, Caguas, PR""",Caguas,18.222874,-66.040096,51.17024335
+1007,1,ATM Cayey Montellano 1,Cayey Montellano 1 ATM,PR,,,FALSE,LMMJVSD,"""Carr. 1 Km. 56.6, Bo. Montellanos, Cayey, PR""",Cayey,18.116082,-66.146614,58.7400799
+1008,1,ATM Cayey Montellano 2,Cayey Montellano 2 ATM,PR,,,FALSE,LMMJVSD,"""Carr. 1 Km. 56.6, Bo. Montellanos, Cayey, PR""",Cayey,18.116082,-66.146614,58.7400799
+1009,1,ATM Cayey Montellano 3,Cayey Montellano 3 ATM,PR,,,FALSE,LMMJVSD,"""Carr. 1 Km. 56.6, Bo. Montellanos, Cayey, PR""",Cayey,18.116082,-66.146614,58.7400799
+1010,1,ATM Condadito CE,Condadito CE ATM,PR,,,FALSE,LMMJVSD,"""Calle Amapola 14, Urb. Condadito, Caguas, PR""",Caguas,18.236953,-66.026443,50.20876984
+1011,1,ATM Lomas Verdes 1,Lomas Verdes 1 ATM,PR,,,FALSE,LMMJVSD,"""Ave. Lomas Verdes Sur, Urb. Royal Palm 1-A-100, Bayamon, PR""",Bayamon,18.382771,-66.144535,58.40273253
+1012,1,ATM Lomas Verdes 2,Lomas Verdes 2 ATM,PR,,,FALSE,LMMJVSD,"""Ave. Lomas Verdes Sur, Urb. Royal Palm 1-A-100, Bayamon, PR""",Bayamon,18.382771,-66.144535,58.40273253
+1013,1,ATM Bayamon Center 1,Bayamon Center 1 ATM,PR,,,FALSE,LMMJVSD,"""Edif. 300, Ave. Ramon Rodriguez, Urb. Flamboyan Gardens, Bayamon, PR""",Bayamon,18.391952,-66.157788,59.33105481
+1014,1,ATM Bayamon Center 2,Bayamon Center 2 ATM,PR,,,FALSE,LMMJVSD,"""Edif. 300, Ave. Ramon Rodriguez, Urb. Flamboyan Gardens, Bayamon, PR""",Bayamon,18.390955,-66.158789,59.39912209
+1015,1,ATM Bayamon Center 3,Bayamon Center 3 ATM,PR,,,FALSE,LMMJVSD,"""Edif. 300, Ave. Ramon Rodriguez, Urb. Flamboyan Gardens, Bayamon, PR""",Bayamon,18.389955,-66.158789,59.39790839
+1016,1,ATM Bayamon Center 4,Bayamon Center 4 ATM,PR,,,FALSE,LMMJVSD,"""Edif. 300, Ave. Ramon Rodriguez, Urb. Flamboyan Gardens, Bayamon, PR""",Bayamon,18.388955,-66.160789,59.53516101
+1017,1,ATM Comerio 1,Comerio ATM,PR,,,FALSE,LMMJVSD,"""Calle Georgetti 57, Comerio, PR""",Comerio,18.217973,-66.226806,64.10187075
+1018,1,ATM Corozal 1,Corozal 1 ATM,PR,,,FALSE,LMMJVSD,"""Carr. 159 Km. 15.1, Corozal, PR""",Corozal,18.34221,-66.31126,69.91877349
+1019,1,ATM Corozal 2,Corozal 2 ATM,PR,,,FALSE,LMMJVSD,"""Carr. 159 Km. 15.1, Corozal, PR""",Corozal,18.34221,-66.31126,69.91877349
+1020,1,ATM Vega Alta 1,ATM Vega Alta 1 ATM,PR,,,FALSE,LMMJVSD,"""Centro Gran Caribe Mall, Carr. 2 Km. 29.7, Vega Alta, PR""",Vega Alta,18.412688,-66.321224,70.67007609
+1021,1,ATM Vega Alta 2,ATM Vega Alta 2 ATM,PR,,,FALSE,LMMJVSD,"""Centro Gran Caribe Mall, Carr. 2 Km. 29.7, Vega Alta, PR""",Vega Alta,18.412688,-66.321224,70.67007609
+1022,1,ATM Dorado 1,Dorado 1 ATM,PR,,,FALSE,LMMJVSD,"""Calle Mendez Vigo 349, Edif. Pabellón Comercial, Dorado, PR""",Dorado,18.465418,-66.2827,68.08965727
+1023,1,ATM Dorado 2,Dorado 2 ATM,PR,,,FALSE,LMMJVSD,"""Calle Mendez Vigo 349, Edif. Pabellón Comercial, Dorado, PR""",Dorado,18.465418,-66.2827,68.08965727
+1024,1,ATM Toa Alta 1,Toa Alta 1 ATM,PR,,,FALSE,LMMJVSD,"""Carr. 165 Km. 11.5, Toa Alta, PR""",Toa Alta,18.391081,-66.253186,65.93438373
+1025,1,ATM Toa Alta 2,Toa Alta 2 ATM,PR,,,FALSE,LMMJVSD,"""Carr. 165 Km. 11.5, Toa Alta, PR""",Toa Alta,18.391081,-66.253186,65.93438373
+1026,1,ATM Toa Alta 3,Toa Alta 3 ATM,PR,,,FALSE,LMMJVSD,"""Carr. 165 Km. 11.5, Toa Alta, PR""",Toa Alta,18.391081,-66.253186,65.93438373
+1027,1,ATM Manati 1,Manati 1 ATM,PR,,,FALSE,LMMJVSD,"""Monte Real Shopping Center, Carr. 2 km 45.6, Espacio #5, Manati, PR""",Manati,18.392008,-66.157724,59.32669385
+1028,1,ATM Manati 2,Manati 2 ATM,PR,,,FALSE,LMMJVSD,"""Monte Real Shopping Center, Carr. 2 km 45.6, Espacio #5, Manati, PR""",Manati,18.392008,-66.157724,59.32669385
+1029,1,ATM Vega Baja 1,Vega Baja 1 ATM,PR,,,FALSE,LMMJVSD,"""Carr. 2, Marginal, Km. 38.2, Vega Baja, PR""",Vega Baja,18.44597,-66.386033,75.20185279
+1030,1,ATM Vega Baja 2,Vega Baja 2 ATM,PR,,,FALSE,LMMJVSD,"""Carr. 2, Marginal, Km. 38.2, Vega Baja, PR""",Vega Baja,18.44597,-66.386033,75.20185279
+1031,1,ATM Ciales,Ciales ATM,PR,,,FALSE,LMMJVSD,"""Calle Palmer 46 A, Ciales, PR""",Ciales,18.33432,-66.468662,80.82112984
+1032,1,ATM Morovis 1,Morovis 1 ATM,PR,,,FALSE,LMMJVSD,"""Carr. PR 155, Int. Carr. PR 6623, Morovis Sur, Morovis, PR""",Morovis,18.322991,-66.406107,76.48370743
+1033,1,ATM Morovis 2,Morovis 2 ATM,PR,,,FALSE,LMMJVSD,"""Carr. PR 155, Int. Carr. PR 6623, Morovis Sur, Morovis, PR""",Morovis,18.322991,-66.406107,76.48370743
+1034,1,ATM Barceloneta Prime Outlet 1,Barceloneta Prime Outlet 1 ATM,PR,,,FALSE,LMMJVSD,"""Barceloneta Prime Outlets Shopping Center, Carr. 2, Km. 54.8 & PR 140, Barceloneta, PR""",Barceloneta,18.43793,-66.542382,86.01040733
+1035,1,ATM Barceloneta Prime Outlet 2,Barceloneta Prime Outlet 2 ATM,PR,,,FALSE,LMMJVSD,"""Barceloneta Prime Outlets Shopping Center, Carr. 2, Km. 54.8 & PR 140, Barceloneta, PR""",Barceloneta,18.43793,-66.542382,86.01040733
+1036,1,ATM Utuado 1,Utuado 1 ATM,PR,,,FALSE,LMMJVSD,"""93 Calle Dr. Cueto, Utuado, PR""",Utuado,18.266203,-66.703894,97.12090741
+1037,1,ATM Utuado 2,Utuado 2 ATM,PR,,,FALSE,LMMJVSD,"""93 Calle Dr. Cueto, Utuado, PR""",Utuado,18.266203,-66.703894,97.12090741
+1038,1,ATM Hatillo 1,Hatillo 1 ATM,PR,,,FALSE,LMMJVSD,"""Carr. 2 Km. 86.6, Bo. Pueblo, Hatillo, PR""",Hatillo,18.487449,-66.813645,104.8511323
+1039,1,ATM Hatillo 2,Hatillo 2 ATM,PR,,,FALSE,LMMJVSD,"""Carr. 2 Km. 86.6, Bo. Pueblo, Hatillo, PR""",Hatillo,18.487449,-66.813645,104.8511323
+1040,1,ATM Camuy 1,Camuy 1 ATM,PR,,,FALSE,LMMJVSD,"""160 Ave. Muñoz Rivera Oeste, Camuy, PR""",Camuy,18.483516,-66.847925,107.2181721
+1041,1,ATM Camuy 2,Camuy 2 ATM,PR,,,FALSE,LMMJVSD,"""160 Ave. Muñoz Rivera Oeste, Camuy, PR""",Camuy,18.483516,-66.847925,107.2181721
+1042,1,ATM Cruce Davila 1,Cruce Davila 1 ATM,PR,,,FALSE,LMMJVSD,"""Carr. 2 Km. 57.3, Bo. Cruce Davila, Barceloneta, PR""",Barceloneta,18.431899,-66.561302,87.31270401
+1043,1,ATM Cruce Davila 2,Cruce Davila 2 ATM,PR,,,FALSE,LMMJVSD,"""Carr. 2 Km. 57.3, Bo. Cruce Davila, Barceloneta, PR""",Barceloneta,18.431899,-66.561302,87.31270401
+1044,1,ATM Ponce Plaza,Ponce Plaza ATM,PR,,,FALSE,LMMJVSD,"""Edificio Ponce Plaza, Plaza Degetau, Esq. Calle Comercio, Ponce, PR""",Ponce,18.011412,-66.61324,91.20354031
+1045,1,ATM Coamo,Coamo ATM,PR,,,FALSE,LMMJVSD,"""Calle Mario Brashi 7 Bajos, Coamo, PR""",Coamo,18.081001,-66.356891,73.33943468
+1046,1,ATM Florida,Florida ATM,PR,,,FALSE,LMMJVSD,"""Calle Muñoz Rivera 225, Florida, PR""",Florida,18.363171,-66.567036,87.64962082
+1047,1,ATM Orocovis 1,Orocovis 1 ATM,PR,,,FALSE,LMMJVSD,"""Carr. 155 Km. 24.5, Salida Hacia Coamo, Orocovis, PR""",Orocovis,18.226985,-66.392722,75.58363867
+1048,1,ATM Orocovis 2,Orocovis 2 ATM,PR,,,FALSE,LMMJVSD,"""Carr. 155 Km. 24.5, Salida Hacia Coamo, Orocovis, PR""",Orocovis,18.226985,-66.392722,75.58363867
+1049,1,ATM Yauco Plaza Mall 1,Yauco Plaza Mall 1 ATM,PR,,,FALSE,LMMJVSD,"""Yauco Plaza Shopping Center II, Carr. 128 Int. #2 Carr. 663, Yauco, PR""",Yauco,18.026566,-66.85436,107.8200754
+1050,1,ATM Yauco Plaza Mall 2,Yauco Plaza Mall 2 ATM,PR,,,FALSE,LMMJVSD,"""Yauco Plaza Shopping Center II, Carr. 128 Int. #2 Carr. 663, Yauco, PR""",Yauco,18.026566,-66.85436,107.8200754
+1051,1,ATM Guayama Mall 1,Guayama Mall 1 ATM,PR,,,FALSE,LMMJVSD,"""Carr. 3 Km. 134.9, Ave. Los Veteranos, Guayama, PR""",Guayama,17.979187,-66.098051,55.89943002
+1052,1,ATM Guayama Mall 2,Guayama Mall 2 ATM,PR,,,FALSE,LMMJVSD,"""Carr. 3 Km. 134.9, Ave. Los Veteranos, Guayama, PR""",Guayama,17.979187,-66.098051,55.89943002
+1053,1,ATM Guayama Mall 3,Guayama Mall 3 ATM,PR,,,FALSE,LMMJVSD,"""Carr. 3 Km. 134.9, Ave. Los Veteranos, Guayama, PR""",Guayama,17.979187,-66.098051,55.89943002
+1054,1,ATM San Sebastián 1,San Sebastián 1 ATM,PR,,,FALSE,LMMJVSD,"""Carr. 111, Int. 446 Km. 18 Bo. Guatemala, San Sebastian, PR""",San Sebastian,18.346729,-66.999076,117.5771765
+1055,1,ATM San Sebastián 2,San Sebastián 2 ATM,PR,,,FALSE,LMMJVSD,"""Carr. 111, Int. 446 Km. 18 Bo. Guatemala, San Sebastian, PR""",San Sebastian,18.346729,-66.999076,117.5771765
+1056,1,ATM Ramey 1,Ramey 1 ATM,PR,,,FALSE,LMMJVSD,"""17 West Parade, Antigua Base Ramey, Aguadilla, PR""",Aguadilla,18.500948,-67.137708,127.2990274
+1057,1,ATM Ramey 2,Ramey 2 ATM,PR,,,FALSE,LMMJVSD,"""17 West Parade, Antigua Base Ramey, Aguadilla, PR""",Aguadilla,18.500948,-67.137708,127.2990274
+1058,1,ATM Isabela 1,Isabela 1 ATM,PR,,,FALSE,LMMJVSD,"""Plazoleta de Isabela Barrio Mora, Carr. #4494 Este Km.1 Int. Carr.#2, Isabela, PR""",Isabela,18.47269,-67.0242,119.407504
+1059,1,ATM Quebradillas,Quebradillas ATM,PR,,,FALSE,LMMJVSD,"""108 Calle Honorio Hernandez, Quebradillas, PR""",Quebradillas,18.473831,-66.938477,113.4739625
+1060,1,ATM Moca 1,Moca 1 ATM,PR,,,FALSE,LMMJVSD,"""Calle Jose Calazan 108, Moca, PR""",Moca,18.396032,-67.114025,125.5637162
+1061,1,ATM Moca 2,Moca 2 ATM,PR,,,FALSE,LMMJVSD,"""Calle Jose Calazan 108, Moca, PR""",Moca,18.396032,-67.114025,125.5637162
+1062,1,ATM Aguada 1,Aguada 1 ATM,PR,,,FALSE,LMMJVSD,"""Ave. Nativo Alers, Desvio Sur, Aguada, PR""",Aguada,18.377778,-67.190029,130.820163
+1063,1,ATM Aguada 2,Aguada 2 ATM,PR,,,FALSE,LMMJVSD,"""Ave. Nativo Alers, Desvio Sur, Aguada, PR""",Aguada,18.377778,-67.190029,130.820163
+1064,1,ATM Rincon 1,Rincon 1 ATM,PR,,,FALSE,LMMJVSD,"""Carr. 115 Km. 12.4, Calle Albizu Campos, Rincon, PR""",Rincon,18.330212,-67.248693,134.8705914
+1065,1,ATM Rincon 2,Rincon 2 ATM,PR,,,FALSE,LMMJVSD,"""Carr. 115 Km. 12.4, Calle Albizu Campos, Rincon, PR""",Rincon,18.330212,-67.248693,134.8705914
+1066,1,ATM Mayaguez Suau 1,Mayaguez Suau 1 ATM,PR,,,FALSE,LMMJVSD,"""1 Calle Suau, Mayaguez, PR""",Mayaguez,18.203902,-67.145852,127.7708176
+1067,1,ATM Mayaguez Suau 2,Mayaguez Suau 2 ATM,PR,,,FALSE,LMMJVSD,"""1 Calle Suau, Mayaguez, PR""",Mayaguez,18.203902,-67.145852,127.7708176
+1068,1,ATM Plaza del Oeste San German 1,Plaza del Oeste San German 1 ATM,PR,,,FALSE,LMMJVSD,"""Plaza del Oeste Shopping Center, Carr. 2, Ave. Casto Perez, San German, PR""",San German,18.09055,-67.03019,119.8725719
+1069,1,ATM Plaza del Oeste San German 2,Plaza del Oeste San German 2 ATM,PR,,,FALSE,LMMJVSD,"""Plaza del Oeste Shopping Center, Carr. 2, Ave. Casto Perez, San German, PR""",San German,18.09055,-67.03019,119.8725719
+1070,1,ATM Muñoz Rivera 1,Muñoz Rivera 1 ATM,PR,,,FALSE,LMMJVSD,"""Ave. Muñoz Rivera 1125, Río Piedras, San Juan, PR""",San Juan,18.399274,-66.05584,52.2857492
+1071,1,ATM Aeropuerto Luis Muñoz Marín 1,Luis Muñoz Marín Airport 1 ATM,PR,,,FALSE,LMMJVSD,"""Aeropuerto Luis Muñoz Marin, Primer Piso Terminal B, Carolina, PR""",Carolina,18.437251,-66.004495,48.80793067
+1072,1,ATM Aeropuerto Luis Muñoz Marín 2,Luis Muñoz Marín Airport 2 ATM,PR,,,FALSE,LMMJVSD,"""Aeropuerto Luis Muñoz Marin, Primer Piso Terminal B, Carolina, PR""",Carolina,18.437251,-66.004495,48.80793067
+1073,1,ATM Montehiedra 1,Montehiedra 1 ATM,PR,,,FALSE,LMMJVSD,"""Carr. Los Romero Km. 1.9, Bo. Caimito, San Juan, PR""",San Juan,18.341033,-66.068982,53.13390568
+1074,1,ATM Montehiedra 2,Montehiedra 2 ATM,PR,,,FALSE,LMMJVSD,"""Carr. Los Romero Km. 1.9, Bo. Caimito, San Juan, PR""",San Juan,18.341033,-66.068982,53.13390568
+1075,1,ATM Montehiedra 3,Montehiedra 3 ATM,PR,,,FALSE,LMMJVSD,"""Carr. Los Romero Km. 1.9, Bo. Caimito, San Juan, PR""",San Juan,18.341033,-66.068982,53.13390568
+1076,1,ATM Reparto Metropolitano 1,Reparto Metropolitano 1 ATM,PR,,,FALSE,LMMJVSD,"""1008 Ave. Americo Miranda, Reparto Metropolitano Shopping Center, San Juan, PR""",San Juan,18.400743,-66.07536,53.63851894
+1077,1,ATM Reparto Metropolitano 2,Reparto Metropolitano 2 ATM,PR,,,FALSE,LMMJVSD,"""1008 Ave. Americo Miranda, Reparto Metropolitano Shopping Center, San Juan, PR""",San Juan,18.400743,-66.07536,53.63851894
+1078,1,ATM Fajardo Pueblo 1,Fajardo Pueblo 1 ATM,PR,,,FALSE,LMMJVSD,"""Ave. Garrido Morales Final, Carr. 3, Fajardo, PR""",Fajardo,18.326269,-65.655481,24.48230535
+1079,1,ATM Fajardo Pueblo 2,Fajardo Pueblo 2 ATM,PR,,,FALSE,LMMJVSD,"""Ave. Garrido Morales Final, Carr. 3, Fajardo, PR""",Fajardo,18.326269,-65.655481,24.48230535
+1080,1,ATM Vieques 1,Vieques 1 ATM,PR,,,FALSE,LMMJVSD,"""Calle Muñoz Rivera 115, Vieques, PR""",Vieques,18.148959,-65.442432,10.66828038
+1081,1,ATM Santa Rosa 1,Santa Rosa 1 ATM,PR,,,FALSE,LMMJVSD,"""Santa Rosa Shopping Center, Carr. 2, Bayamon, PR""",Bayamon,18.395095,-66.146177,58.53134105
+1082,1,ATM Santa Rosa 2,Santa Rosa 2 ATM,PR,,,FALSE,LMMJVSD,"""Santa Rosa Shopping Center, Carr. 2, Bayamon, PR""",Bayamon,18.395095,-66.146177,58.53134105
+1083,1,ATM Santa Rosa 3,Santa Rosa 3 ATM,PR,,,FALSE,LMMJVSD,"""Santa Rosa Shopping Center, Carr. 2, Bayamon, PR""",Bayamon,18.395095,-66.146177,58.53134105
+1084,1,ATM Plaza del Caribe 1,Plaza del Caribe 1 ATM,PR,,,FALSE,LMMJVSD,"""2050 Ponce ByPass, Plaza del Caribe, Segundo Nivel Suite 420, Ponce, PR""",Ponce,17.992206,-66.611105,91.10670924
+1085,1,ATM Plaza del Caribe 2,Plaza del Caribe 2 ATM,PR,,,FALSE,LMMJVSD,"""2050 Ponce ByPass, Plaza del Caribe, Segundo Nivel Suite 420, Ponce, PR""",Ponce,17.992206,-66.611105,91.10670924
+1086,1,ATM Plaza del Caribe 3,Plaza del Caribe 3 ATM,PR,,,FALSE,LMMJVSD,"""2050 Ponce ByPass, Plaza del Caribe, Segundo Nivel Suite 420, Ponce, PR""",Ponce,17.992206,-66.611105,91.10670924
+1087,1,ATM Guayanilla,Guayanilla ATM,PR,,,FALSE,LMMJVSD,"""Calle Muñoz Rivera 38-40, Guayanilla, PR""",Guayanilla,18.018866,-66.791331,103.4814113
+1088,1,ATM Peñuelas,Peñuelas ATM,PR,,,FALSE,LMMJVSD,"""Calle Muñoz Rivera 318, Peñuelas, PR""",Peñuelas,18.055185,-66.721644,98.59096962
+1089,1,ATM Santa Isabel 1,Santa Isabel 1 ATM,PR,,,FALSE,LMMJVSD,"""Carr. 153 Int. Carr. 542, Km. 57.7 Bo. Felicia Dos, Santa Isabel, PR""",Santa Isabel,18.010181,-66.383196,75.34950741
+1090,1,ATM Santa Isabel 2,Santa Isabel 2 ATM,PR,,,FALSE,LMMJVSD,"""Carr. 153 Int. Carr. 542, Km. 57.7 Bo. Felicia Dos, Santa Isabel, PR""",Santa Isabel,18.010181,-66.383196,75.34950741
+1091,1,ATM Villalba,Villalba ATM,PR,,,FALSE,LMMJVSD,"""Calle Muñoz Rivera 69, Villalba, PR""",Villalba,18.130268,-66.492729,82.62630903
+1092,1,ATM Ceiba,Ceiba ATM,PR,,,FALSE,LMMJVSD,"""Ave. Lauro Piñero 248, Ceiba, PR""",Ceiba,18.264809,-65.647834,23.96589993
+1093,1,ATM Luquillo 1,Luquillo 1 ATM,PR,,,FALSE,LMMJVSD,"""Condominio Playa Azul, Carr. 193 Esq. Calle B, Luquillo, PR""",Luquillo,18.379767,-65.720274,29.0480392
+1094,1,ATM Luquillo 2,Luquillo 2 ATM,PR,,,FALSE,LMMJVSD,"""Condominio Playa Azul, Carr. 193 Esq. Calle B, Luquillo, PR""",Luquillo,18.379767,-65.720274,29.0480392
+1095,1,ATM Luquillo 3,Luquillo 3 ATM,PR,,,FALSE,LMMJVSD,"""Condominio Playa Azul, Carr. 193 Esq. Calle B, Luquillo, PR""",Luquillo,18.379767,-65.720274,29.0480392
+1096,1,ATM San Patricio Gallery 1,San Patricio Gallery 1 ATM,PR,,,FALSE,LMMJVSD,"""Ave. Gonzalez Giusti, Bloque 9 B-10, Guaynabo, PR""",Guaynabo,18.406399,-66.105514,55.73337564
+1097,1,ATM San Patricio Gallery 2,San Patricio Gallery 2 ATM,PR,,,FALSE,LMMJVSD,"""Ave. Gonzalez Giusti, Bloque 9 B-10, Guaynabo, PR""",Guaynabo,18.406399,-66.105514,55.73337564
+1098,1,ATM San Patricio Gallery 3,San Patricio Gallery 3 ATM,PR,,,FALSE,LMMJVSD,"""Ave. Gonzalez Giusti, Bloque 9 B-10, Guaynabo, PR""",Guaynabo,18.406399,-66.105514,55.73337564
+1099,1,ATM Campo Rico 1,Campo Rico 1 ATM,PR,,,FALSE,LMMJVSD,"""Ave. Roberto Sanchez Vilella (Antes Ave. Campo Rico), Esq. Expreso Loiza, Carolina, PR""",Carolina,18.416687,-65.988725,47.67472348
+1100,1,ATM Campo Rico 2,Campo Rico 2 ATM,PR,,,FALSE,LMMJVSD,"""Ave. Roberto Sanchez Vilella (Antes Ave. Campo Rico), Esq. Expreso Loiza, Carolina, PR""",Carolina,18.416687,-65.988725,47.67472348
+1101,1,ATM Campo Rico 3,Campo Rico 3 ATM,PR,,,FALSE,LMMJVSD,"""Ave. Roberto Sanchez Vilella (Antes Ave. Campo Rico), Esq. Expreso Loiza, Carolina, PR""",Carolina,18.416687,-65.988725,47.67472348
+1102,1,ATM Ponce Rambla 1,Ponce Rambla 1 ATM,PR,,,FALSE,LMMJVSD,"""La Rambla Shopping Center, Ave. Tito Castro, Carr. 14, Ponce, PR""",Ponce,18.025836,-66.598846,90.17428427
+1103,1,ATM Ponce Rambla 2,Ponce Rambla 2 ATM,PR,,,FALSE,LMMJVSD,"""La Rambla Shopping Center, Ave. Tito Castro, Carr. 14, Ponce, PR""",Ponce,18.025836,-66.598846,90.17428427
+1104,1,ATM Patillas 1,Patillas 1 ATM,PR,,,FALSE,LMMJVSD,"""Calle Muñoz Rivera 33, Esq Iglesias, Patillas, PR""",Patillas,18.005045,-66.014472,50.06879684
+1105,1,ATM Patillas 2,Patillas 2 ATM,PR,,,FALSE,LMMJVSD,"""Calle Muñoz Rivera 33, Esq Iglesias, Patillas, PR""",Patillas,18.005045,-66.014472,50.06879684
+1106,1,ATM San Patricio Mall 1,San Patricio Mall 1 ATM,PR,,,FALSE,LMMJVSD,"""San Patricio Shopping Center, 1er Nivel, Guaynabo, PR""",Guaynabo,18.408346,-66.106122,55.77844323
+1107,1,ATM San Patricio Mall 2,San Patricio Mall 2 ATM,PR,,,FALSE,LMMJVSD,"""San Patricio Shopping Center, 1er Nivel, Guaynabo, PR""",Guaynabo,18.408346,-66.106122,55.77844323
+1108,1,ATM San Patricio Mall 3,San Patricio Mall 3 ATM,PR,,,FALSE,LMMJVSD,"""San Patricio Shopping Center, 1er Nivel, Guaynabo, PR""",Guaynabo,18.408346,-66.106122,55.77844323
+1109,1,ATM Añasco 1,Añasco 1 ATM,PR,,,FALSE,LMMJVSD,"""Carr. 2 Km. 143.3, Esq. Carr. 402, Bo. Caracol, Añasco, PR""",Añasco,18.299359,-67.1579,128.576478
+1110,1,ATM Añasco 2,Añasco 2 ATM,PR,,,FALSE,LMMJVSD,"""Carr. 2 Km. 143.3, Esq. Carr. 402, Bo. Caracol, Añasco, PR""",Añasco,18.299359,-67.1579,128.576478
+1112,1,ATM Expreso Garden Hills,Expreso Garden Hills ATM,PR,,,FALSE,LMMJVSD,"""Garden Hills Plaza, Carr. 19 Int. Ave.Ramirez de Arellano, Guaynabo, PR""",Guaynabo,18.400379,-66.108539,55.93375667
+1115,1,ATM Humacao Palma Real 1,Humacao Palma Real 1 ATM,PR,,,FALSE,LMMJVSD,"""Triumph Plaza Lote 5, Carr. 3 KM 83.6 Humacao, Humacao, PR""",Humacao,18.08467,-65.48556,14.16250958
+1116,1,ATM Humacao Palma Real 2,Humacao Palma Real 2 ATM,PR,,,FALSE,LMMJVSD,"""Triumph Plaza Lote 5, Carr. 3 KM 83.6 Humacao, Humacao, PR""",Humacao,18.08467,-65.48556,14.16250958
+1117,1,ATM Yauco Pueblo,Yauco Pueblo ATM,PR,,,FALSE,LMMJVSD,"""Calle Betances, Esq. Mattei Lluberas, Yauco, PR""",Yauco,18.035493,-66.849256,107.4495882
+1118,1,ATM Lares 1,Lares 1 ATM,PR,,,FALSE,LMMJVSD,"""Ave. Patriotas, 562, Lares, PR""",Lares,18.2992632,-66.885759,109.7180282
+1119,1,ATM Lares 2,Lares 2 ATM,PR,,,FALSE,LMMJVSD,"""Ave. Patriotas, 562, Lares, PR""",Lares,18.2992632,-66.885759,109.7180282
+1120,1,ATM Arecibo Aeropuerto 1,Arecibo Airport 1 ATM,PR,,,FALSE,LMMJVSD,"""Carr. 2 Km. 69.8, Bo. Santana, Arecibo, PR""",Arecibo,18.447733,-66.676907,95.33473392
+1121,1,ATM Arecibo Aeropuerto 2,Arecibo Airport 2 ATM,PR,,,FALSE,LMMJVSD,"""Carr. 2 Km. 69.8, Bo. Santana, Arecibo, PR""",Arecibo,18.447733,-66.676907,95.33473392
+1122,1,ATM Adjuntas,Adjuntas ATM,PR,,,FALSE,LMMJVSD,"""Calle San Joaquin 19-21, Adjuntas, PR""",Adjuntas,18.162391,-66.723602,98.55967996
+1123,1,ATM Jayuya 1,Jayuya 1 ATM,PR,,,FALSE,LMMJVSD,"""Calle Guillermo Esteves 84, Jayuya, PR""",Jayuya,18.2187,-66.5917,89.37226095
+1124,1,ATM Jayuya 2,Jayuya 2 ATM,PR,,,FALSE,LMMJVSD,"""Calle Guillermo Esteves 84, Jayuya, PR""",Jayuya,18.2187,-66.5917,89.37226095
+1125,1,ATM Juana Diaz,Juana Diaz ATM,PR,,,FALSE,LMMJVSD,"""Calle Comercio 90, Juana Diaz, PR""",Juana Diaz,18.052551,-66.505719,83.68151099
+1126,1,ATM Valencia Park 2,Valencia Park 2 ATM,PR,,,FALSE,LMMJVSD,"""Edif. Telefonica Larga Distancia, Carr. 165 Lote 1, Guaynabo, PR""",Guaynabo,18.415132,-66.106429,55.81057422
+1127,1,ATM Valencia Park 3,Valencia Park 3 ATM,PR,,,FALSE,LMMJVSD,"""Edif. Telefonica Larga Distancia, Carr. 165 Lote 1, Guaynabo, PR""",Guaynabo,18.415132,-66.106429,55.81057422
+1128,1,ATM Arecibo Highway 1,Arecibo Highway 1 ATM,PR,,,FALSE,LMMJVSD,"""Plaza del Atlantico Mall, Carr. 2 Km. 80.4, Bo. San Daniel, Arecibo, PR""",Arecibo,18.478798,-66.759064,101.0618221
+1129,1,ATM Arecibo Highway 2,Arecibo Highway 2 ATM,PR,,,FALSE,LMMJVSD,"""Plaza del Atlantico Mall, Carr. 2 Km. 80.4, Bo. San Daniel, Arecibo, PR""",Arecibo,18.478798,-66.759064,101.0618221
+1130,1,ATM Levittown 1,Levittown 1 ATM,PR,,,FALSE,LMMJVSD,"""Ave. Los Dominicos, Esq. Rosa de Tejas, Toa Baja, PR""",Toa Baja,18.444098,-66.175638,60.64793604
+1131,1,ATM Levittown 2,Levittown 2 ATM,PR,,,FALSE,LMMJVSD,"""Ave. Los Dominicos, Esq. Rosa de Tejas, Toa Baja, PR""",Toa Baja,18.444098,-66.175638,60.64793604
+1132,1,ATM Hormigueros 1,Hormigueros 1 ATM,PR,,,FALSE,LMMJVSD,"""Plaza Peregrinos, Carr. 2 Km. 164.5, Bo. Lavadero, Hormigueros, PR""",Hormigueros,18.133713,-67.112523,125.5199224
+1133,1,ATM Hormigueros 2,Hormigueros 2 ATM,PR,,,FALSE,LMMJVSD,"""Plaza Peregrinos, Carr. 2 Km. 164.5, Bo. Lavadero, Hormigueros, PR""",Hormigueros,18.133713,-67.112523,125.5199224
+1134,1,ATM Mayaguez Mall Center 1,Mayaguez Mall Center 1 ATM,PR,,,FALSE,LMMJVSD,"""Centro Comercial Mayaguez Mall 975 Ave. Hostos, Suite 290, Mayaguez, PR""",Mayaguez,18.157771,-67.14163,127.5124841
+1135,1,ATM Mayaguez Mall Center 2,Mayaguez Mall Center 2 ATM,PR,,,FALSE,LMMJVSD,"""Centro Comercial Mayaguez Mall 975 Ave. Hostos, Suite 290, Mayaguez, PR""",Mayaguez,18.157771,-67.14163,127.5124841
+1136,1,ATM Maricao,Maricao ATM,PR,,,FALSE,LMMJVSD,"""Baldorioty 4, Esq. Calle Zuzuaregui, Maricao, PR""",Maricao,18.180594,-66.979249,116.2461215
+1137,1,ATM Las Marias,Las Marias ATM,PR,,,FALSE,LMMJVSD,"""85 Calle Matías Brugman, Esq. Carr. 119 Km 49 Hm 3, Las Marias, PR""",Las Marias,18.252069,-66.990109,116.9573227
+1138,1,ATM Aguadilla Sur 1,Aguadilla Sur 1 ATM,PR,,,FALSE,LMMJVSD,"""Carr. 2 Km. 129.2, Bo. Victoria, Aguadilla, PR""",Aguadilla,18.410459,-67.153292,128.2931064
+1139,1,ATM Aguadilla Sur 2,Aguadilla Sur 2 ATM,PR,,,FALSE,LMMJVSD,"""Carr. 2 Km. 129.2, Bo. Victoria, Aguadilla, PR""",Aguadilla,18.410459,-67.153292,128.2931064
+1140,1,ATM Tortola 1,Tortola 1 ATM,VI,,,FALSE,LMMJVSD,"""1 Administration Road, Road Town, Tortola, BVI""",Tortola,18.422534,-64.616653,47.62960211
+1141,1,ATM Tortola 2,Tortola 2 ATM,VI,,,FALSE,LMMJVSD,"""Airport Road, Beef Island, Tortola, BVI""",Tortola,18.444122,-64.537403,53.15248413
+1142,1,ATM Tortola 3,Tortola 3 ATM,VI,,,FALSE,LMMJVSD,"""1 Administration Road, Road Town, Tortola, BVI""",Tortola,18.422626,-64.616768,47.62185825
+1143,1,ATM Tortola 4,Tortola 4 ATM,VI,,,FALSE,LMMJVSD,"""1 Administration Road, Road Town, Tortola, BVI""",Tortola,18.422534,-64.616653,47.62960211
+1144,1,ATM Tortola 6,Tortola 6 ATM,VI,,,FALSE,LMMJVSD,"""1 Administration Road, Road Town, Tortola, BVI""",Tortola,18.422784,-64.614312,47.79188207
+1145,1,ATM Orange Grove,Orange Grove ATM,VI,,,FALSE,LMMJVSD,"""3009 Orange Grove, Shopping Center, St. Croix, VI""",St. Croix,17.745319,-64.71953,43.53813761
+1146,1,ATM Sunny Isle 1,Sunny Isle 1 ATM,VI,,,FALSE,LMMJVSD,"""Sunny Isle Shopping Center, 4500 Sion Farm, St. Croix, VI""",St. Croix,17.728972,-64.74765,41.92410934
+1147,1,ATM Sunny Isle 2,Sunny Isle 2 ATM,VI,,,FALSE,LMMJVSD,"""Sunny Isle Shopping Center, 4500 Sion Farm, St. Croix, VI""",St. Croix,17.728972,-64.74765,41.92410934
+1148,1,ATM Hibiscus Alley,Hibiscus Alley ATM,VI,,,FALSE,LMMJVSD,"""34-35 Dronningens Gade, St. Thomas, VI""",St. Thomas,18.340825,-64.931783,25.69175554
+1149,1,ATM VI Popular Center 2,VI Popular Center 2 ATM,VI,,,FALSE,LMMJVSD,"""193 Altona & Welgunst, Charlotte Amalie, St. Thomas, VI""",St. Thomas,18.338194,-64.945853,24.7145806
+1150,1,ATM VI Popular Center 3,VI Popular Center 3 ATM,VI,,,FALSE,LMMJVSD,"""193 Altona & Welgunst, Charlotte Amalie, St. Thomas, VI""",St. Thomas,18.338194,-64.945853,24.7145806
+1151,1,ATM VI Popular Center 5,VI Popular Center 5 ATM,VI,,,FALSE,LMMJVSD,"""193 Altona & Welgunst, Charlotte Amalie, St. Thomas, VI""",St. Thomas,18.338194,-64.945853,24.7145806
+1152,1,ATM Fort Mylner 1,Fort Mylner 1 ATM,VI,,,FALSE,LMMJVSD,"""10-A Estate Charlotte Amalie, St. Thomas, VI""",St. Thomas,18.334972,-64.889976,28.57919037
+1153,1,ATM Fort Mylner 2,Fort Mylner 2 ATM,VI,,,FALSE,LMMJVSD,"""10-A Estate Charlotte Amalie, St. Thomas, VI""",St. Thomas,18.334972,-64.889976,28.57919037
+1154,1,ATM Sugar Estate 1,Sugar Estate 1 ATM,VI,,,FALSE,LMMJVSD,"""Lockhart Gardens, Shopping Center 1-A, Estate Thomas, St. Thomas, VI""",St. Thomas,18.338933,-64.915047,26.84781562
+1155,1,ATM Sugar Estate 2,Sugar Estate 2 ATM,VI,,,FALSE,LMMJVSD,"""Lockhart Gardens, Shopping Center 1-A, Estate Thomas, St. Thomas, VI""",St. Thomas,18.338933,-64.915047,26.84781562
+1156,1,ATM Red Hook 1,Red Hook 1 ATM,VI,,,FALSE,LMMJVSD,"""Red Hook Shopping Center 1, 2 &3 Red Hook Quarters Estate Smith Bay, St. Thomas, VI""",St. Thomas,18.325633,-64.852661,31.15560512
+1157,1,ATM Red Hook 2,Red Hook 2 ATM,VI,,,FALSE,LMMJVSD,"""5 F Cruz Bay, St John, St. John, VI""",St. John,18.330871,-64.795021,35.15121881
+1158,1,ATM Sunshine Mall 1,Sunshine Mall 1 ATM,VI,,,FALSE,LMMJVSD,"""Sunshine Mall 1, Estate Cane, Suite 201-203, St. Croix, VI""",St. Croix,17.706083,-64.842948,36.27331612
+1159,1,ATM Sunshine Mall 2,Sunshine Mall 2 ATM,VI,,,FALSE,LMMJVSD,"""Sunshine Mall 1, Estate Cane, Suite 201-203, St. Croix, VI""",St. Croix,17.706083,-64.842948,36.27331612
+1160,1,ATM Condado Gallery 1,Condado Gallery 1 ATM,PR,,,FALSE,LMMJVSD,"""Ave. Roberto H. Todd 100, San Juan, PR""",San Juan,18.452802,-66.073375,53.60028496
+1161,1,ATM Condado Gallery 2,Condado Gallery 2 ATM,PR,,,FALSE,LMMJVSD,"""Ave. Roberto H. Todd 100, San Juan, PR""",San Juan,18.452802,-66.073375,53.60028496
+1162,1,ATM Condado Gallery 3,Condado Gallery 3  ATM,PR,,,FALSE,LMMJVSD,"""Ave. Roberto H. Todd 100, San Juan, PR""",San Juan,18.452802,-66.073375,53.60028496
+1163,1,ATM Aibonito 1,Aibonito 1 ATM,PR,,,FALSE,LMMJVSD,"""Carr. 14, Km 51.3, Bo. El Roble, Aibonito, PR""",Aibonito,18.140614,-66.260319,66.53768963
+1164,1,ATM Aibonito 2,Aibonito 2 ATM,PR,,,FALSE,LMMJVSD,"""Carr. 14, Km 51.3, Bo. El Roble, Aibonito, PR""",Aibonito,18.140614,-66.260319,66.53768963
+1165,1,ATM Barranquitas 1,Barranquitas 1 ATM,PR,,,FALSE,LMMJVSD,"""San Cristobal Mall, Carr. 156 Km. 7.1, Barranquitas, PR""",Barranquitas,18.105953,-66.175289,60.74469157
+1166,1,ATM Barranquitas 2,Barranquitas 2 ATM,PR,,,FALSE,LMMJVSD,"""San Cristobal Mall, Carr. 156 Km. 7.1, Barranquitas, PR""",Barranquitas,18.105953,-66.175289,60.74469157
+1167,1,ATM Salinas 1,Salinas 1 ATM,PR,,,FALSE,LMMJVSD,"""Calle Muñoz Rivera 1, Salinas, PR""",Salinas,17.976436,-66.29863,69.65081609
+1168,1,ATM Salinas 2,Salinas 2 ATM,PR,,,FALSE,LMMJVSD,"""Calle Muñoz Rivera 1, Salinas, PR""",Salinas,17.976436,-66.29863,69.65081609
+1169,1,ATM Arroyo,Arroyo ATM,PR,,,FALSE,LMMJVSD,"""Carr. 753, Esq. Carr. 3, Arroyo, PR""",Arroyo,17.975021,-66.058244,53.20286025
+1170,1,ATM El Mercado Plaza Naranjito 1,El Mercado Plaza Naranjito 1 ATM,PR,,,FALSE,LMMJVSD,"""Carr. 152 Km. 14.6, Bo. Cedro Arriba, Naranjito, PR""",Naranjito,18.27228,-66.274356,67.35743926
+1171,1,ATM El Mercado Plaza Naranjito 2,El Mercado Plaza Naranjito 2 ATM,PR,,,FALSE,LMMJVSD,"""Carr. 152 Km. 14.6, Bo. Cedro Arriba, Naranjito, PR""",Naranjito,18.27228,-66.274356,67.35743926
+1172,1,ATM Ave 65 de Inf. Shop 1,Ave 65 de Inf. Shop 1 ATM,PR,,,FALSE,LMMJVSD,"""Ave. 65 de Infanteria Shopping Center, San Juan, PR""",San Juan,18.395639,-66.041332,51.2764795
+1173,1,ATM Ave 65 de Inf. Shop 2,Ave 65 de Inf. Shop 2 ATM,PR,,,FALSE,LMMJVSD,"""Ave. 65 de Infanteria Shopping Center, San Juan, PR""",San Juan,18.395639,-66.041332,51.2764795
+1174,1,ATM Centro Del Sur Mall 1,Centro Del Sur Mall 1 ATM,PR,,,FALSE,LMMJVSD,"""Ave. Boulevard, Miguel Pou 1497, Ponce, PR""",Ponce,18.009403,-66.60168,90.41112942
+1175,1,ATM Centro Del Sur Mall 2,Centro Del Sur Mall 2 ATM,PR,,,FALSE,LMMJVSD,"""Ave. Boulevard, Miguel Pou 1497, Ponce, PR""",Ponce,18.009403,-66.60168,90.41112942
+1176,1,ATM Plaza Carolina 1,Plaza Carolina 1 ATM,PR,,,FALSE,LMMJVSD,"""Exp. Loiza, Salida Ave. Fragoso, Ruta 26, Carolina, PR""",Carolina,18.393021,-65.976084,46.75834748
+1177,1,ATM Plaza Carolina 2,Plaza Carolina 2 ATM,PR,,,FALSE,LMMJVSD,"""Exp. Loiza, Salida Ave. Fragoso, Ruta 26, Carolina, PR""",Carolina,18.393021,-65.976084,46.75834748
+1178,1,ATM Plaza Carolina 3,Plaza Carolina 3 ATM,PR,,,FALSE,LMMJVSD,"""Exp. Loiza, Salida Ave. Fragoso, Ruta 26, Carolina, PR""",Carolina,18.393021,-65.976084,46.75834748
+1179,1,ATM Plaza Carolina 4,Plaza Carolina 4 ATM,PR,,,FALSE,LMMJVSD,"""Exp. Loiza, Salida Ave. Fragoso, Ruta 26, Carolina, PR""",Carolina,18.393021,-65.976084,46.75834748
+1180,1,ATM Arecibo San Luis 1,Arecibo San Luis 1 ATM,PR,,,FALSE,LMMJVSD,"""Ave. San Luis 614, Arecibo, PR""",Arecibo,18.46887,-66.730862,99.09646472
+1181,1,ATM Arecibo San Luis 2,Arecibo San Luis 2 ATM,PR,,,FALSE,LMMJVSD,"""Ave. San Luis 614, Arecibo, PR""",Arecibo,18.46887,-66.730862,99.09646472
+1182,1,ATM Arecibo San Luis 3,Arecibo San Luis 3 ATM,PR,,,FALSE,LMMJVSD,"""Ave. San Luis 614, Arecibo, PR""",Arecibo,18.46887,-66.730862,99.09646472
+1183,1,ATM San Francisco 1,San Francisco 1 ATM,PR,,,FALSE,LMMJVSD,"""San Francisco Shopping Center, Ave. De Diego 201, San Juan, PR""",San Juan,18.386849,-66.082369,54.10420618
+1184,1,ATM San Francisco 2,San Francisco 2 ATM,PR,,,FALSE,LMMJVSD,"""San Francisco Shopping Center, Ave. De Diego 201, San Juan, PR""",San Juan,18.386849,-66.082369,54.10420618
+1185,1,ATM Humacao CE 1,Humacao CE 1 ATM,PR,,,FALSE,LMMJVSD,"""Triumph Plaza, Lote 6, Carr. 3, Humacao, PR""",Humacao,18.148063,-65.817053,35.93826642
+1186,1,ATM Humacao CE 2,Humacao CE 2 ATM,PR,,,FALSE,LMMJVSD,"""Triumph Plaza, Lote 6, Carr. 3, Humacao, PR""",Humacao,18.148063,-65.817053,35.93826642
+1187,1,ATM Humacao CE 3,Humacao CE 3 ATM,PR,,,FALSE,LMMJVSD,"""Triumph Plaza, Lote 6, Carr. 3, Humacao, PR""",Humacao,18.148063,-65.817053,35.93826642
+1188,1,ATM Isla Verde 1,Isla Verde 1 ATM,PR,,,FALSE,LMMJVSD,"""Ave. Baldorioty de Castro, Esq. Calle 6, Carolina, PR""",Carolina,18.443634,-66.027671,50.42304344
+1189,1,ATM Isla Verde 2,Isla Verde 2 ATM,PR,,,FALSE,LMMJVSD,"""Ave. Baldorioty de Castro, Esq. Calle 6, Carolina, PR""",Carolina,18.443634,-66.027671,50.42304344
+1190,1,ATM Isla Verde 3,Isla Verde 3 ATM,PR,,,FALSE,LMMJVSD,"""Ave. Baldorioty de Castro, Esq. Calle 6, Carolina, PR""",Carolina,18.443634,-66.027671,50.42304344
+1191,1,ATM Bayamon Oeste 1,Bayamon Oeste 1 ATM,PR,,,FALSE,LMMJVSD,"""Bayamon Oeste Shopping Center, Carr. 2 Km. 14.8, Bayamon, PR""",Bayamon,18.408492,-66.187946,61.44023685
+1192,1,ATM Bayamon Oeste 2,Bayamon Oeste 2 ATM,PR,,,FALSE,LMMJVSD,"""Bayamon Oeste Shopping Center, Carr. 2 Km. 14.8, Bayamon, PR""",Bayamon,18.408592,-66.187846,61.43345784
+1193,1,ATM El Señorial 1,El Señorial 1 ATM,PR,,,FALSE,LMMJVSD,"""Ave. Winston Churchill 22, Esq. Parana, San Juan, PR""",San Juan,18.370056,-66.067693,53.06861696
+1194,1,ATM El Señorial 2,El Señorial 2 ATM,PR,,,FALSE,LMMJVSD,"""Ave. Winston Churchill 22, Esq. Parana, San Juan, PR""",San Juan,18.370056,-66.067693,53.06861696
+1195,1,ATM Ponce Towne Center 1,Ponce Towne Center 1 ATM,PR,,,FALSE,LMMJVSD,"""Calle Maruca Local 3-A, Bo. Canas Carr. PR 2, Ponce, PR""",Ponce,17.997709,-66.637108,92.88546032
+1196,1,ATM Ponce Towne Center  2,Ponce Towne Center  2 ATM,PR,,,FALSE,LMMJVSD,"""Calle Maruca Local 3-A, Bo. Canas Carr. PR 2, Ponce, PR""",Ponce,17.997709,-66.637108,92.88546032
+1197,1,ATM Trujillo Alto Plaza 1,Trujillo Alto Plaza 1 ATM,PR,,,FALSE,LMMJVSD,"""Carr. 181 Km. 3.5, Trujillo Alto, PR""",Trujillo Alto,18.370758,-66.01708,49.56515788
+1198,1,ATM Trujillo Alto Plaza 2,Trujillo Alto Plaza 2 ATM,PR,,,FALSE,LMMJVSD,"""Carr. 181 Km. 3.5, Trujillo Alto, PR""",Trujillo Alto,18.370758,-66.01708,49.56515788
+1199,1,ATM Trujillo Alto Plaza 3,Trujillo Alto Plaza 3 ATM,PR,,,FALSE,LMMJVSD,"""Carr. 181 Km. 3.5, Trujillo Alto, PR""",Trujillo Alto,18.370758,-66.01708,49.56515788
+1200,1,ATM Centro Medico 1,Centro Medico 1 ATM,PR,,,FALSE,LMMJVSD,"""Hospital Centro Medico, Glorieta Central, Ave. Americo Miranda, Bo. Monacillos, San Juan, PR""",San Juan,18.396533,-66.073197,53.48264498
+1201,1,ATM Centro Medico 2,Centro Medico 2 ATM,PR,,,FALSE,LMMJVSD,"""Hospital Centro Medico, Glorieta Central, Ave. Americo Miranda, Bo. Monacillos, San Juan, PR""",San Juan,18.396533,-66.073197,53.48264498
+1202,1,ATM Rio Hondo 1,Rio Hondo 1 ATM,PR,,,FALSE,LMMJVSD,"""Rio Hondo Shopping Center, Ave. Comerio, Bayamon, PR""",Bayamon,18.421937,-66.163681,59.78186808
+1203,1,ATM Rio Hondo 2,Rio Hondo 2 ATM,PR,,,FALSE,LMMJVSD,"""Rio Hondo Shopping Center, Ave. Comerio, Bayamon, PR""",Bayamon,18.421937,-66.163681,59.78186808
+1204,1,ATM Rio Hondo 3,Rio Hondo 3 ATM,PR,,,FALSE,LMMJVSD,"""Rio Hondo Shopping Center, Ave. Comerio, Bayamon, PR""",Bayamon,18.421937,-66.163681,59.78186808
+1205,1,ATM Xtra Plaza Fajardo 1,Xtra Plaza Fajardo 1 ATM,PR,,,FALSE,LMMJVSD,"""Plaza Fajardo Shopping Center, Carr. 3 Km. 42, Fajardo, PR""",Fajardo,18.345242,-65.67411,25.79321728
+1206,1,ATM Xtra Plaza Fajardo 2,Xtra Plaza Fajardo 2 ATM,PR,,,FALSE,LMMJVSD,"""Plaza Fajardo Shopping Center, Carr. 3 Km. 42, Fajardo, PR""",Fajardo,18.345242,-65.67411,25.79321728
+1207,1,ATM Mayaguez Mall Sur 1,Mayaguez Mall Sur 1 ATM,PR,,,FALSE,LMMJVSD,"""Centro Comercial Mayaguez Mall 975 Ave. Hostos, Suite 2000, Mayaguez, PR""",Mayaguez,18.156208,-67.145165,127.7587035
+1208,1,ATM Mayaguez Mall Sur 2,Mayaguez Mall Sur 2 ATM,PR,,,FALSE,LMMJVSD,"""Centro Comercial Mayaguez Mall 975 Ave. Hostos, Suite 2000, Mayaguez, PR""",Mayaguez,18.156208,-67.145165,127.7587035
+1209,1,ATM Mayaguez Mall Sur 3,Mayaguez Mall Sur 3 ATM,PR,,,FALSE,LMMJVSD,"""Centro Comercial Mayaguez Mall 975 Ave. Hostos, Suite 2000, Mayaguez, PR""",Mayaguez,18.156208,-67.145165,127.7587035
+1210,1,ATM Plaza Guaynabo 1,Plaza Guaynabo 1 ATM,PR,,,FALSE,LMMJVSD,"""Plaza Guaynabo Shopping Center, Expreso Martínez Nadal, Carr. #20, Guaynabo, PR""",Guaynabo,18.368906,-66.109838,55.98571288
+1211,1,ATM Plaza Guaynabo 2,Plaza Guaynabo 2 ATM,PR,,,FALSE,LMMJVSD,"""Plaza Guaynabo Shopping Center, Expreso Martínez Nadal, Carr. #20, Guaynabo, PR""",Guaynabo,18.368906,-66.109838,55.98571288
+1212,1,ATM Plaza Guaynabo 3,Plaza Guaynabo 3 ATM,PR,,,FALSE,LMMJVSD,"""Plaza Guaynabo Shopping Center, Expreso Martínez Nadal, Carr. #20, Guaynabo, PR""",Guaynabo,18.368906,-66.109838,55.98571288
+1213,1,ATM Toa Baja 1,Toa Baja 1 ATM,PR,,,FALSE,LMMJVSD,"""Carretera #2, Km 18.6, Barrio Candelaria, Toa Baja, PR""",Toa Baja,18.403897,-66.223347,63.88406756
+1214,1,ATM Toa Baja 2,Toa Baja 2 ATM,PR,,,FALSE,LMMJVSD,"""Carr #2, Km 18.6, Bo Candelaría, Toa Baja, PR""",Toa Baja,18.403897,-66.223347,63.88406756
+1215,1,ATM Caparra Center,Caparra Center ATM,PR,,,FALSE,LMMJVSD,"""1451 Ave FD Roosevelt, San Juan, PR""",San Juan,18.413319,-66.097099,55.16223656
+1216,1,ATM Plaza Dorada 1,Plaza Dorada 1 ATM,PR,,,FALSE,LMMJVSD,"""Plaza Dorada Carr. 693 KM 8.5, Bo Higuillar Ave. Jesús Efrón, Dorado, PR""",Dorado,18.465365,-66.282656,68.0865129
+1217,1,ATM Plaza Dorada 2,Plaza Dorada 2 ATM,PR,,,FALSE,LMMJVSD,"""Plaza Dorada Carr. 693 KM 8.5, Bo Higuillar Ave. Jesús Efrón, Dorado, PR""",Dorado,18.465365,-66.282656,68.0865129
+1218,1,ATM Ponce El Monte 1,Ponce El Monte 1 ATM,PR,,,FALSE,LMMJVSD,"""Monte Town Center, Carr. #14 Km 6.0, Ponce, Ponce, PR""",Ponce,18.041786,-66.578289,88.7170468
+1219,1,ATM Ponce El Monte 2,Ponce El Monte 2 ATM,PR,,,FALSE,LMMJVSD,"""Monte Town Center, Carr. #14 Km 6.0, Ponce, Ponce, PR""",Ponce,18.041786,-66.578289,88.7170468
+1220,1,ATM Culebra 1,Culebra 1 ATM,PR,,,FALSE,LMMJVSD,"""Calle Pedro Marquez 9, Culebra, PR""",Culebra,18.30176,-65.302193,0.004681564
+1221,1,ATM Palmas del Mar,Palmas del Mar ATM,PR,,,FALSE,LMMJVSD,"""Palmanova Plaza, Humacao, PR""",Humacao,18.082553,-65.799243,35.00287108
+1222,1,ATM Las Piedras 1,Las Piedras 1 ATM,PR,,,FALSE,LMMJVSD,"""Carr. 183 Km. 21.1, Las Piedras, PR""",Las Piedras,18.176676,-65.873124,39.71374183
+1223,1,ATM Las Piedras 2,Las Piedras 2 ATM,PR,,,FALSE,LMMJVSD,"""Carr. 183 Km. 21.1, Las Piedras, PR""",Las Piedras,18.176676,-65.873124,39.71374183
+1224,1,ATM Loiza,Loiza ATM,PR,,,FALSE,LMMJVSD,"""Calle San Patricio 64, Loiza, PR""",Loiza,18.432525,-66.879714,109.3608757
+1225,1,ATM Maunabo,Maunabo ATM,PR,,,FALSE,LMMJVSD,"""Calle Santiago Iglesia 1, Maunabo, PR""",Maunabo,18.007542,-65.899732,42.24464293
+1226,1,ATM Naguabo 1,Naguabo 1 ATM,PR,,,FALSE,LMMJVSD,"""Calle Juan R. Garzot 19, Esq. Muñoz Rivera, Naguabo, PR""",Naguabo,18.211555,-65.73623,30.17831927
+1227,1,ATM Naguabo 2,Naguabo 2 ATM,PR,,,FALSE,LMMJVSD,"""Calle Juan R. Garzot 19, Esq. Muñoz Rivera, Naguabo, PR""",Naguabo,18.211555,-65.73623,30.17831927
+1228,1,ATM Plaza Del Yunque 1,Plaza Del Yunque 1 ATM,PR,,,FALSE,LMMJVSD,"""Carr. Estatal 3 Km. 22.2, Rio Grande, PR""",Rio Grande,18.378222,-65.840257,37.33887094
+1229,1,ATM Plaza Del Yunque 2,Plaza Del Yunque 2 ATM,PR,,,FALSE,LMMJVSD,"""Carr. Estatal 3 Km. 22.2, Rio Grande, PR""",Rio Grande,18.378222,-65.840257,37.33887094
+1230,1,ATM Lajas 1,Lajas 1 ATM,PR,,,FALSE,LMMJVSD,"""Calle 65 Infanteria 34, Lajas, PR""",Lajas,18.047297,-67.059474,121.9639826
+1231,1,ATM Lajas 2,Lajas 2 ATM,PR,,,FALSE,LMMJVSD,"""Calle 65 Infanteria 34, Lajas, PR""",Lajas,18.047297,-67.059474,121.9639826
+1232,1,ATM Lajas 3,Lajas 3 ATM,PR,,,FALSE,LMMJVSD,"""Calle 65 Infanteria 34, Lajas, PR""",Lajas,18.047297,-67.059474,121.9639826
+1233,1,ATM Ralph Food Juncos 1,Ralph Food Juncos 1 ATM,PR,,,FALSE,LMMJVSD,"""Urb. Valencia 2, Calle Santiago, Fernandez 20, Las Piedras, PR""",Las Piedras,18.22544,-65.915727,42.55955433
+1234,1,ATM Ralph Food Juncos 2,Ralph Food Juncos 2 ATM,PR,,,FALSE,LMMJVSD,"""Urb. Valencia 2, Calle Santiago, Fernandez 20, Juncos, PR""",Juncos,18.22544,-65.915727,42.55955433
+1235,1,ATM Plaza Del Sol 1,Plaza Del Sol 1 ATM,PR,,,FALSE,LMMJVSD,"""Centro Comercial Plaza del Sol, Ave. West Main 725, Sierra Bayamon, Bayamon, PR""",Bayamon,18.406544,-66.164082,59.78607752
+1236,1,ATM Plaza Del Sol 2,Plaza Del Sol 2 ATM,PR,,,FALSE,LMMJVSD,"""Centro Comercial Plaza del Sol, Ave. West Main 725, Sierra Bayamon, Bayamon, PR""",Bayamon,18.406544,-66.164082,59.78607752
+1237,1,ATM Plaza Del Sol 3,Plaza Del Sol 3 ATM,PR,,,FALSE,LMMJVSD,"""Centro Comercial Plaza del Sol, Ave. West Main 725, Sierra Bayamon, Bayamon, PR""",Bayamon,18.406544,-66.164082,59.78607752
+1238,1,ATM Plaza Del Sol 4,Plaza Del Sol 4 ATM,PR,,,FALSE,LMMJVSD,"""Centro Comercial Plaza del Sol, Ave. West Main 725, Sierra Bayamon, Bayamon, PR""",Bayamon,18.406544,-66.164082,59.78607752
+1239,1,ATM Sabana Grande 1,Sabana Grande 1 ATM,PR,,,FALSE,LMMJVSD,"""Ave. Vicente Quilichini 8, Sabana Grande, PR""",Sabana Grande,18.075615,-66.959957,115.0346385
+1240,1,ATM Sabana Grande 2,Sabana Grande 2 ATM,PR,,,FALSE,LMMJVSD,"""Ave. Vicente Quilichini 8, Sabana Grande, PR""",Sabana Grande,18.075615,-66.959957,115.0346385
+1241,1,ATM Caguas Pueblo,Caguas Pueblo ATM,PR,,,FALSE,LMMJVSD,"""Calle Muñoz Rivera 20, Esq. Ruiz Belvis, Caguas, PR""",Caguas,18.235404,-66.03564,50.84720035
+1242,1,ATM Guaynabo Las Cumbres 1,Guaynabo Las Cumbres 1 ATM,PR,,,FALSE,LMMJVSD,"""Jardines Reales Shopping Center, Ave. Las Cumbres, Int. Juan Carlos de Borbon,Bo. Santa Rosa, Guaynabo, PR""",Guaynabo,18.362593,-66.119446,56.64523369
+1243,1,ATM Guaynabo Las Cumbres 2,Guaynabo Las Cumbres 2 ATM,PR,,,FALSE,LMMJVSD,"""Jardines Reales Shopping Center, Ave. Las Cumbres, Int. Juan Carlos de Borbon,Bo. Santa Rosa, Guaynabo, PR""",Guaynabo,18.362593,-66.119446,56.64523369
+1244,1,ATM Walmart Parada 18,Walmart Parada 18 ATM,PR,,,FALSE,LMMJVSD,"""Roberto H.Todd Ave. Parada 18, San Juan, PR""",San Juan,18.44781,-66.076402,53.79808456
+1245,1,ATM City View Plaza Guaynabo,City View Plaza Guaynabo ATM,PR,,,FALSE,LMMJVSD,"""Carr. 165 Km 1.2, Guaynabo, PR""",Guaynabo,18.417006,-66.109023,55.99311326
+1246,1,ATM Canóvanas Outlets 1,Canóvanas Outlets 1 ATM,PR,,,FALSE,LMMJVSD,"""Canovanas Outlet, Carr. 3 Km.18.4, Canovanas, PR""",Canovanas,18.374524,-65.884602,40.40075201
+1247,1,ATM Canóvanas Outlets 2,Canóvanas Outlets 2 ATM,PR,,,FALSE,LMMJVSD,"""Canovanas Outlet, Carr. 3 Km.18.4, Canovanas, PR""",Canovanas,18.374524,-65.884602,40.40075201
+1248,1,ATM Canóvanas Outlets 3,Canóvanas Outlets 3 ATM,PR,,,FALSE,LMMJVSD,"""Canovanas Outlet, Carr. 3 Km.18.4, Canovanas, PR""",Canovanas,18.374524,-65.884602,40.40075201
+1249,1,ATM Walmart Cayey,Walmart Cayey ATM,PR,,,FALSE,LMMJVSD,"""Carr. 1 Km. 54.9, Bo. Montellano, Cayey, PR""",Cayey,18.122755,-66.134131,57.86173852
+1250,1,ATM Yabucoa Panoramica 1,Yabucoa Panoramica 1 ATM,PR,,,FALSE,LMMJVSD,"""Carr. Ernesto Carrasquillo 561, Yabucoa, PR""",Yabucoa,18.043879,-65.867482,39.85235352
+1251,1,ATM Yabucoa Panoramica 2,Yabucoa Panoramica 2 ATM,PR,,,FALSE,LMMJVSD,"""Carr. Ernesto Carrasquillo 561, Yabucoa, PR""",Yabucoa,18.043879,-65.867482,39.85235352
+1253,1,ATM Ralph Food Warehouse CE,Ralph Food Warehouse CE ATM,PR,,,FALSE,LMMJVSD,"""Marginal P-1 Calle 10, Bo. Bairoa, Caguas, PR""",Caguas,18.25176,-66.035621,50.83060661
+1254,1,ATM Altamira Center 1,Altamira Center 1 ATM,PR,,,FALSE,LMMJVSD,"""Edif. Altamira, Ave. Martinez Nadal, Esq. Jesus T. Piñero, Guaynabo, PR""",Guaynabo,18.397337,-66.103722,55.59610556
+1255,1,ATM Los Colobos Shopping Center 1,Los Colobos Shopping Center 1 ATM,PR,,,FALSE,LMMJVSD,"""Carr. 3 Km. 15.2, Bo. Canovanillas, Carolina, PR""",Carolina,18.37657,-65.919763,42.83669638
+1256,1,ATM Los Colobos Shopping Center 2,Los Colobos Shopping Center 2 ATM,PR,,,FALSE,LMMJVSD,"""Carr. 3 Km. 15.2, Bo. Canovanillas, Carolina, PR""",Carolina,18.37657,-65.919763,42.83669638
+1257,1,ATM Los Colobos Shopping Center 3,Los Colobos Shopping Center 3 ATM,PR,,,FALSE,LMMJVSD,"""Carr. 3 Km. 15.2, Bo. Canovanillas, Carolina, PR""",Carolina,18.37657,-65.919763,42.83669638
+1258,1,ATM Instore Econo Manati,Instore Econo Manati  ATM,PR,,,FALSE,LMMJVSD,"""Carr. 670 Km. 1.1, Cordova Davila, Manati, PR""",Manati,18.423518,-66.483014,81.88301408
+1259,1,ATM Walmart Caguas,Walmart Caguas ATM,PR,,,FALSE,LMMJVSD,"""Ave. Rafael Cordero, Int. PR 30, Caguas, PR""",Caguas,18.246864,-66.016236,49.49226223
+1260,1,ATM Los Prados 1,Los Prados 1 ATM,PR,,,FALSE,LMMJVSD,"""Carr. PR 156 Km. 56.3, Caguas, PR""",Caguas,18.233936,-66.058848,52.45565149
+1261,1,ATM Los Prados 2,Los Prados 2 ATM,PR,,,FALSE,LMMJVSD,"""Carr. PR 156 Km. 56.3, Caguas, PR""",Caguas,18.233936,-66.058848,52.45565149
+1262,1,ATM Rexville Town Center 1,Rexville Town Center 1 ATM,PR,,,FALSE,LMMJVSD,"""Rexville Town Center, 3011 Carr. 167 Km. 0.60 Bayamon, PR""",Bayamon,18.361397,-66.18894,61.45729345
+1263,1,ATM Rexville Town Center 2,Rexville Town Center 2 ATM,PR,,,FALSE,LMMJVSD,"""Rexville Town Center, 3011 Carr. 167 Km. 0.60 Bayamon, PR""",Bayamon,18.361397,-66.18894,61.45729345
+1264,1,ATM Rexville Town Center 3,Rexville Town Center 3 ATM,PR,,,FALSE,LMMJVSD,"""Rexville Town Center, 3011 Carr. 167 Km. 0.60 Bayamon, PR""",Bayamon,18.361397,-66.18894,61.45729345
+1265,1,ATM Rexville Town Center 4,Rexville Town Center 4 ATM,PR,,,FALSE,LMMJVSD,"""Rexville Town Center, 3011 Carr. 167 Km. 0.60 Bayamon, PR""",Bayamon,18.361397,-66.18894,61.45729345
+1266,1,ATM Señorial Center 1,Señorial Center 1 ATM,PR,,,FALSE,LMMJVSD,"""Ave. Lomas Verdes, Int. Carrs 177 y 52, San Juan, PR""",San Juan,18.368492,-66.073183,53.44713462
+1267,1,ATM Señorial Center 2,Señorial Center 2 ATM,PR,,,FALSE,LMMJVSD,"""Ave. Lomas Verdes, Int. Carrs 177 y 52, San Juan, PR""",San Juan,18.368492,-66.073183,53.44713462
+1268,1,ATM Condado Centro 1,Condado Centro 1 ATM,PR,,,FALSE,LMMJVSD,"""Ave. Ashford 1358, San Juan, PR""",San Juan,18.45511,-66.068674,53.2810338
+1269,1,ATM Condado Centro 2,Condado Centro 2 ATM,PR,,,FALSE,LMMJVSD,"""Ave. Ashford 1358, San Juan, PR""",San Juan,18.45511,-66.068674,53.2810338
+1270,1,ATM Aguadilla Mall 1,Aguadilla Mall 1 ATM,PR,,,FALSE,LMMJVSD,"""Ave. Los Corazones, Carr. 2 Km. 126.5, Aguadilla, PR""",Aguadilla,18.424767,-67.149795,128.0609547
+1271,1,ATM Aguadilla Mall 2,Aguadilla Mall 2 ATM,PR,,,FALSE,LMMJVSD,"""Ave. Los Corazones, Carr. 2 Km. 126.5, Aguadilla, PR""",Aguadilla,18.424767,-67.149795,128.0609547
+1272,1,ATM Plaza Centro Sur 1,Plaza Centro Sur 1 ATM,PR,,,FALSE,LMMJVSD,"""Plaza Centro II, 200 Rafael Cordero Ave. Ste. 151, Caguas, PR""",Caguas,18.247612,-66.025225,50.11410718
+1273,1,ATM Plaza Centro Sur 2,Plaza Centro Sur 2 ATM,PR,,,FALSE,LMMJVSD,"""Plaza Centro II, 200 Rafael Cordero Ave. Ste. 151, Caguas, PR""",Caguas,18.247612,-66.025225,50.11410718
+1274,1,ATM Río Grande Pueblo,Río Grande Pueblo ATM,PR,,,FALSE,LMMJVSD,"""Villas de Rio Grande Shopping Center, Calle Pimental 99, Rio Grande, PR""",Rio Grande,18.379815,-65.833826,36.89683388
+1275,1,ATM Cabo Rojo La Hacienda 1,Cabo Rojo La Hacienda 1 ATM,PR,,,FALSE,LMMJVSD,"""Carr. 100 Km 7.5, Bo. Miradero, Cabo Rojo, PR""",Cabo Rojo,18.088754,-67.156637,128.6266593
+1276,1,ATM Cabo Rojo La Hacienda 2,Cabo Rojo La Hacienda 2 ATM,PR,,,FALSE,LMMJVSD,"""Carr. 100 Km 7.5, Bo. Miradero, Cabo Rojo, PR""",Cabo Rojo,18.088754,-67.156637,128.6266593
+1277,1,ATM Cabo Rojo La Hacienda 3,Cabo Rojo La Hacienda 3 ATM,PR,,,FALSE,LMMJVSD,"""Carr. 100 Km 7.5, Bo. Miradero, Cabo Rojo, PR""",Cabo Rojo,18.088754,-67.156637,128.6266593
+1278,1,ATM Mayaguez Plaza,Mayaguez Plaza ATM,PR,,,FALSE,LMMJVSD,"""53 Calle de la Candelaria, Mayaguez, PR""",Mayaguez,18.201402,-67.139197,127.3112755
+1279,1,ATM Ponce Towne Center Sur 1,Ponce Towne Center Sur 1 ATM,PR,,,FALSE,LMMJVSD,"""Centro Comercial Towne Center, Carr. 2 Km. 222.4, Ponce, PR""",Ponce,17.996404,-66.636866,92.87218051
+1280,1,ATM Ponce Towne Center Sur 2,Ponce Towne Center Sur 2 ATM,PR,,,FALSE,LMMJVSD,"""Centro Comercial Towne Center, Carr. 2 Km. 222.4, Ponce, PR""",Ponce,17.996404,-66.636866,92.87218051
+1281,1,ATM San Juan Los Puertos 1,San Juan Los Puertos 1 ATM,PR,,,FALSE,LMMJVSD,"""454 Comercio St., San Juan, PR""",San Juan,18.464998,-66.111585,56.26710148
+1282,1,ATM San Juan Los Puertos 2,San Juan Los Puertos 2 ATM,PR,,,FALSE,LMMJVSD,"""454 Comercio St., San Juan, PR""",San Juan,18.464998,-66.111585,56.26710148
+1283,1,ATM Mendez Vigo Mayaguez,Mendez Vigo Mayaguez ATM,PR,,,FALSE,LMMJVSD,"""Mendez Vigo 15 Oeste, Mayaguez, PR""",Mayaguez,18.202022,-67.141856,127.49511
+1284,1,ATM Ponce Rambla 2,Ponce Rambla 2  ATM,PR,,,FALSE,LMMJVSD,"""La Rambla Shopping Center, Ave. Tito Castro, Carr. 14, Ponce, PR""",Ponce,18.025836,-66.598846,90.17428427
+1285,1,ATM Walgreens 65 Shopping,Walgreens 65 Shopping ATM,PR,,,FALSE,LMMJVSD,"""1115 Ave 65 Infantería, San Juan, PR""",San Juan,18.395894,-66.041828,51.31117936
+1286,1,ATM Shell Baldrich,Shell Baldrich ATM,PR,,,FALSE,LMMJVSD,"""Calle Coll y Toste, Esq César González, San Juan, PR""",San Juan,18.410694,-66.06461,52.91070537
+1287,1,ATM Farmacia Siempre Abierta,Siempre Abierta Pharmacy ATM,PR,,,FALSE,LMMJVSD,"""#370 Ave Domenech, San Juan, PR""",San Juan,18.413159,-66.066543,53.04857704
+1288,1,ATM Colon Service Station,Colon Service Station ATM,PR,,,FALSE,LMMJVSD,"""Ave Roosevelt, Esq Barbosa, San Juan, PR""",San Juan,18.426021,-66.048356,51.81471056
+1289,1,ATM Cooperativa Seguros Múltiples,Cooperativa Seguros Múltiples ATM,PR,,,FALSE,LMMJVSD,"""#38 Calle Nevárez, San Juan, PR""",San Juan,18.398928,-66.070008,53.26549768
+1290,1,ATM Universidad Interamericana Cupey,Interamerican University Cupey ATM,PR,,,FALSE,LMMJVSD,"""Carr #1, Calle Francisco Seín, Río Piedras, San Juan, PR""",San Juan,18.369247,-66.077045,53.71532034
+1291,1,ATM Puma Lares,Puma Lares ATM,PR,,,FALSE,LMMJVSD,"""Carr 129, Km 24.5, Bo Pileta, Lares, PR""",Lares,18.319803,-66.870711,108.6764351
+1292,1,ATM Sears Brand Central Mayaguez Mall,Sears Brand Central Mayaguez Mall ATM,PR,,,FALSE,LMMJVSD,"""#975, Ave Hostos Ste 110, Mayaguez, PR""",Mayaguez,18.156065,-67.143165,127.6203112
+1294,1,ATM Mr. Special Sabana Grande,Mr. Special Sabana Grande ATM,PR,,,FALSE,LMMJVSD,"""Carr 121, Km 216.1, Bo Machuchal, Sabana Grande, PR""",Sabana Grande,18.070329,-66.957322,114.8606264
+1296,1,ATM Puma Fajardo,Puma Fajardo ATM,PR,,,FALSE,LMMJVSD,"""Carr #3, Km 43.5, Bo Quebrada, Fajardo, PR""",Fajardo,18.345949,-65.671991,25.6475811
+1297,1,ATM Wyndham Rio Mar 1,Wyndham Rio Mar 1 ATM,PR,,,FALSE,LMMJVSD,"""6000 Rio Mar Blvd, Hato Rey, PR""",Hato Rey,18.387691,-65.75477,31.44845461
+1298,1,ATM Alcaldía Bayamón,Alcaldía Bayamón ATM,PR,,,FALSE,LMMJVSD,"""Carr #2, Km 11, Bayamon, PR""",Bayamon,18.39635,-66.155449,59.17472813
+1300,1,ATM Farmacia Caridad,Caridad Pharmacy ATM,PR,,,FALSE,LMMJVSD,"""Carr 167, Bayamon, PR""",Bayamon,18.397669,-66.192565,61.74546582
+1301,1,ATM Aibonito Extra,Aibonito Extra ATM,PR,,,FALSE,LMMJVSD,"""100 Ave San José, Aibonito, PR""",Aibonito,18.138944,-66.26948,67.17416167
+1304,1,ATM Juncos Plaza,Juncos Plaza ATM,PR,,,FALSE,LMMJVSD,"""Juncos Plaza Shopping Center, Carr #31, Km 24.0, Juncos, PR""",Juncos,18.231308,-65.904922,41.80348963
+1305,1,ATM Catalinas Food Court,Catalinas Food Court ATM,PR,,,FALSE,LMMJVSD,"""Expreso Luis A Ferré, Salida 18, PR-156, Caguas, PR""",Caguas,18.237456,-66.040805,51.20268132
+1306,1,ATM Eaton Electrical Las Piedras,Eaton Electrical Las Piedras ATM,PR,,,FALSE,LMMJVSD,"""#183, 50 Calle Jesús T. Piñero, Las Piedras, PR""",Las Piedras,18.173825,-65.873501,39.74720996
+1307,1,ATM Walgreens Humacao,Walgreens Humacao ATM,PR,,,FALSE,LMMJVSD,"""#121 Calle Cruz Ortíz Stella, Humacao, PR""",Humacao,18.146198,-65.800037,34.77552926
+1308,1,ATM Bristol Myers Humacao,Bristol Myers Humacao  ATM,PR,,,FALSE,LMMJVSD,"""Carr #3, Km 77.5, Humacao, PR""",Humacao,18.148866,-65.79374,34.33308903
+1309,1,ATM UPR Humacao,UPR Humacao ATM,PR,,,FALSE,LMMJVSD,"""Ave José E. Aguiar Aramburu, Carr 908, Km 1.2, Humacao, PR""",Humacao,18.145518,-65.838307,37.4086377
+1310,1,ATM Hospital Auxilio Mutuo San Juan,Hospital Auxilio Mutuo San Juan ATM,PR,,,FALSE,LMMJVSD,"""Ave Ponce de León, Parada 37 y media, San Juan, PR""",San Juan,18.408813,-66.05246,52.06719642
+1311,1,ATM Clínica Las Américas,Clínica Las Américas ATM,PR,,,FALSE,LMMJVSD,"""#400 Ave FD Roosevelt, San Juan, PR""",San Juan,18.420595,-66.069536,53.26868162
+1312,1,ATM Edificio Torre Municipal,Edificio Torre Municipal ATM,PR,,,FALSE,LMMJVSD,"""Calle Carlos F. Chardón, San Juan, PR""",San Juan,18.426417,-66.062534,52.79550519
+1313,1,ATM Universidad Politecnica,Polytechnic University ATM,PR,,,FALSE,LMMJVSD,"""#377 Ave Ponce de León, San Juan, PR""",San Juan,18.422048,-66.05604,52.33827066
+1314,1,ATM JC Penney Plaza Las Américas,JC Penney Plaza Las Américas ATM,PR,,,FALSE,LMMJVSD,"""Centro Comercial Plaza Las Américas, 525 Av. Franklin Delano Roosevelt, San Juan, PR""",San Juan,18.421293,-66.075232,53.6637911
+1316,1,ATM La Terraza Plaza Las Americas,La Terraza Plaza Las Americas ATM,PR,,,FALSE,LMMJVSD,"""Centro Comercial Plaza Las Américas, 525 Av. Franklin Delano Roosevelt, San Juan, PR""",San Juan,18.423326,-66.074473,53.61503882
+1317,1,ATM Cuartel General Policía PR,General Police Station of PR ATM,PR,,,FALSE,LMMJVSD,"""#601 Ave Roosevelt, San Juan, PR""",San Juan,18.417532,-66.078035,53.85090291
+1318,1,ATM Plaza del Atlántico Mall,Plaza del Atlántico Mall ATM,PR,,,FALSE,LMMJVSD,"""1400 Ave Miramar, Arecibo, PR""",Arecibo,18.479258,-66.757532,100.9564413
+1319,1,ATM UPR Arecibo,UPR Arecibo ATM,PR,,,FALSE,LMMJVSD,"""Carr 653, Km 0.8, Arecibo, PR""",Arecibo,18.466299,-66.739932,99.72082067
+1320,1,ATM Universidad Interamericana Arecibo,Interamerican University in Arecibo ATM,PR,,,FALSE,LMMJVSD,"""Ave Catalina Santiago Chico, Arecibo, PR""",Arecibo,18.474989,-66.758884,101.0441269
+1321,1,ATM Walgreens Utuado,Walgreens Utuado ATM,PR,,,FALSE,LMMJVSD,"""#940 Carr 123, Utuado, PR""",Utuado,18.268934,-66.712361,97.70682658
+1323,1,ATM Puma Guánica,Puma Guánica ATM,PR,,,FALSE,LMMJVSD,"""Carr 116 Km 24.7, Guanica, PR""",Guanica,17.99532,-66.892136,110.4956814
+1324,1,ATM Plazoleta Plaza Caribe,Plazoleta Plaza Caribe ATM,PR,,,FALSE,LMMJVSD,"""#2050 Ponce by Pass, Ponce, PR""",Ponce,17.994074,-66.611842,91.15248294
+1325,1,ATM Ponce Hilton Hotel & Casino,Ponce Hilton Hotel & Casino ATM,PR,,,FALSE,LMMJVSD,"""#1150 Ave Caribe, Ponce, PR""",Ponce,17.971277,-66.602227,90.55360511
+1326,1,ATM UPR Ponce,UPR Ponce ATM,PR,,,FALSE,LMMJVSD,"""Ave Santiago de los Caballeros, Ponce, PR""",Ponce,17.992718,-66.607409,90.85045932
+1327,1,ATM Holsum Bakers 1,Holsum Bakers 1 ATM,PR,,,FALSE,LMMJVSD,"""Carr #2, Km 20.1, Bo Candelaría, Toa Baja, PR""",Toa Baja,18.410355,-66.234604,64.67175907
+1328,1,ATM Holsum Bakers 2,Holsum Bakers 2 ATM,PR,,,FALSE,LMMJVSD,"""Carr #2, Km 20.1, Bo Candelaría, Toa Baja, PR""",Toa Baja,18.409067,-66.234636,64.67223155
+1329,1,ATM Corozal Plaza,Corozal Plaza ATM,PR,,,FALSE,LMMJVSD,"""Calle Cervantes, Corozal, PR""",Corozal,18.341004,-66.316966,70.31353667
+1331,1,ATM Poblado San Antonio,Poblado San Antonio ATM,PR,,,FALSE,LMMJVSD,"""Carr 471, Aguadilla, PR""",Aguadilla,18.492624,-67.098169,124.5517574
+1333,1,ATM Hospital La Concepción San German,La Concepción San German Hospital ATM,PR,,,FALSE,LMMJVSD,"""Carr #2, Km 173.4, San German, PR""",San German,18.098835,-67.038478,120.4349856
+1334,1,ATM Aeropuerto Terminal American Airlines,LLM Airport American Airlines Terminal ATM,PR,,,FALSE,LMMJVSD,"""Aeropuerto Luis Muñoz Marín, Isla Verde, Carolina, PR""",Carolina,18.437243,-66.003661,48.75031428
+1335,1,ATM Aeropuerto Terminal Delta,LLM Airport Delta Terminal ATM,PR,,,FALSE,LMMJVSD,"""Aeropuerto Luis Muñoz Marín, Isla Verde, Carolina, PR""",Carolina,18.436811,-66.004019,48.774059
+1336,1,ATM Aeropuerto Terminal B,LLM Airport B Terminal ATM,PR,,,FALSE,LMMJVSD,"""Aeropuerto Luis Muñoz Marín, Isla Verde, Carolina, PR""",Carolina,18.436119,-66.004868,48.83113372
+1337,1,ATM Aeropuerto Terminal C,LLM Airport C Terminal ATM,PR,,,FALSE,LMMJVSD,"""Aeropuerto Luis Muñoz Marín, Isla Verde, Carolina, PR""",Carolina,18.438026,-66.003478,48.73946082
+1338,1,ATM Plazoleta Isla Verde San Juan,Plazoleta Isla Verde San Juan ATM,PR,,,FALSE,LMMJVSD,"""Carr 187 y Los Gobernadores, Carolina, PR""",Carolina,18.44211,-66.020491,49.92371151
+1339,1,ATM Cinema Plaza Escorial,Plaza Escorial Cinema ATM,PR,,,FALSE,LMMJVSD,"""Carr #1, Esq Carr #3, Carolina, PR""",Carolina,18.395843,-65.997394,48.23700368
+1340,1,ATM Walgreens Plaza Carolina,Walgreens Plaza Carolina ATM,PR,,,FALSE,LMMJVSD,"""Ave 65 de Infantería & Jesús Fragoso, Carolina, PR""",Carolina,18.395067,-65.977624,46.86817728
+1341,1,ATM Country Club Shopping Center,Country Club Shopping Center ATM,PR,,,FALSE,LMMJVSD,"""Country Club Shopping Plaza, Ave Campo Rico, Esq El Comandante, Carolina, PR""",Carolina,18.414768,-65.992277,47.91650005
+1344,1,ATM Puma Vistamar,Puma Vistamar ATM,PR,,,FALSE,LMMJVSD,"""Carr 190, Esq Ave Pontezuela, Urb Vistamar, Carolina, PR""",Carolina,18.425588,-65.988712,47.69205783
+1345,1,ATM Total Villa Carolina 1,Total Villa Carolina 1 ATM,PR,,,FALSE,LMMJVSD,"""Ave Monserrate, Esq Ave Roberto Clemente, Urb Villa Carolina, Carolina, PR""",Carolina,18.405764,-65.965996,46.08262967
+1347,1,ATM Walgreens Cupey,Walgreens Cupey ATM,PR,,,FALSE,LMMJVSD,"""#400 Ave La Sierra, Carr 177, Cupey, San Juan, PR""",San Juan,18.369779,-66.058155,52.4079192
+1348,1,ATM Puma Ave. Esmeralda,Puma Ave. Esmeralda ATM,PR,,,FALSE,LMMJVSD,"""Ave Esmeralda, Esq Lopategui, Guaynabo, PR""",Guaynabo,18.370917,-66.100442,55.33709466
+1350,1,ATM Walgreens Jardines Reales Guaynabo,Walgreens Jardines Reales Guaynabo ATM,PR,,,FALSE,LMMJVSD,"""Centro Comercial Jardines Reales, Carr #199, Guaynabo, PR""",Guaynabo,18.361959,-66.119204,56.62792236
+1351,1,ATM Total La Muda,Total La Muda ATM,PR,,,FALSE,LMMJVSD,"""Carr #1, Int Carr #20, Guaynabo, PR""",Guaynabo,18.329962,-66.099243,55.22466264
+1352,1,ATM Shell Sagrado Corazón,Shell Sagrado Corazón ATM,PR,,,FALSE,LMMJVSD,"""Ave San Claudio, Carr #845 Km 4, San Juan, PR""",San Juan,18.378485,-66.050931,51.91764806
+1353,1,ATM Park Gardens Food Court,Park Gardens Food Court ATM,PR,,,FALSE,LMMJVSD,"""Ave Saratoga, Esq Expreso Trujillo Alto, Park Gardens, Trujillo Alto, PR""",Trujillo Alto,18.389554,-66.031386,50.57940098
+1354,1,ATM Pueblo Trujillo Alto,Pueblo Trujillo Alto ATM,PR,,,FALSE,LMMJVSD,"""Carr #181 y #848, Km 3.5, Trujillo Alto, PR""",Trujillo Alto,18.369751,-66.016355,49.51382662
+1355,1,ATM Shell Bajamar,Shell Bajamar ATM,PR,,,FALSE,LMMJVSD,"""Ave Muñoz Rivera, Parada 6 y media, Puerta de Tierra, San Juan, PR""",San Juan,18.465421,-66.096341,55.21570123
+1356,1,ATM Walgreens Condado,Walgreens Condado ATM,PR,,,FALSE,LMMJVSD,"""#1130 Ave Ashford, San Juan, PR""",San Juan,18.455959,-66.07181,53.49955711
+1357,1,ATM Hotel Condado Plaza,Condado Plaza Hotel ATM,PR,,,FALSE,LMMJVSD,"""#999 Ave Ashford, San Juan, PR""",San Juan,18.460783,-66.080977,54.14390362
+1358,1,ATM Plaza de Armas San Juan,Plaza de Armas San Juan ATM,PR,,,FALSE,LMMJVSD,"""Calle Fortaleza #151, San Juan, PR""",San Juan,18.465073,-66.116895,56.63390489
+1359,1,ATM Capitolio de Puerto Rico,Capitol of Puerto Rico ATM,PR,,,FALSE,LMMJVSD,"""Ave Muñoz Rivera, Viejo San Juan, San Juan, PR""",San Juan,18.467225,-66.105946,55.88311156
+1360,1,ATM Departamento de Hacienda,Departamento de Hacienda ATM,PR,,,FALSE,LMMJVSD,"""#10 Paseo Covadonga, San Juan, PR""",San Juan,18.465179,-66.109366,56.11432536
+1361,1,ATM Universidad Sagrado Corazon Santurce,Sagrado Corazon University Santurce ATM,PR,,,FALSE,LMMJVSD,"""Calle Sagrado Corazón de Jesús, Santurce, San Juan, PR""",San Juan,18.441049,-66.059552,52.61932572
+1363,1,ATM El Nuevo Día,El Nuevo Día ATM,PR,,,FALSE,LMMJVSD,"""#50 Carr 165, Sector Buchanan, Parque Industrial Amelia, Guaynabo, PR""",Guaynabo,18.416499,-66.110583,56.1001649
+1365,1,ATM San Patricio Food Court,San Patricio Food Court ATM,PR,,,FALSE,LMMJVSD,"""San Patricio Shopping Center, Caparra Heights, San Juan, PR""",San Juan,18.408584,-66.105337,55.72450657
+1366,1,ATM Ortho McNeil Manati,Ortho McNeil Manati ATM,PR,,,FALSE,LMMJVSD,"""Carr #2, Km 46.5, Manati, PR""",Manati,18.436413,-66.458729,80.21841433
+1368,1,ATM Mayagüez Town Center,Mayagüez Town Center ATM,PR,,,FALSE,LMMJVSD,"""252 Calle Post, Mayaguez, PR""",Mayaguez,18.209609,-67.144412,127.6677374
+1369,1,ATM Farmacia Serrano,Serrano Pharmacy ATM,PR,,,FALSE,LMMJVSD,"""108, Km 2.6, Bo Miradero, Mayaguez, PR""",Mayaguez,18.201748,-67.135082,127.0259771
+1370,1,ATM Walgreens Mayagüez,Walgreens Mayagüez ATM,PR,,,FALSE,LMMJVSD,"""2097 Ave Hostos, Mayaguez, PR""",Mayaguez,18.153987,-67.145707,127.7982327
+1371,1,ATM UPR Mayaguez 1,UPR Mayaguez 1 ATM,PR,,,FALSE,LMMJVSD,"""259 Ave Alfonso Valdés Cobián, Mayaguez, PR""",Mayaguez,18.210547,-67.14112,127.4391325
+1372,1,ATM UPR Mayaguez 2,UPR Mayaguez 2 ATM,PR,,,FALSE,LMMJVSD,"""259 Ave Alfonso Valdés Cobián, Mayaguez, PR""",Mayaguez,18.210547,-67.14112,127.4391325
+1373,1,ATM Universidad Interamericana San German,Interamerican University in San German ATM,PR,,,FALSE,LMMJVSD,"""Calle Comerío Luna, San German, PR""",San German,18.084669,-67.047125,121.052754
+1374,1,ATM Burger King Santa Isabel,Burger King Santa Isabel ATM,PR,,,FALSE,LMMJVSD,"""Carr 153, Km 6.9, Santa Isabel, PR""",Santa Isabel,18.012505,-66.383073,75.33382325
+1375,1,ATM Pfizer Guayama 2,Pfizer Guayama 2 ATM,PR,,,FALSE,LMMJVSD,"""Carr #3, Km 142.1, Guayama, PR""",Guayama,17.960771,-66.144379,59.1507071
+1377,1,ATM Pueblo Plaza Caribe,Pueblo Plaza Caribe ATM,PR,,,FALSE,LMMJVSD,"""Centro Comercial Plaza del Caribe, Carr #2, Ponce by Pass, Ponce, PR""",Ponce,17.994527,-66.609077,90.96058669
+1378,1,ATM Universidad Interamericana Ponce,Interamerican University in Ponce ATM,PR,,,FALSE,LMMJVSD,"""104 Carr #1, Km 123.2, Ponce, PR""",Ponce,18.006782,-66.5782,88.79835283
+1379,1,ATM Selectos Santa María Ponce,Selectos Santa María Ponce ATM,PR,,,FALSE,LMMJVSD,"""Ave Muñoz Rivera, Esq Calle Ferrocarril, Ponce, PR""",Ponce,18.005511,-66.618741,91.59817832
+1380,1,ATM Garaje La Sierra,La Sierra Gas Station ATM,PR,,,FALSE,LMMJVSD,"""Carr 172, Km 19, Bo Cañaboncito, Sector La Sierra, Caguas, PR""",Caguas,18.208715,-66.102784,55.52763354
+1381,1,ATM Econo Bairoa 1,Econo Bairoa 1 ATM,PR,,,FALSE,LMMJVSD,"""Bairoa Shopping Center, Carr #1, Km 35.8, Caguas, PR""",Caguas,18.255446,-66.03747,50.95582496
+1382,1,ATM Econo Bairoa 2,Econo Bairoa 2 ATM,PR,,,FALSE,LMMJVSD,"""Bairoa Shopping Center, Carr #1, Km 35.8, Caguas, PR""",Caguas,18.255446,-66.03747,50.95582496
+1383,1,ATM Total Cañaboncito Caguas,Total Cañaboncito Caguas ATM,PR,,,FALSE,LMMJVSD,"""Carr #156, Esq 784, Km 59.0, Bo Cañaboncito, Caguas, PR""",Caguas,18.232806,-66.04933,51.79785435
+1385,1,ATM UPR Cayey,UPR Cayey ATM,PR,,,FALSE,LMMJVSD,"""205 Calle Antonio R Barceló, Cayey, PR""",Cayey,18.115556,-66.16228,59.82240686
+1386,1,ATM Merck Las Piedras,Merck Las Piedras ATM,PR,,,FALSE,LMMJVSD,"""Pridco Industrial Park, Rd 183, Las Piedras, PR""",Las Piedras,18.182857,-65.879141,40.11347838
+1387,1,ATM Pfizer Pharmaceutical Barceloneta,Pfizer Pharmaceutical Barceloneta ATM,PR,,,FALSE,LMMJVSD,"""Carr #2, Km 58.2, Barceloneta, PR""",Barceloneta,18.43139,-66.571135,87.99282608
+1388,1,ATM Abbott Chemical Barceloneta 1,Abbott Chemical Barceloneta 1 ATM,PR,,,FALSE,LMMJVSD,"""Carr #2, Km 58.2, Barceloneta, PR""",Barceloneta,18.428296,-66.573064,88.12277467
+1389,1,ATM Pfizer PGM Vega Baja,Pfizer PGM Vega Baja ATM,PR,,,FALSE,LMMJVSD,"""Carr 689, Km 1.9, Vega Baja, PR""",Vega Baja,18.449588,-66.349643,72.69025598
+1390,1,ATM Econo Vega Baja,Econo Vega Baja ATM,PR,,,FALSE,LMMJVSD,"""10 Felisa Rincón de Gautier, Urb San Demetrio, Vega Baja, PR""",Vega Baja,18.481285,-66.404667,76.55118437
+1391,1,ATM Plaza Noreste Canóvanas,Plaza Noreste Canóvanas  ATM,PR,,,FALSE,LMMJVSD,"""Plaza Noreste Shopping Center, Carr #3, Urb Villas de Loíza, Canovanas, PR""",Canovanas,18.379342,-65.871685,39.5145632
+1392,1,ATM Walgreens 65 Esquina Campo Rico,Walgreens 65 Esquina Campo Rico ATM,PR,,,FALSE,LMMJVSD,"""Ave Campo Rico, Esq Fidalgo Díaz, Carolina, PR""",Carolina,18.397737,-66.005033,48.7684715
+1393,1,ATM Shell Torrimar,Shell Torrimar  ATM,PR,,,FALSE,LMMJVSD,"""Carr #177 Km 2.6, Los Filtros, Guaynabo, PR""",Guaynabo,18.384479,-66.119325,56.65942975
+1394,1,ATM Walgreens Guayama,Walgreens Guayama ATM,PR,,,FALSE,LMMJVSD,"""1 Calle mrginal, Ste 2, Guayama, PR""",Guayama,17.974993,-66.11634,57.16858302
+1396,1,ATM Walgreens Drive In Plaza,Walgreens Drive In Plaza ATM,PR,,,FALSE,LMMJVSD,"""2135 Drive In Plaza, Carr 831, Bayamon, PR""",Bayamon,18.404695,-66.180361,60.91004418
+1397,1,ATM Plaza Río Hondo,Plaza Río Hondo ATM,PR,,,FALSE,LMMJVSD,"""60 Ave Rio Hondo, Ste 8080, Bayamon, PR""",Bayamon,18.422346,-66.161519,59.63299149
+1398,1,ATM UPR Bayamón,UPR Bayamón ATM,PR,,,FALSE,LMMJVSD,"""Industrial Minillas 170, Carr 174, Bayamon, PR""",Bayamon,18.372047,-66.142403,58.24380059
+1399,1,ATM XTRA Río Hondo 2,XTRA Río Hondo 2 ATM,PR,,,FALSE,LMMJVSD,"""Ave Comerío, Esq Expreso de Diego, Bayamon, PR""",Bayamon,18.424235,-66.16155,59.6382641
+1400,1,ATM Hospital San Pablo,San Pablo Hospital ATM,PR,,,FALSE,LMMJVSD,"""Calle Santa Cruz #70, Bayamon, PR""",Bayamon,18.397648,-66.147941,58.65678471
+1401,1,ATM Walgreens Calle Loíza,Walgreens Calle Loíza ATM,PR,,,FALSE,LMMJVSD,"""1963, Calle Loíza, San Juan, PR""",San Juan,18.451583,-66.055105,52.33586454
+1402,1,ATM Cinema Montehiedra,Cinema Montehiedra ATM,PR,,,FALSE,LMMJVSD,"""Ave Los Romeros, San Juan, PR""",San Juan,18.337578,-66.066898,52.98754483
+1404,1,ATM Tres Monjitas,Tres Monjitas ATM,PR,,,FALSE,LMMJVSD,"""Zona Industrial Tres Monjitas, 381 Calle Angel Buonomo, San Juan, PR""",San Juan,18.42981,-66.069926,53.31305236
+1406,1,ATM Cabo Rojo Pueblo,Cabo Rojo Pueblo ATM,PR,,,FALSE,LMMJVSD,"""Calle Barbosa 48, Esq Ruiz Belvis, Cabo Rojo, PR""",Cabo Rojo,18.086777,-67.146483,127.9264076
+1407,1,ATM Plaza del Sol 1,Plaza del Sol 1 ATM,PR,,,FALSE,LMMJVSD,"""Centro Comercial Plaza del Sol, Ave. West Main 725, Sierra Bayamon, Bayamon, PR""",Bayamon,18.407685,-66.162404,59.67159819
+1408,1,ATM Gulf Service Station,Gulf Service Station ATM,PR,,,FALSE,LMMJVSD,"""Carr #2, Bo Sabana Hoyos, Arecibo, PR""",Arecibo,18.446349,-66.65383,93.7355417
+1409,1,ATM Mr. Special Hormigueros,Mr. Special Hormigueros ATM,PR,,,FALSE,LMMJVSD,"""Carr #2, Km 167.4, Bo Lavadero, Hormigueros, PR""",Hormigueros,18.131308,-67.110436,125.3779465
+1410,1,ATM Econo Toa Baja,Econo Toa Baja ATM,PR,,,FALSE,LMMJVSD,"""Carr 863, Km 0.8, Bo Pájaros, Toa Baja, PR""",Toa Baja,18.397552,-66.209215,62.89783976
+1411,1,ATM Mr. Special Lajas,Mr. Special Lajas ATM,PR,,,FALSE,LMMJVSD,"""Carr 315, Km 1.0, Lajas, PR""",Lajas,18.038852,-67.057563,121.8458512
+1412,1,ATM Mr. Special Cabo Rojo,Mr. Special Cabo Rojo ATM,PR,,,FALSE,LMMJVSD,"""Carr 100, Km 6.7, Cabo Rojo, PR""",Cabo Rojo,18.096365,-67.155991,128.5722786
+1413,1,ATM Hospital San Jorge,San Jorge Hospital ATM,PR,,,FALSE,LMMJVSD,"""157 Calle San Jorge, San Juan, PR""",San Juan,18.446664,-66.062893,52.86245225
+1415,1,ATM Alcaldía Hatillo,Hatillo Town Hall ATM,PR,,,FALSE,LMMJVSD,"""Calle Roosevelt y Calle Pablo J Aguilar, Hatillo, PR""",Hatillo,18.486215,-66.825419,105.664232
+1417,1,ATM Universidad Católica de Ponce,Catholic University in Ponce ATM,PR,,,FALSE,LMMJVSD,"""2250 Ave Las Américas, Ponce, PR""",Ponce,18.003404,-66.617347,91.50747151
+1418,1,ATM Cooper Vision Juana Díaz,Cooper Vision Juana Díaz ATM,PR,,,FALSE,LMMJVSD,"""500 Calle Desvío Víctor Cruz, Juana Diaz, PR""",Juana Diaz,18.044431,-66.50209,83.45074698
+1420,1,ATM Mr. Special Lares,Mr. Special Lares ATM,PR,,,FALSE,LMMJVSD,"""Carr 111, Km 1.0, Lares, PR""",Lares,18.291374,-66.894537,110.326666
+1421,1,ATM Mr. Special Isabela,Mr. Special Isabela ATM,PR,,,FALSE,LMMJVSD,"""Carr 112, Km 0.8, Ave Aguadilla, Isabela, PR""",Isabela,18.493458,-67.026751,119.6088397
+1422,1,ATM Mr. Special Añasco,Mr. Special Añasco ATM,PR,,,FALSE,LMMJVSD,"""Carr 402, Km 0.8, Bo Las Marías, Añasco, PR""",Añasco,18.293355,-67.13971,127.3161505
+1423,1,ATM Mr. Special Aguada,Mr. Special Aguada ATM,PR,,,FALSE,LMMJVSD,"""Desvío Sur, Carr 411, Aguada, PR""",Aguada,18.378118,-67.192093,130.9633282
+1424,1,ATM Mr. Special Yauco,Mr. Special Yauco ATM,PR,,,FALSE,LMMJVSD,"""Calle Barbosa, Esq La Planta, Yauco, PR""",Yauco,18.030722,-66.848006,107.3726295
+1425,1,ATM Mr. Special San Germán,Mr. Special San Germán ATM,PR,,,FALSE,LMMJVSD,"""Carr 102, Urb Santa Marta, San German, PR""",San German,18.079055,-67.030957,119.9419677
+1426,1,ATM Pueblo Arecibo,Pueblo Arecibo ATM,PR,,,FALSE,LMMJVSD,"""Carr #10, Km 80, Arecibo, PR""",Arecibo,18.456824,-66.720738,98.38010302
+1427,1,ATM Shell Cidra,Shell Cidra  ATM,PR,,,FALSE,LMMJVSD,"""Carr 733, Km 7.4, Bo Sur, Cidra, PR""",Cidra,18.169921,-66.16055,59.58526493
+1428,1,ATM Hospital Menonita Cidra,Cidra Menonita Hospital ATM,PR,,,FALSE,LMMJVSD,"""100 Ave El Jíbaro, Cidra, PR""",Cidra,18.185364,-66.158718,59.43239196
+1429,1,ATM AAFES PX 1,AAFES PX 1 ATM,PR,,,FALSE,LMMJVSD,"""North Terminal Road Bldg 689, Guaynabo, PR""",Guaynabo,18.41958,-66.124441,57.06381509
+1430,1,ATM The Outlet- Route 66 Mall,The Outlet- Route 66 Mall ATM,PR,,,FALSE,LMMJVSD,"""18400 Carr #3, Bo Pueblo, Canovanas, PR""",Canovanas,18.376056,-65.882896,40.28500871
+1431,1,ATM Barceloneta Pueblo,Barceloneta Pueblo ATM,PR,,,FALSE,LMMJVSD,"""Calle Georgetti, Barceloneta, PR""",Barceloneta,18.45415,-66.538643,85.7734422
+1432,1,ATM Costco Caguas,Costco Caguas ATM,PR,,,FALSE,LMMJVSD,"""200 Ave Rafael Codero, Caguas, PR""",Caguas,18.24764,-66.023331,49.98291593
+1433,1,ATM Costco Bayamón,Costco Bayamón ATM,PR,,,FALSE,LMMJVSD,"""2399 Carr #2, Sector Hato Tejas, Bayamon, PR""",Bayamon,18.403873,-66.19394,61.84870378
+1434,1,ATM Cinema Las Catalinas,Las Catalinas Cinemas ATM,PR,,,FALSE,LMMJVSD,"""Carr #52, Bo Cañabón, Caguas, PR""",Caguas,18.239638,-66.041077,51.21931746
+1435,1,ATM Puma Fajardo Service Station,Puma Fajardo Service Station ATM,PR,,,FALSE,LMMJVSD,"""Ave Principal, Urb Baralt, Fajardo, PR""",Fajardo,18.340378,-65.660544,24.84780986
+1436,1,ATM Econo Trujillo Alto,Econo Trujillo Alto ATM,PR,,,FALSE,LMMJVSD,"""Carr 876, Km 5.1, Bo Las Cuevas, Trujillo Alto, PR""",Trujillo Alto,18.367021,-66.011292,49.16027848
+1437,1,ATM Citgo Magnolia,Citgo Magnolia ATM,PR,,,FALSE,LMMJVSD,"""Ave Magnolia, Esq Call 5, Bayamon, PR""",Bayamon,18.371393,-66.167777,60.00027307
+1438,1,ATM PRTC 1513,PRTC 1513  ATM,PR,,,FALSE,LMMJVSD,"""1500 Ave Roosevelt, San Juan, PR""",San Juan,18.410943,-66.102127,55.50617488
+1439,1,ATM Selectos Peñuelas,Selectos Peñuelas ATM,PR,,,FALSE,LMMJVSD,"""Carr 132, Esq Carr 386, Urb Peñuelas Valley 55, Peñuelas, PR""",Peñuelas,18.063251,-66.72688,98.93713637
+1440,1,ATM Bellas Artes Caguas,Bellas Artes Caguas ATM,PR,,,FALSE,LMMJVSD,"""Calle Padial, Esq Ruiz Belvis, Caguas, PR""",Caguas,18.235951,-66.037048,50.94410884
+1441,1,ATM Puma Dos Bocas Trujillo Alto,Puma Dos Bocas Trujillo Alto ATM,PR,,,FALSE,LMMJVSD,"""Carr 181, Km 9.3, Sector Dos Bocas, Trujillo Alto, PR""",Trujillo Alto,18.338928,-65.99068,47.70854168
+1442,1,ATM Garaje Puma de Diego,Puma de Diego Gas Station ATM,PR,,,FALSE,LMMJVSD,"""Ave de Diego, Esq 21, Río Piedras, San Juan, PR""",San Juan,18.391326,-66.084046,54.22615986
+1443,1,ATM Costco Carolina,Costco Carolina ATM,PR,,,FALSE,LMMJVSD,"""1185 Ave 65 de Infantería, San Juan, PR""",San Juan,18.399381,-65.997467,48.24780314
+1444,1,ATM Plaza Coamo,Plaza Coamo ATM,PR,,,FALSE,LMMJVSD,"""Carr PR 153, Km 13.7, Coamo, PR""",Coamo,18.057732,-66.369406,74.26204088
+1445,1,ATM Plaza Valle Verde,Plaza Valle Verde ATM,PR,,,FALSE,LMMJVSD,"""Plaza Valle Verde Shopping Center, 217 Ave Interamericana, San German, PR""",San German,18.082069,-67.051095,121.3311602
+1446,1,ATM Puma Paseo Pueblo Guayama,Puma Paseo Pueblo Guayama ATM,PR,,,FALSE,LMMJVSD,"""Carr PR 54, Km 0.3, Bo Machete, Guayama, PR""",Guayama,17.976233,-66.120234,57.42895208
+1447,1,ATM Abbott Chemical Barceloneta 3,Abbott Chemical Barceloneta 3 ATM,PR,,,FALSE,LMMJVSD,"""Carr #2, Km 58.0, Barceloneta, PR""",Barceloneta,18.428296,-66.573064,88.12277467
+1448,1,ATM Mr. Special Vega Alta,Mr. Special Vega Alta ATM,PR,,,FALSE,LMMJVSD,"""Carr #2, Km 30.5, Bo Espinosa, Vega Alta, PR""",Vega Alta,18.414422,-66.325804,70.98930391
+1449,1,ATM Bristol Myers Squibb Manati,Bristol Myers Squibb Manati ATM,PR,,,FALSE,LMMJVSD,"""Carr 686, Km 2.3, Bo Cotto Norte, Manati, PR""",Manati,18.455433,-66.470519,81.06156375
+1450,1,ATM Plaza Las Américas Cinema,Plaza Las Américas Cinema  ATM,PR,,,FALSE,LMMJVSD,"""Ave Roosevelt #525, Local #584, San Juan, PR""",San Juan,18.420586,-66.07342,53.53722007
+1451,1,ATM Puma Estrella Service Station,Puma Estrella Service Station ATM,PR,,,FALSE,LMMJVSD,"""Carr 189, Km 1.7, Caguas, PR""",Caguas,18.239009,-66.020434,49.79056257
+1452,1,ATM Crowley Liner Service,Crowley Liner Service ATM,PR,,,FALSE,LMMJVSD,"""Aeropuerto Fernando Ribas Dominicci, Calle Lindbergh, Isla Grande Airport, San Juan, PR""",San Juan,18.454346,-66.102505,55.61558618
+1453,1,ATM Centro Europa Santurce,Centro Europa Santurce  ATM,PR,,,FALSE,LMMJVSD,"""1492 Ave Ponce de León, San Juan, PR""",San Juan,18.446023,-66.068804,53.26931028
+1454,1,ATM Plaza Boquerón,Plaza Boquerón ATM,PR,,,FALSE,LMMJVSD,"""Carr #101, Km 17.4, Boquerón, Cabo Rojo, PR""",Cabo Rojo,18.024739,-67.155012,128.6094123
+1455,1,ATM Aguada Pueblo,Aguada Pueblo ATM,PR,,,FALSE,LMMJVSD,"""10 Ave San Carlos, Aguada, PR""",Aguada,18.003795,-67.188974,130.9942361
+1456,1,ATM Plaza Yabucoa,Plaza Yabucoa  ATM,PR,,,FALSE,LMMJVSD,"""Plaza Yabucoa Shopping Center, Carr 901, Km 13.5, Yabucoa, PR""",Yabucoa,18.047797,-65.882561,40.85890556
+1457,1,ATM Centro Gubernamental Humacao,Centro Gubernamental Humacao  ATM,PR,,,FALSE,LMMJVSD,"""Calle Miguel Casillas final, Humacao, PR""",Humacao,18.152825,-65.8272,36.61980161
+1458,1,ATM Econo Rincón,Econo Rincón ATM,PR,,,FALSE,LMMJVSD,"""Carr 115, Km 13.2, Bo Pueblo, Rincon, PR""",Rincon,18.335719,-67.252209,135.1152304
+1461,1,ATM West Professional Building,West Professional Building ATM,PR,,,FALSE,LMMJVSD,"""Carr 107, Km 2.8, Aguadilla, PR""",Aguadilla,18.428169,-67.155604,128.4659283
+1462,1,ATM Coliseo de PR 1,Coliseum of Puerto Rico 1 ATM,PR,,,FALSE,LMMJVSD,"""#500 Calle Arterial B, San Juan, PR""",San Juan,18.427955,-66.060922,52.68706259
+1463,1,ATM Coliseo de PR 2,Coliseum of Puerto Rico 1 ATM,PR,,,FALSE,LMMJVSD,"""#500 Calle Arterial B, San Juan, PR""",San Juan,18.427955,-66.060922,52.68706259
+1464,1,ATM Coliseo de PR 3,Coliseum of Puerto Rico 1 ATM,PR,,,FALSE,LMMJVSD,"""#500 Calle Arterial B, San Juan, PR""",San Juan,18.427955,-66.060922,52.68706259
+1465,1,ATM Econo Utuado,Econo Utuado ATM,PR,,,FALSE,LMMJVSD,"""Ave Fernando Rivas Dominicci, Carr 11, Km 2.0, Bo Viví Abajo, Utuado, PR""",Utuado,18.260495,-66.689547,96.12861993
+1466,1,ATM Parador Villa Parguera,Parador Villa Parguera ATM,PR,,,FALSE,LMMJVSD,"""Carr PR 304, Km 3.3, Lajas, PR""",Lajas,17.973837,-67.049831,121.4351607
+1467,1,ATM Cinema Las Piedras,Las Piedras Cinema ATM,PR,,,FALSE,LMMJVSD,"""Carr 198, Km 20.1, Bo Quebrada Arena, Las Piedras, PR""",Las Piedras,18.187443,-65.88796,40.71150666
+1468,1,ATM Farmacia la Rampla,La Rampla Pharmacy ATM,PR,,,FALSE,LMMJVSD,"""#52 Calle Cristobal Colón, Yabucoa, PR""",Yabucoa,18.047496,-65.87922,40.63277376
+1469,1,ATM Muelle 2 Puertos San Juan,Puertos San Juan 2nd Dock ATM,PR,,,FALSE,LMMJVSD,"""Paseo Gilberto Concepción de Gracia, Muelle 2 Viejo San Juan, San Juan, PR""",San Juan,18.463393,-66.113129,56.36993932
+1470,1,ATM Universidad del Turabo,University of Turabo ATM,PR,,,FALSE,LMMJVSD,"""Carr 189, Km 3.3, Caguas, PR""",Caguas,18.239731,-66.006175,48.80250812
+1471,1,ATM Universidad Metropolitana Cupey,Metropolitan University in Cupey ATM,PR,,,FALSE,LMMJVSD,"""1399 Ave Ana G Méndez, San Juan, PR""",San Juan,18.387368,-66.061008,52.62641088
+1472,1,ATM Stryker Arroyo,Stryker Arroyo ATM,PR,,,FALSE,LMMJVSD,"""Carr 33, Km 131.2, Arroyo, PR""",Arroyo,17.979876,-66.064482,53.6042828
+1473,1,ATM Hospital Menonita Aibonito,Aibonito Menonita Hospital ATM,PR,,,FALSE,LMMJVSD,"""Calle José C. Vázquez, Carr 726, Urb Villa Rosales, Aibonito, PR""",Aibonito,18.143695,-66.262279,66.66719512
+1474,1,ATM Santa Isabel Pueblo,Santa Isabel Pueblo ATM,PR,,,FALSE,LMMJVSD,"""Calle Hostos #3, Santa Isabel, PR""",Santa Isabel,17.964897,-66.403854,76.92106318
+1475,1,ATM Walgreens University Plaza Mayaguez,Walgreens University Plaza Mayaguez ATM,PR,,,FALSE,LMMJVSD,"""2097 Ave Hostos, Mayaguez, PR""",Mayaguez,18.213948,-67.149408,128.0114924
+1476,1,ATM Walgreens Bairoa Caguas,Walgreens Bairoa Caguas ATM,PR,,,FALSE,LMMJVSD,"""101 Carr #1, Bo Bairoa, Caguas, PR""",Caguas,18.250174,-66.036383,50.88467468
+1477,1,ATM Walgreens Isla Verde,Walgreens Isla Verde ATM,PR,,,FALSE,LMMJVSD,"""5984 Ave Isla Verde, San Juan, PR""",San Juan,18.443202,-66.026225,50.3221943
+1478,1,ATM Farmacia San Miguel Naranjito,Naranjito San Miguel Pharmacy ATM,PR,,,FALSE,LMMJVSD,"""109 Calle Georgetti, Naranjito, PR""",Naranjito,18.300829,-66.245832,65.37580914
+1479,1,ATM Vega Alta Food Court,Vega Alta Food Court ATM,PR,,,FALSE,LMMJVSD,"""Carr #2, Km 29.7, Espinosa Ward, Vega Alta, PR""",Vega Alta,18.411485,-66.321169,70.6647523
+1480,1,ATM Burger King Coto Laurel Ponce,Burger King Coto Laurel Ponce ATM,PR,,,FALSE,LMMJVSD,"""Carr PR 506, Sector Coto Laurel, Ponce, PR""",Ponce,18.036938,-66.548645,86.6822765
+1481,1,ATM Arecibo Plaza,Arecibo Plaza ATM,PR,,,FALSE,LMMJVSD,"""Calle Palma y Avenida José de Diego, Arecibo, PR""",Arecibo,18.47189,-66.7152,98.01662382
+1482,1,ATM Walgreens Los Colobos Carolina,Walgreens Los Colobos Carolina ATM,PR,,,FALSE,LMMJVSD,"""150 Carr 857, Carolina, PR""",Carolina,18.375807,-65.932828,43.73972732
+1483,1,ATM Municipio Autonomo de Carolina,Municipality of Carolina ATM,PR,,,FALSE,LMMJVSD,"""Calle Ignacio Arzuaga, Int Fernández Juncos, Carolina Centro, Carolina, PR""",Carolina,18.381249,-65.955431,45.31155433
+1484,1,ATM Walgreens Santa Maria Guaynabo,Walgreens Santa Maria Guaynabo ATM,PR,,,FALSE,LMMJVSD,"""2505 Carr 841, Guaynabo, PR""",Guaynabo,18.375552,-66.094045,54.899068
+1485,1,ATM Walgreens Los Millones Bayamon,Walgreens Los Millones Bayamon   ATM,PR,,,FALSE,LMMJVSD,"""1000 Carr 167, Int Ave Los Millones, Bayamon, PR""",Bayamon,18.382035,-66.169606,60.13770894
+1486,1,ATM Walgreens Los Dominicos Levittown,Walgreens Los Dominicos Levittown    ATM,PR,,,FALSE,LMMJVSD,"""35 Ave Los Dominicos, Levittown, Toa Baja, PR""",Toa Baja,18.437996,-66.179441,60.89950221
+1487,1,ATM Costco Bayamon Este,Costco Bayamon Este ATM,PR,,,FALSE,LMMJVSD,"""125 Calle A, Parque Industrial Minillas, Bayamon, PR""",Bayamon,18.384153,-66.13835,57.97611487
+1488,1,ATM Caribbean Cinemas Fine Arts,Caribbean Cinemas Fine Arts ATM,PR,,,FALSE,LMMJVSD,"""Edificio Popular Center Torre Norte, Hato Rey, San Juan, PR""",San Juan,18.456071,-66.084505,54.37640444
+1489,1,ATM AEE Santurce,AEE Santurce ATM,PR,,,FALSE,LMMJVSD,"""1250 Ave Juan Ponce de León, San Juan, PR""",San Juan,18.451688,-66.076282,53.79849449
+1490,1,ATM Hospital Menonita Cayey,Cayey Menonita Hospital ATM,PR,,,FALSE,LMMJVSD,"""Carr 14, Km 0.3, Bo Sector Lomas, Cayey, PR""",Cayey,18.124068,-66.147426,58.77604283
+1491,1,ATM Walgreens Cayey,Walgreens Cayey ATM,PR,,,FALSE,LMMJVSD,"""Carr #1, 1000 Ave Jesús T. Piñero, Cayey, PR""",Cayey,18.123179,-66.136714,58.03893065
+1492,1,ATM Walgreens Manati,Walgreens Manati ATM,PR,,,FALSE,LMMJVSD,"""10 Carr 149, Manati, PR""",Manati,18.432556,-66.474763,81.32308732
+1493,1,ATM Ethicon San Lorenzo 1,Ethicon San Lorenzo 1 ATM,PR,,,FALSE,LMMJVSD,"""Carr 183, Km 8.3, San Lorenzo, PR""",San Lorenzo,18.198087,-65.972042,46.49996902
+1494,1,ATM Janssen Gurabo 1,Janssen Gurabo 1 ATM,PR,,,FALSE,LMMJVSD,"""Carr 933, Km 0.1, Bo Mamey, Gurabo, PR""",Gurabo,18.246511,-65.94941,44.86505831
+1495,1,ATM To Go Store Gurabo,To Go Store Gurabo ATM,PR,,,FALSE,LMMJVSD,"""Carr 189 Km 4.0 Int 931, Bo Navarro, Gurabo, PR""",Gurabo,18.245912,-66.002086,48.51324744
+1496,1,ATM Hospital Castañer,Castañer Hospital ATM,PR,,,FALSE,LMMJVSD,"""Carr 123 #44, Km 35.7, Bo Garzas, Lares, PR""",Lares,18.1185,-66.833144,106.197159
+1497,1,ATM MMM healthcare,MMM Healthcare ATM,PR,,,FALSE,LMMJVSD,"""411 Ave Kennedy, San Juan, PR""",San Juan,18.42454,-66.095638,55.08063265
+1498,1,ATM Taco Maker Mayaguez Mall,Taco Maker Mayaguez Mall ATM,PR,,,FALSE,LMMJVSD,"""Centro Comercial Mayaguez Mall, Carr #2, Km 159.4, Mayaguez, PR""",Mayaguez,18.155348,-67.14277,127.5935946
+1499,1,ATM Hotel La Concha,La Concha Hotel ATM,PR,,,FALSE,LMMJVSD,"""1077 Ave Ashford, Condado, San Juan, PR""",San Juan,18.457056,-66.07391,53.64713533
+1500,1,ATM Edificio Señorial Center,Señorial Center Building ATM,PR,,,FALSE,LMMJVSD,"""Ave. Lomas Verdes, Int. Carrs 177 y 52, San Juan, PR""",San Juan,18.368196,-66.071729,53.34615442
+1501,1,ATM Señorial Center 3,Señorial Center 3 ATM,PR,,,FALSE,LMMJVSD,"""Ave. Lomas Verdes, Int. Carrs 177 y 52, San Juan, PR""",San Juan,18.368407,-66.07357,53.47384512
+1502,1,ATM Señorial Center 4,Señorial Center 4 ATM,PR,,,FALSE,LMMJVSD,"""Ave. Lomas Verdes, Int. Carrs 177 y 52, San Juan, PR""",San Juan,18.368407,-66.07357,53.47384512
+1503,1,ATM Expreso Service Station Arecibo,Arecibo Express Service Station ATM,PR,,,FALSE,LMMJVSD,"""Carr 129, Km 5.6, Bo Hato Arriba, Arecibo, PR""",Arecibo,18.433818,-66.761969,101.2083827
+1504,1,ATM Coca Cola Cayey,Coca Cola Cayey ATM,PR,,,FALSE,LMMJVSD,"""Carr 735, Bo Montellano, Cayey, PR""",Cayey,18.125633,-66.13755,58.09053322
+1505,1,ATM Chelo Gas Aguadilla,Chelo Gas Aguadilla ATM,PR,,,FALSE,LMMJVSD,"""Carr #2, Km 117.2, Bo Ceiba Baja, Aguadilla, PR""",Aguadilla,18.457641,-67.073175,122.7827866
+1506,1,ATM Pueblo Plaza las Américas,Pueblo Plaza las Américas ATM,PR,,,FALSE,LMMJVSD,"""Ave Roosevelt y expreso Las Américas, Hato Rey, San Juan, PR""",San Juan,18.424331,-66.078091,53.8670409
+1507,1,ATM Econo Altamira,Econo Altamira ATM,PR,,,FALSE,LMMJVSD,"""1900 Ave Piñero, Esq Martínez Nadal, Guaynabo, PR""",Guaynabo,18.393298,-66.1042,55.623651
+1508,1,ATM Muñoz Rivera,Muñoz Rivera ATM,PR,,,FALSE,LMMJVSD,"""Ave. Muñoz Rivera 1125, Río Piedras, San Juan, PR""",San Juan,18.399274,-66.05584,52.2857492
+1509,1,ATM Hotel Marriott Aguadilla,Aguadilla Marriott Hotel ATM,PR,,,FALSE,LMMJVSD,"""West Parade/Antigua Base Ramey, Belt Rd, Aguadilla, PR""",Aguadilla,18.457056,-66.07391,53.64713533
+1510,1,ATM Forest Hills Shopping Center,Forest Hills Shopping Center ATM,PR,,,FALSE,LMMJVSD,"""Forest Hills Plaza, Carr 167, Km 21.3, Bayamon, PR""",Bayamon,18.387312,-66.163136,59.6957041
+1511,1,ATM Econo Los Colobos,Econo Los Colobos ATM,PR,,,FALSE,LMMJVSD,"""Centro Comercial Los Colobos, Carr #3, Km 14.7, Carolina, PR""",Carolina,18.375805,-65.924661,43.17454953
+1512,1,ATM Mr. Special Moca,Mr. Special Moca ATM,PR,,,FALSE,LMMJVSD,"""Carr 111, Km 4.4, Moca, PR""",Moca,18.396642,-67.115334,125.6547642
+1513,1,ATM Econo Juana Díaz,Econo Juana Díaz ATM,PR,,,FALSE,LMMJVSD,"""Carr 149, Km 67.1, Bo Lomas Ward, Juana Diaz, PR""",Juana Diaz,18.053802,-66.510036,83.97656537
+1514,1,ATM Ponce Mall 1,Ponce Mall 1 ATM,PR,,,FALSE,LMMJVSD,"""4990 Calle Cándido Hoyos, Ste 190, Ponce, PR""",Ponce,17.997381,-66.628682,92.30510804
+1516,1,ATM Mayaguez Resort & Casino,Mayaguez Resort & Casino ATM,PR,,,FALSE,LMMJVSD,"""Carr 104, Km 0.3, Sector Algarrobo, Mayaguez, PR""",Mayaguez,18.220096,-67.152737,128.2389683
+1517,1,ATM Universidad Catolica Mayaguez,Catholic University in Mayaguez ATM,PR,,,FALSE,LMMJVSD,"""Calle Post #482, Bo Sábalos, Mayaguez, PR""",Mayaguez,18.18108,-67.145077,127.7323703
+1518,1,ATM Asmar Energy Petroleum Inc,Asmar Energy Petroleum Inc ATM,PR,,,FALSE,LMMJVSD,"""Carr 887, Km 110, Carolina, PR""",Carolina,18.381455,-65.972165,46.46983197
+1519,1,ATM Walgreens Aguadilla,Walgreens Aguadilla ATM,PR,,,FALSE,LMMJVSD,"""Plaza Victoria, Carr #2, Aguadilla, PR""",Aguadilla,18.409286,-67.153306,128.2933044
+1520,1,ATM Gulf Saint Just,Gulf Saint Just ATM,PR,,,FALSE,LMMJVSD,"""Carr 860, Km 0.4, Saint Just, Carolina, PR""",Carolina,18.38027,-65.97801,46.8726826
+1521,1,ATM M. Agosto Service Station,M. Agosto Service Station ATM,PR,,,FALSE,LMMJVSD,"""Carr 185, Km 4.5, Sector Campo Rico, Canovanas, PR""",Canovanas,18.3434,-65.89398,41.01400918
+1522,1,ATM Hospital Damas Ponce,Ponce Damas Hospital ATM,PR,,,FALSE,LMMJVSD,"""2213, Ponce by Pass, Ponce, PR""",Ponce,17.997045,-66.617946,91.56550162
+1523,1,ATM Hospital Metropolitano,Metropolitan Hospital ATM,PR,,,FALSE,LMMJVSD,"""1785 Carr 21, Sector Las Lomas, Guaynabo, PR""",Guaynabo,18.389816,-66.098399,55.21755651
+1524,1,ATM Econo Plaza Carolina,Econo Plaza Carolina ATM,PR,,,FALSE,LMMJVSD,"""Centro Comercial Plaza Carolina, Ave Fragoso, Carolina, PR""",Carolina,18.392256,-65.972304,46.49563925
+1525,1,ATM Hospital Pavia Santurce,Hospital Pavia Santurce ATM,PR,,,FALSE,LMMJVSD,"""1462 Calle Asia, Santurce, Santurce, PR""",Santurce,18.444713,-66.069728,53.33025824
+1526,1,ATM Sucursal Aguadilla Mall Drive-up,Aguadilla Mall Branch Drive-up ATM,PR,,,FALSE,LMMJVSD,"""Ave. Los Corazones, Carr. 2 Km. 126.5, Aguadilla, PR""",Aguadilla,18.424764,-67.149916,128.0693342
+1527,1,ATM Sucursal Galería Condado Drive-up,Galería Condado Branch Drive-up ATM,PR,,,FALSE,LMMJVSD,"""Ave. Roberto H. Todd 100, San Juan, PR""",San Juan,18.452738,-66.073615,53.61671159
+1528,1,ATM Hospital del Maestro Hato Rey,Hospital del Maestro Hato Rey ATM,PR,,,FALSE,LMMJVSD,"""550 Calle Sergio Cuevas Bustamante, San Juan, PR""",San Juan,18.412012,-66.068253,53.16489029
+1529,1,ATM Sucursal Mendez Vigo Drive-up,Mendez Vigo Branch Drive-up ATM,PR,,,FALSE,LMMJVSD,"""Mendez Vigo 15 Oeste, Mayaguez, PR""",Mayaguez,18.202022,-67.141856,127.49511
+1530,1,ATM Hospital Metropolitano Arecibo,Arecibo Metropolitan Hospital ATM,PR,,,FALSE,LMMJVSD,"""Zona Industrial Víctor Rojas, Arecibo, PR""",Arecibo,18.459628,-66.740549,99.75496622
+1531,1,ATM Hospital Perea Mayagüez,Mayaguez Perea Hospital ATM,PR,,,FALSE,LMMJVSD,"""15 Calle Dr Basora, Mayaguez, PR""",Mayaguez,18.20263,-67.139822,127.3538241
+1533,1,ATM Popular Center Food Court,Popular Center Food Court ATM,PR,,,FALSE,LMMJVSD,"""Edif Popular Center, Hato Rey, Hato Rey, PR""",Hato Rey,18.427248,-66.058315,52.50548342
+1534,1,ATM Farmacia Sabana Grande,Sabana Grande Pharmacy ATM,PR,,,FALSE,LMMJVSD,"""37 Calle Francisco Mariano Quiñones, Sabana Grande, PR""",Sabana Grande,18.078819,-66.966864,115.507593
+1535,1,ATM Mr. Special Yauco Plaza,Mr. Special Yauco Plaza ATM,PR,,,FALSE,LMMJVSD,"""Carr #128, frente a Carr #2, Yauco, PR""",Yauco,18.026884,-66.852826,107.7134265
+1536,1,ATM Hatillo Kash & Karry,Hatillo Kash & Karry ATM,PR,,,FALSE,LMMJVSD,"""Centro Comercial Quebradillas, Carr #2, Km 100.8, Quebradillas, PR""",Quebradillas,18.47167,-66.935197,113.2443216
+1537,1,ATM Plaza del Norte Food Court Hatillo,Plaza del Norte Food Court Hatillo ATM,PR,,,FALSE,LMMJVSD,"""506 Calle Truncado, Suite #110, Hatillo, PR""",Hatillo,18.479894,-66.771555,101.9277852
+1538,1,ATM Burger King Cayey,Burger King Cayey ATM,PR,,,FALSE,LMMJVSD,"""Calle José de Diego, Cayey, PR""",Cayey,18.113716,-66.165076,60.02001177
+1539,1,ATM Mr. Special San Sebastián,Mr. Special San Sebastián ATM,PR,,,FALSE,LMMJVSD,"""Carr 111, Km 22.10, Ave Emérito Estrada, Bo Piedras Blancas, San Sebastian, PR""",San Sebastian,18.332338,-66.988768,116.8592553
+1540,1,ATM Total Laurel,Total Laurel ATM,PR,,,FALSE,LMMJVSD,"""Ave Laurel, Urb Lomas Verdes, Bayamon, PR""",Bayamon,18.376217,-66.14685,58.55593179
+1541,1,ATM Walgreens Aibonito,Walgreens Aibonito ATM,PR,,,FALSE,LMMJVSD,"""305 Ave San José, Aibonito, PR""",Aibonito,18.141366,-66.259293,66.46530167
+1542,1,ATM Walgreens Toa Alta,Walgreens Toa Alta ATM,PR,,,FALSE,LMMJVSD,"""Carr 167, Km 4.7, Bo Quebrada Cruz, Toa Alta, PR""",Toa Alta,18.340766,-66.203409,62.44622724
+1543,1,ATM Walgreens Arroyo,Walgreens Arroyo ATM,PR,,,FALSE,LMMJVSD,"""Arroyo Town Center, 800 Carr PR-3, Cuatro Calles Ward, Arroyo, PR""",Arroyo,17.974033,-66.055353,53.01073487
+1544,1,ATM Walgreens Caparra,Walgreens Caparra ATM,PR,,,FALSE,LMMJVSD,"""#184 Carr #2, Urb Villa Caparra, Guaynabo, PR""",Guaynabo,18.323109,-66.142461,58.21649254
+1545,1,ATM Garaje Puma Hatillo,Puma Hatillo Gast Station ATM,PR,,,FALSE,LMMJVSD,"""Carr #2, Km 87.4, Bo Pueblo, Hatillo, PR""",Hatillo,18.487785,-66.800585,103.9478226
+1546,1,ATM Mr. Special Mayaguez Balboa,Mr. Special Mayaguez Balboa ATM,PR,,,FALSE,LMMJVSD,"""Calle Balboa, Esq Manuel Cintrón, Mayaguez, PR""",Mayaguez,18.20234,-67.134061,126.9548794
+1547,1,ATM Econo Villa del Carmen,Econo Villa del Carmen ATM,PR,,,FALSE,LMMJVSD,"""Plaza del Carmen Shopping, Carr #1, Km 22, Caguas, PR""",Caguas,18.237385,-66.041169,51.22795819
+1548,1,ATM Econo Cayey,Econo Cayey ATM,PR,,,FALSE,LMMJVSD,"""Carr #1, Km 56.2, Bo Montellano, Cayey, PR""",Cayey,18.118581,-66.138303,58.16022223
+1549,1,ATM Econo Morell Campos,Econo Morell Campos ATM,PR,,,FALSE,LMMJVSD,"""Carr PR-10, Bo Canas, Km 0.1, Ponce, PR""",Ponce,18.012832,-66.635713,92.75069818
+1550,1,ATM Wall Plaza Las Américas 1,Wall Plaza Las Américas 1 ATM,PR,,,FALSE,LMMJVSD,"""Centro Comercial Plaza Las Américas, 2do nivel frente a los cines, San Juan, PR""",San Juan,18.420492,-66.073292,53.52819946
+1551,1,ATM Wall Plaza Las Américas 2,Wall Plaza Las Américas 2 ATM,PR,,,FALSE,LMMJVSD,"""Centro Comercial Plaza Las Américas, 2do nivel frente a los cines, San Juan, PR""",San Juan,18.420492,-66.073292,53.52819946
+1552,1,ATM Estacionamiento Municipal Ruperto Pérez,Ruperto Pérez Parking ATM,PR,,,FALSE,LMMJVSD,"""93 Calle Luna, San German, PR""",San German,18.081278,-67.04156,120.6724617
+1553,1,ATM Hotel Hyatt Place Bayamón,Bayamón Hyatt Place Hotel ATM,PR,,,FALSE,LMMJVSD,"""Carr 167, Ave Ramón Luis Rivera, Bayamon, PR""",Bayamon,18.501302,-67.140074,127.4632497
+1554,1,ATM Ciudadela,Ciudadela ATM,PR,,,FALSE,LMMJVSD,"""1511 Ave Ponce de León, Santurce, PR""",Santurce,18.44602,-66.0671,53.15160184
+1555,1,ATM Walgreens Isabela,Walgreens Isabela ATM,PR,,,FALSE,LMMJVSD,"""3480 Ave Militar, Isabela, PR""",Isabela,18.471478,-67.024599,119.4337729
+1556,1,ATM Sams Mayaguez,Sams Mayaguez  ATM,PR,,,FALSE,LMMJVSD,"""Carr #2, Km 180, Bo Sabanetas, Mayaguez, PR""",Mayaguez,18.243288,-67.163407,128.9684212
+1557,1,ATM Walgreens Dorado,Walgreens Dorado ATM,PR,,,FALSE,LMMJVSD,"""4210 Carr 693, Dorado, PR""",Dorado,18.421255,-66.266715,66.90921087
+1558,1,ATM Puma Villa del Carmen,Puma Villa del Carmen ATM,PR,,,FALSE,LMMJVSD,"""2053 Ponce by Pass, Suite 201, Ponce, PR""",Ponce,17.977755,-66.609969,91.06850298
+1559,1,ATM Hotel Hyatt Place Manatí,Manatí Hyatt Place Hotel ATM,PR,,,FALSE,LMMJVSD,"""122 Carr PR-2, Manati, PR""",Manati,18.435139,-66.476863,81.4718031
+1560,1,ATM Puma Bolera,Puma Bolera ATM,PR,,,FALSE,LMMJVSD,"""Carr 189, Km 2.0, salida de Caguas a Gurabo, Caguas, PR""",Caguas,18.2398,-66.01736,49.57690221
+1561,1,ATM Econo Plaza Rial,Econo Plaza Rial ATM,PR,,,FALSE,LMMJVSD,"""Plaza Rial, Carr 185, Int PR-3, Km 0.07, Canovanas, PR""",Canovanas,18.374151,-65.901221,41.55016282
+1562,1,ATM Walgreens St. Thomas,Walgreens St. Thomas ATM,VI,,,FALSE,LMMJVSD,"""4030 Annas Retreat, St. Thomas, VI""",St. Thomas,18.335609,-64.888909,28.65370364
+1563,1,ATM UVI - Brewers Bay Popular Center,UVI - Brewers Bay Popular Center ATM,VI,,,FALSE,LMMJVSD,"""#2 John Brewers Bay, St. Thomas, VI""",St. Thomas,18.342542,-64.972321,22.88898473
+1564,1,ATM Cupey Center,Cupey Center ATM,PR,,,FALSE,LMMJVSD,"""Carr 176, Km 1.2, San Juan, PR""",San Juan,18.380254,-66.05493,52.19662443
+1565,1,ATM Econo Isabela,Econo Isabela ATM,PR,,,FALSE,LMMJVSD,"""Carr PR-459, Isabela, PR""",Isabela,18.500977,-67.026059,119.5705857
+1566,1,ATM Econo Aguadilla G5,Econo Aguadilla G5 ATM,PR,,,FALSE,LMMJVSD,"""Carr #110, Km 9.8, Gate 5 Plaza, Bo Maleza Alta, Aguadilla, PR""",Aguadilla,18.502092,-67.119157,126.016243
+1567,1,ATM Coliseo Roberto Clemente Hato Rey,Hato Rey Roberto Clemente Coliseum ATM,PR,,,FALSE,LMMJVSD,"""Ave Franklin Delano Roosevelt, San Juan, PR""",San Juan,18.41578102,-66.07516479,53.64936146
+1568,1,ATM UPR Centro de Estudiantes Rio Piedras,UPR Río Piedras Student Center ATM,PR,,,FALSE,LMMJVSD,"""Ave Barbosa & Avenida Ponce de León, San Juan, PR""",San Juan,18.404347,-66.047747,51.73384022
+1569,1,ATM Total Yauco,Total Yauco ATM,PR,,,FALSE,LMMJVSD,"""Carr #116, Sector cruce 4 calles, Yauco, PR""",Yauco,18.01884,-66.871763,109.0383684
+1570,1,ATM Garaje Total Jayuya,Total Jayuya Gas Station ATM,PR,,,FALSE,LMMJVSD,"""Calle Guillermo Esteves, Esq Vicéns, Jayuya, PR""",Jayuya,18.218089,-66.594088,89.53812659
+1571,1,ATM Walgreens Camuy,Walgreens Camuy ATM,PR,,,FALSE,LMMJVSD,"""Carr #2, Calle Remanso de Paz, Camuy, PR""",Camuy,18.470039,-66.877834,109.2712225
+1572,1,ATM Walgreens Hatillo Plaza del Mar,Walgreens Hatillo Plaza del Mar ATM,PR,,,FALSE,LMMJVSD,"""Carr #2, Int PR-130, Hatillo, PR""",Hatillo,18.482741,-66.823319,105.5141385
+1573,1,ATM Walgreens Naguabo,Walgreens Naguabo ATM,PR,,,FALSE,LMMJVSD,"""105 Carr 31, Naguabo, PR""",Naguabo,18.21381,-65.738071,30.29992142
+1574,1,ATM Walgreens Gurabo,Walgreens Gurabo ATM,PR,,,FALSE,LMMJVSD,"""170 Carr 189, Gurabo, PR""",Gurabo,18.253814,-65.968133,46.15483782
+1575,1,ATM Farmacia Nieves,Nieves Pharmacy ATM,PR,,,FALSE,LMMJVSD,"""16N, Ave Principal, Toa Alta, PR""",Toa Alta,18.36271,-66.212216,63.07046789
+1576,1,ATM Edificio Caparra Drive Up,Caparra Building Drive Up ATM,PR,,,FALSE,LMMJVSD,"""1451 Ave FD Roosevelt, San Juan, PR""",San Juan,18.413512,-66.097383,55.1821988
+1577,1,ATM Mall of San Juan 1,Mall of San Juan 1 ATM,PR,,,FALSE,LMMJVSD,"""1000 Mall of San Juan Blvd, Store 131A, San Juan, PR""",San Juan,18.412441,-66.025339,50.19793497
+1578,1,ATM Mall of San Juan 2,Mall of San Juan 2 ATM,PR,,,FALSE,LMMJVSD,"""1000 Mall of San Juan Blvd, Store 131A, San Juan, PR""",San Juan,18.412441,-66.025339,50.19793497
+1579,1,ATM Econo Vega Baja Plaza,Econo Vega Baja Plaza ATM,PR,,,FALSE,LMMJVSD,"""Centro Comercial Plaza Vega Baja, Carr #2, Int 155, Vega Baja, PR""",Vega Baja,18.443677,-66.378047,74.64581638
+1580,1,ATM Garaje Puma San Lorenzo,Garaje Puma San Lorenzo ATM,PR,,,FALSE,LMMJVSD,"""Calle José de Diego, Int Carr 181, San Lorenzo, PR""",San Lorenzo,18.19268,-65.966013,46.09333314
+1581,1,ATM Econo San Sebastian,Econo San Sebastian ATM,PR,,,FALSE,LMMJVSD,"""Carr 111, Km 18.5, Bo Bahomamey, San Sebastian, PR""",San Sebastian,18.342594,-66.994291,117.244424
+1582,1,ATM Hyatt House San Juan,San Juan Hyatt House ATM,PR,,,FALSE,LMMJVSD,"""Distrito de Convenciones, 615 Ave Fernández Juncos, San Juan, PR""",San Juan,18.456332,-66.087861,54.60875282
+1583,1,ATM Econo Condado Moderno,Econo Condado Moderno ATM,PR,,,FALSE,LMMJVSD,"""Ave Rafael Cordero, Esq Acosta, Caguas, PR""",Caguas,18.240003,-66.02909,50.38891933
+1584,1,ATM Torre Chardon Hato Rey,Torre Chardon Hato Rey ATM,PR,,,FALSE,LMMJVSD,"""350 Calle Carlos F. Chardón, Hato Rey, PR""",Hato Rey,18.423008,-66.068334,53.1900139
+1587,1,ATM Turabo Service Station Caguas,Turabo Service Station Caguas ATM,PR,,,FALSE,LMMJVSD,"""Carr 172 Km 0.3, Bo Cañaboncito, Caguas, PR""",Caguas,18.211787,-66.059671,52.53976909
+1588,1,ATM Alcaldía Aguadilla,Alcaldía Aguadilla ATM,PR,,,FALSE,LMMJVSD,"""Calle Ruiz Belvis, Aguadilla, PR""",Aguadilla,18.429561,-66.154485,59.15877182
+1589,1,ATM Econo Lares,Econo Lares ATM,PR,,,FALSE,LMMJVSD,"""Ave. Los Patriotas Carr 111, Km 34.7, Lares, PR""",Lares,18.299386,-66.874777,108.9570243
+1590,1,ATM Farmacia Gloriana Quebradillas,Quebradillas Gloriana Pharmacy ATM,PR,,,FALSE,LMMJVSD,"""Carr #2 Km. 96.8, Bo Cocos, Quebradillas, PR""",Quebradillas,18.458831,-66.902144,110.9411771
+1591,1,ATM Municipio de Cataño,Municipality of Cataño ATM,PR,,,FALSE,LMMJVSD,"""Ave Las Nereidas #96, Catano, PR""",Catano,18.441192,-66.121598,56.90695599
+1592,1,ATM Altamira Center 1,Altamira Center 1 ATM,PR,,,FALSE,LMMJVSD,"""Edif. Altamira, Ave. Martinez Nadal, Esq. Jesus T. Piñero, Guaynabo, PR""",Guaynabo,18.394337,-66.103722,55.59197035
+1593,1,ATM Altamira Center 2,Altamira Center 2 ATM,PR,,,FALSE,LMMJVSD,"""Edif. Altamira, Ave. Martinez Nadal, Esq. Jesus T. Piñero, Guaynabo, PR""",Guaynabo,18.394337,-66.103722,55.59197035
+1594,1,ATM Supermax de Diego,Supermax de Diego ATM,PR,,,FALSE,LMMJVSD,"""Ave de Diego, #114, San Juan, PR""",San Juan,18.45161,-66.064754,53.0022105
+1595,1,ATM Galería Paseos,Galería Paseos ATM,PR,,,FALSE,LMMJVSD,"""100 Grand Boulevard, Ave. Felisa Rincon de Gautier, San Juan, PR""",San Juan,18.356724,-66.063277,52.75014709
+1596,1,ATM Econo Los Caobos Ponce,Econo Los Caobos Ponce ATM,PR,,,FALSE,LMMJVSD,"""Sector Fátima, Carr #1, Bo Bucaná, Ponce, PR""",Ponce,18.005172,-66.592294,89.77471445
+1597,1,ATM Supermax Dorado,Supermax Dorado ATM,PR,,,FALSE,LMMJVSD,"""Centro Comercial Dorado Del Mar, Carr 693, Km 8, Dorado, PR""",Dorado,18.463503,-66.2703828,67.23454905
+1598,1,ATM Hospital Municipal de SJ,Municipal Hospital of San Juan ATM,PR,,,FALSE,LMMJVSD,"""Centro Médico, Bo Monacillos, San Juan, PR""",San Juan,18.390699,-66.077796,53.79276079
+1599,1,ATM Gulf Orocovis,Gulf Orocovis ATM,PR,,,FALSE,LMMJVSD,"""Carr 155, Km 31.2, Bo Gato, Orocovis, PR""",Orocovis,18.14256,-66.23518,64.79632871
+1600,1,ATM Centro Ahorros Villalba,Centro Ahorros Villalba ATM,PR,,,FALSE,LMMJVSD,"""Carr 149, Km 58, Tierra Santa, Villalba, PR""",Villalba,18.115961,-66.504074,83.43557164
+1601,1,ATM Marriott Isla Verde,Marriott Isla Verde ATM,PR,,,FALSE,LMMJVSD,"""7012, Avenida Boca de Cangrejos, Carolina, PR""",Carolina,18.443397,-66.009426,49.16265077
+1603,1,ATM Humacao Pueblo,Humacao Pueblo ATM,PR,,,FALSE,LMMJVSD,"""Humacao Shopping Center, Ave Font Martelo, Esq Francisco Vega, Humacao, PR""",Humacao,18.150419,-65.828708,36.73165373
+1604,1,ATM Professional Office Park,Professional Office Park ATM,PR,,,FALSE,LMMJVSD,"""Calle San Roble, San Juan, PR""",San Juan,18.3755,-66.0727,53.4212058
+1606,2,Sucursal Virgin Gorda,Virgin Gorda Branch,VI,(284) 852-3635,,FALSE,LMMJVSD,"""Virgin Gorda Yacht Harbour,, The Valley, Virgin Gorda, VI""",Virgin Gorda,18.447844,-64.436441,60.13555759
+1610,2,Sucursal Mall of San Juan,Mall of San Juan Branch,PR,(787) 281-7200,,FALSE,LMMJVSD,"""1000 The Mall of San Juan Boulevard, Store 131A, San Juan, PR""",San Juan,18.41272,-66.025386,50.20168805
+1616,3,Centro Hipotecario Aguadilla Mall,Mortgage Center Aguadilla Mall,PR,,,FALSE,LMMJVSD,"""Sucursal BPPR Aguadilla Mall, Ave. Los Corazones, Carr. #2 Km 126.5, Aguadilla, PR""",Aguadilla,18.425239,-67.149178,128.0185694
+1617,3,Centro Hipotecario Campo Rico,Mortgage Center Campo Rico,PR,,,FALSE,LMMJVSD,"""Sucursal BPPR Campo Rico, Ave. Roberto Sánchez, Vilella (antes Ave. Campo Rico) Esq. Expreso Loíza, Carolina, PR""",Carolina,18.416838,-65.989059,47.69810681
+1618,3,Centro Hipotecario Condado Gallery,Mortgage Center Condado Gallery,PR,,,FALSE,LMMJVSD,"""Sucursal BPPR Condado Gallery, 100 Ave. Roberto H. Todd, San Juan, PR""",San Juan,18.452906,-66.073296,53.59506858
+1619,3,Centro Hipotecario Rexville Town Center,Mortgage Center Rexville Town Center,PR,,,FALSE,LMMJVSD,"""Sucursal BPPR Rexville Town Center, 3011 Carr. #167 Km 0.60; Bo. Pájaros, Bayamon, PR""",Bayamon,18.361241,-66.188957,61.45834815
+1620,3,Centro Hipotecario Altamira,Mortgage Center Altamira,PR,,,FALSE,LMMJVSD,"""Altamira Popular Center, 1901 Ave. Jesús T. Piñero, San Juan, PR""",San Juan,18.394563,-66.103325,55.56480202
+1621,3,Centro Hipotecario Cayey,Mortgage Center Cayey,PR,,,FALSE,LMMJVSD,"""Sucursal BPPR Montellano, Carr. #1 Km 56.6, Bo. Montellanos, Cayey, PR""",Cayey,18.115936,-66.145966,58.69574526
+1622,3,Centro Hipotecario Ponce Towne Centre,Mortgage Center Ponce Towne Centre,PR,,,FALSE,LMMJVSD,"""Carr. #2 Km 222.4, Ponce, PR""",Ponce,17.996386,-66.636864,92.87208974
+1623,3,Centro Hipotecario Canóvanas,Mortgage Center Canóvanas,PR,,,FALSE,LMMJVSD,"""Sucursal BPPR Canóvanas Outlet Mall, Carr. #3 Km 18.4, Canovanas, PR""",Canovanas,18.374623,-65.884491,40.39321833
+1624,3,Centro Hipotecario Humacao,Mortgage Center Humacao,PR,,,FALSE,LMMJVSD,"""Sucursal BPPR Humacao Este, Centro Comercial, Triumph Plaza Carr. 3 Km 83.6 Rio Abajo War, Humacao, PR""",Humacao,18.147571,-65.817001,35.93642683
+1625,1,ATM Calle Loiza 2,Calle Loiza 2 ATM,PR,,,FALSE,LMMJVSD,"""Cale Loiza 1812, San Juan, PR""",San Juan,18.451288,-66.058589,52.57575005
+1626,1,ATM Parque Escorial 4,Parque Escorial 4 ATM,PR,,,FALSE,LMMJVSD,"""Centro Comercial Parque Escorial, 65 de Infanteria Km. 5, Carolina, PR""",Carolina,18.394474,-66.000264,48.43338291
+1627,1,ATM Comerio 2,Comerio ATM,PR,,,FALSE,LMMJVSD,"""Calle Georgetti 57, Comerio, PR""",Comerio,18.217973,-66.226806,64.10187075
+1628,1,ATM Corozal 3,Corozal 3 ATM,PR,,,FALSE,LMMJVSD,"""Carr. 159 Km. 15.1, Corozal, PR""",Corozal,18.34221,-66.31126,69.91877349
+1629,1,ATM Manati 3,Manati 3 ATM,PR,,,FALSE,LMMJVSD,"""Monte Real Shopping Center, Carr. 2 km 45.6, Espacio #5, Manati, PR""",Manati,18.392008,-66.157724,59.32669385
+1630,1,ATM Manati 4,Manati 4 ATM,PR,,,FALSE,LMMJVSD,"""Monte Real Shopping Center, Carr. 2 km 45.6, Espacio #5, Manati, PR""",Manati,18.392008,-66.157724,59.32669385
+1631,1,ATM Hatillo 3,Hatillo 3 ATM,PR,,,FALSE,LMMJVSD,"""Carr. 2 Km. 86.6, Bo. Pueblo, Hatillo, PR""",Hatillo,18.487449,-66.813645,104.8511323
+1632,1,ATM San Sebastián 3,San Sebastián 3 ATM,PR,,,FALSE,LMMJVSD,"""Carr. 111, Int. 446 Km. 18 Bo. Guatemala, San Sebastian, PR""",San Sebastian,18.346729,-66.999076,117.5771765
+1633,1,ATM Isabela 2,Isabela 2 ATM,PR,,,FALSE,LMMJVSD,"""Plazoleta de Isabela Barrio Mora, Carr. #4494 Este Km.1 Int. Carr.#2, Isabela, PR""",Isabela,18.47269,-67.0242,119.407504
+1634,1,ATM Isabela 3,Isabela 3 ATM,PR,,,FALSE,LMMJVSD,"""Plazoleta de Isabela Barrio Mora, Carr. #4494 Este Km.1 Int. Carr.#2, Isabela, PR""",Isabela,18.47269,-67.0242,119.407504
+1635,1,ATM Isabela 4,Isabela 4 ATM,PR,,,FALSE,LMMJVSD,"""Plazoleta de Isabela Barrio Mora, Carr. #4494 Este Km.1 Int. Carr.#2, Isabela, PR""",Isabela,18.47269,-67.0242,119.407504
+1636,1,ATM Isabela 5,Isabela 5 ATM,PR,,,FALSE,LMMJVSD,"""Plazoleta de Isabela Barrio Mora, Carr. #4494 Este Km.1 Int. Carr.#2, Isabela, PR""",Isabela,18.47269,-67.0242,119.407504
+1637,1,ATM Vieques 2,Vieques 2 ATM,PR,,,FALSE,LMMJVSD,"""Calle Muñoz Rivera 115, Vieques, PR""",Vieques,18.148959,-65.442432,10.66828038
+1638,1,ATM Santa Isabel 3,Santa Isabel 3 ATM,PR,,,FALSE,LMMJVSD,"""Carr. 153 Int. Carr. 542, Km. 57.7 Bo. Felicia Dos, Santa Isabel, PR""",Santa Isabel,18.010181,-66.383196,75.34950741
+1639,1,ATM Virgen Gorda,Virgen Gorda ATM,PR,,,FALSE,LMMJVSD,"""Virgin Gorda Yatch Harbour, Virgin Gorda, PR""",Virgin Gorda,18.447844,-64.436441,60.13555759
+1640,1,ATM Mall of San Juan 3,Mall San Juan 3 ATM,PR,,,FALSE,LMMJVSD,"""1000 Mall of San Juan Blvd, Store 131A, San Juan, PR""",San Juan,18.412441,-66.025339,50.19793497
+1641,1,ATM Culebra 2,Culebra 2 ATM,PR,,,FALSE,LMMJVSD,"""Calle Pedro Marquez 9, Culebra, PR""",Culebra,18.30176,-65.302193,0.004681564
+1642,1,ATM Cabo Rojo La Hacienda 4,Cabo Rojo La Hacienda 4 ATM,PR,,,FALSE,LMMJVSD,"""Carr. 100 Km 7.5, Bo. Miradero, Cabo Rojo, PR""",Cabo Rojo,18.088754,-67.156637,128.6266593
+1643,1,ATM Autoridad de Acueductos y Alcantarrillados,Autoridad de Acueductos y Alcantarrillados ATM,PR,,,FALSE,LMMJVSD,"""Edif Sergio Cuevas Bustamante 604, Ave Barbosa Hato Rey, San Juan, PR""",San Juan,18.414154,-66.043259,51.44012786
+1644,1,ATM Mr Special Plaza Mayaguez,Mr Special Plaza Mayaguez ATM,PR,,,FALSE,LMMJVSD,"""Carretera #2, Km 157.3, Mayaguez, PR""",Mayaguez,18.161195,-67.146238,127.8286616
+1645,1,ATM San Juan District 1,San Juan District 1 ATM,PR,,,FALSE,LMMJVSD,"""250 Convention Blvd, San Juan, PR""",San Juan,18.455676,-66.091284,54.84362714
+1646,1,ATM San Juan District 2,San Juan District 2 ATM,PR,,,FALSE,LMMJVSD,"""250 Convention Blvd, San Juan, PR""",San Juan,18.455676,-66.091284,54.84362714
+1647,1,ATM San Juan District 3,San Juan District 2 ATM,PR,,,FALSE,LMMJVSD,"""250 Convention Blvd, San Juan, PR""",San Juan,18.455676,-66.091284,54.84362714
+1648,1,ATM Villa Maria Manati,Villa Maria Manati ATM,PR,,,FALSE,LMMJVSD,"""Carretera Estatal 2 KM 45.6, Espacio 5, Monte Real Shopping Center, Manati, PR""",Manati,18.431511,-66.488859,82.29744872
+1649,1,ATM Albergue Olimpico Salinas,Albergue Olimpico Salinas ATM,PR,,,FALSE,LMMJVSD,"""PR 712 Km 0.3, Salinas, PR""",Salinas,18.035367,-66.238267,65.29327163
+1650,1,ATM Total Corozal,Total Corozal ATM,PR,,,FALSE,LMMJVSD,"""PR 159 Km 14.5, Barrio Cibuco Corozal, PR""",Corozal,18.339031,-66.322013,70.66233679
+1651,1,ATM Ventana al Mar Condado,Ventana al Mar Condado ATM,PR,,,FALSE,LMMJVSD,"""1054 Ave Ashford, San Juan, PR""",San Juan,18.457221,-66.07498,53.72140173
+1652,1,ATM Morovis CDT,Morovis CDT ATM,PR,,,FALSE,LMMJVSD,"""#2 Carr Patron, Morovis, PR""",Morovis,18.326366,-66.40442,76.36763289
+1653,1,ATM Hotel San Juan,Hotel San Juan ATM,PR,,,FALSE,LMMJVSD,"""6063 Isla Verde Avenue, Carolina, PR""",Carolina,18.4437,-66.064,52.93236095
+1654,1,ATM Mayaguez Suau 3,Mayaguez Suau 3 ATM,PR,,,FALSE,LMMJVSD,"""1 Calle Suau, Mayaguez, PR""",Mayaguez,18.203902,-67.145852,127.7708176
