@@ -95,9 +95,6 @@
         <activity
             android:name=".ShowSavedLocationList"
             android:exported="false" />
-        <activity
-            android:name=".MainActivity"
-            android:exported="true"/>
 
         <activity
             android:name="androidx.car.app.activity.CarAppActivity"
