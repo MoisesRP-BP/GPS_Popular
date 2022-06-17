@@ -71,30 +71,25 @@
             android:value="1"
             tools:ignore="MetadataTagInsideApplicationTag" />
 
-        <service
-            android:name="intern.popular.gps_popular.MiBanco"
-            android:foregroundServiceType="location"
-            android:exported="true">
+                <service
+                    android:name="intern.popular.gps_popular.MiBanco"
+                    android:enabled="true"
+                    android:exported="true">
+                    <intent-filter>
+                        <action android:name="androidx.car.app.CarAppService" />
+                        <category android:name="androidx.car.app.category.NAVIGATION"/>
+                    </intent-filter>
+                </service>
 
-            <intent-filter>
-                <action android:name="androidx.car.app.CarAppService" />
-                <category android:name="androidx.car.app.category.NAVIGATION"/>
-            </intent-filter>
-        </service>
-        <!--        <service-->
-        <!--            android:name="intern.popular.gps_popular.MiBanco"-->
-        <!--            android:enabled="true"-->
-        <!--            android:exported="true">-->
-        <!--        </service>-->
+<!--        <activity-->
+<!--            android:name=".MapsActivity"-->
+<!--            android:exported="false"-->
+<!--            android:label="@string/title_activity_maps" />-->
 
-        <activity
-            android:name=".MapsActivity"
-            android:exported="false"
-            android:label="@string/title_activity_maps" />
+<!--        <activity-->
+<!--            android:name=".ShowSavedLocationList"-->
+<!--            android:exported="false" />-->
 
-        <activity
-            android:name=".ShowSavedLocationList"
-            android:exported="false" />
 
         <activity
             android:name="androidx.car.app.activity.CarAppActivity"

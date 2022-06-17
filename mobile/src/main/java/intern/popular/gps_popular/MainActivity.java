@@ -115,10 +115,11 @@ public class MainActivity extends AppCompatActivity {
 
                 //add elements to the list
                 MyApplication myApplication= (MyApplication) getApplicationContext();
-                savedLocations= myApplication.getMylocations();
+//                savedLocations= myApplication.getMylocations();
 
                 List<Location> data = readLocationData();
 
+                System.out.println(data);
                 for(Location location: data){
                     savedLocations.add(location);
                 }
