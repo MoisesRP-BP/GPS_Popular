@@ -80,17 +80,6 @@
 <!--            android:exported="true">-->
 <!--        </service>-->
 
-        <activity
-            android:name=".MapsActivity"
-            android:exported="false"
-            android:label="@string/title_activity_maps" />
-
-        <activity
-            android:name=".ShowSavedLocationList"
-            android:exported="false" />
-        <activity
-            android:name=".MainActivity"
-            android:exported="true"/>
 
         <activity
             android:name="androidx.car.app.activity.CarAppActivity"
