@@ -276,7 +276,7 @@ public class MainActivity extends AppCompatActivity {
 
     private List<LocationSample> locationSamples= new ArrayList<>();
 
-    private List<Location> readLocationData() {
+    public List<Location> readLocationData() {
         InputStream is = getResources().openRawResource(R.raw.data);
         BufferedReader reader = new BufferedReader(
                 new InputStreamReader(is, Charset.forName("UTF-8"))

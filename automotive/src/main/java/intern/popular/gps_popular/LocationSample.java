@@ -1,6 +1,25 @@
 package intern.popular.gps_popular;
 
-public class LocationSample {
+import android.content.res.Resources;
+import android.location.Location;
+import android.util.Log;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+import com.opencsv.CSVReader;
+
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.nio.charset.Charset;
+import java.util.ArrayList;
+import java.util.List;
+
+public class LocationSample extends AppCompatActivity {
     private int id;
     private int type;
     private String name;
@@ -138,4 +157,66 @@ public class LocationSample {
                 ", lon=" + lon +
                 '}';
     }
+
+    public List<Location> readLocationData() throws FileNotFoundException {
+
+        String csvfileString = this.getApplicationInfo().dataDir + File.separatorChar + "data.csv";
+        File csvfile = new File(csvfileString);
+
+        CSVReader reader = new CSVReader( new FileReader("csvfile.getAbsolutePath()"));
+        List<Location> location = new ArrayList<>();
+        String[] lines = new String[0];
+        int i = 0;
+        try{
+            //remove header
+            reader.readNext();
+
+            while((lines = reader.readNext())!= null){
+
+                String line = lines[0];
+                //Split by ',' except commas in qoutes e.g. "San Juan, Puerto Rico"
+                String[] tokens = line.split(",(?=(?:[^\"]*\"[^\"]*\")*[^\"]*$)", -1);
+
+                //Read data
+                LocationSample sample = new LocationSample();
+
+                sample.setId(Integer.parseInt(tokens[0]));
+                sample.setType(Integer.parseInt(tokens[1]));
+                sample.setName(tokens[2]);
+                sample.setName_en(tokens[3]);
+                sample.setArea(tokens[4]);
+                if(tokens[5].length()>0){
+                    sample.setPhone(tokens[5]);
+                } else{
+                    sample.setPhone("0");
+                }
+                if(tokens[5].length()>0){
+                    sample.setFax(tokens[6]);
+                } else{
+                    sample.setFax("0");
+                }
+                sample.setHours_weekly_range(Boolean.getBoolean(tokens[7]));
+                sample.setHours(tokens[8]);
+                sample.setAddress(tokens[9]);
+                sample.setCity(tokens[10]);
+                sample.setLat(Double.parseDouble(tokens[11]));
+                sample.setLon(Double.parseDouble(tokens[12]));
+
+                Log.d("My Activity", "Just created:" + sample);
+
+                Location newLocation = new Location(sample.getName());
+                newLocation.setLatitude(sample.getLat());
+                newLocation.setLongitude(sample.getLon());
+
+                location.add(newLocation);
+            }
+
+        } catch(IOException e){
+            Log.wtf("My Activity", "Error reading data file on line" + lines[i], e);
+            e.printStackTrace();
+        }
+
+        return location;
+    }
+
 }

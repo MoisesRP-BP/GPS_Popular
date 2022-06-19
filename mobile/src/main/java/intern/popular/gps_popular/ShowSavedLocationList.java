@@ -35,5 +35,4 @@ public class ShowSavedLocationList extends AppCompatActivity {
         lv_savedLocations.setAdapter(new ArrayAdapter<Location>(this, android.R.layout.simple_list_item_1, savedLocations));
 
     }
-
 }
