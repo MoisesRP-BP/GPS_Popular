@@ -8,6 +8,7 @@ import androidx.car.app.CarContext;
 import androidx.car.app.Screen;
 import androidx.car.app.ScreenManager;
 import androidx.car.app.model.Action;
+import androidx.car.app.model.CarColor;
 import androidx.car.app.model.CarLocation;
 import androidx.car.app.model.Distance;
 import androidx.car.app.model.DistanceSpan;
@@ -16,6 +17,7 @@ import androidx.car.app.model.Metadata;
 import androidx.car.app.model.OnClickListener;
 import androidx.car.app.model.Place;
 import androidx.car.app.model.PlaceListMapTemplate;
+import androidx.car.app.model.PlaceMarker;
 import androidx.car.app.model.Row;
 import androidx.car.app.model.Template;
 
@@ -66,8 +68,13 @@ public class MiBancoScreen extends Screen {
         list.add(five);
 
         for (Location loc : list) {
+
+            String a = "ATM";
+
+            PlaceMarker mark = new PlaceMarker.Builder().setLabel(a).setColor(CarColor.RED).build();
+
             CarLocation car = CarLocation.create(loc);
-            Place place = new Place.Builder(car).build();
+            Place place = new Place.Builder(car).setMarker(mark).build();
 
             String temp = loc.getProvider();
             SpannableString string = new SpannableString("  " + temp + " Point-of-Interest 1");
@@ -82,8 +89,14 @@ public class MiBancoScreen extends Screen {
                                     .setPlace(place)
                                     .build()
                     )
-//                    .setBrowsable(true)
-//                            .setOnClickListener(OnPlaceClick(getCarContext()))
+                    .setBrowsable(true)
+                                    .setOnClickListener(new OnClickListener() {
+                                        @Override
+                                        public void onClick() {
+                                            onPlaceClick(place);
+                                        }
+                                    })
+//                            .setOnClickListener(OnPlaceClick(place))
                     .build());
 
         }
@@ -100,9 +113,10 @@ public class MiBancoScreen extends Screen {
         }
     }
 
-//    private OnClickListener OnPlaceClick(CarContext carContext) {
-//        return carContext.getCarService(ScreenManager.class).push(new PlaceDetailScreen(carContext));
-//    }
+    private void onPlaceClick(Place place) {
+        getCarContext().getCarService(ScreenManager.class).push(new PlaceDetailScreen(getCarContext(), place));
+
+    }
 
 
 //        Pane pane = new Pane.Builder()

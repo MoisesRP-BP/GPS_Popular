@@ -7,13 +7,17 @@ import androidx.car.app.model.Action;
 import androidx.car.app.model.CarColor;
 import androidx.car.app.model.Pane;
 import androidx.car.app.model.PaneTemplate;
+import androidx.car.app.model.Place;
 import androidx.car.app.model.Row;
 import androidx.car.app.model.Template;
 
 public class PlaceDetailScreen extends Screen {
 
-    public PlaceDetailScreen(CarContext carContext) {
+    private Place place;
+
+    public PlaceDetailScreen(CarContext carContext, Place place) {
         super(carContext);
+        this.place = place;
     }
 
     @NonNull
@@ -34,7 +38,7 @@ public class PlaceDetailScreen extends Screen {
                 .addRow(
                         new Row.Builder()
                                 .setTitle("Address")
-//                                .addText(place.address)
+                                .addText(place.getLocation().toString())
                                 .build()
                 )
                 .build();
