@@ -26,24 +26,19 @@ import java.util.List;
 
 public class MiBancoScreen extends Screen {
     private static final int SPAN_INCLUSIVE_INCLUSIVE = 6;
-    private static final Object UNIT_KILOMETERS = "km";
 
     public MiBancoScreen(CarContext carContext) {
         super(carContext);
     }
+
     @NonNull
     @Override
     public Template onGetTemplate() {
-
-//        Row a = new Row.Builder().setTitle("Mai frend").build();
-//        Pane pane = new Pane.Builder().addRow(a).build();
 
         //Create list of locations
         ItemList.Builder items = new ItemList.Builder();
 
         //Download list from data file
-//        LocationSample location = new LocationSample();
-//        List<Location> list = location.readLocationData();
         List<Location> list = new ArrayList<>();
 
         Location one = new Location("Test");
@@ -96,14 +91,13 @@ public class MiBancoScreen extends Screen {
                                             onPlaceClick(place);
                                         }
                                     })
-//                            .setOnClickListener(OnPlaceClick(place))
                     .build());
 
         }
 
         PlaceListMapTemplate.Builder builder = new PlaceListMapTemplate.Builder()
                 .setTitle("Bancos & Atms")
-                .setHeaderAction(Action.APP_ICON)
+                .setHeaderAction(Action.BACK)
                 .setCurrentLocationEnabled(false);
 
         if (list.isEmpty()) {
@@ -117,31 +111,5 @@ public class MiBancoScreen extends Screen {
         getCarContext().getCarService(ScreenManager.class).push(new PlaceDetailScreen(getCarContext(), place));
 
     }
-
-
-//        Pane pane = new Pane.Builder()
-//                .addAction(
-//                        new Action.Builder()
-//                                .setTitle("Testing")
-//                                .setBackgroundColor(CarColor.BLUE)
-//                                .build()
-//                )
-//                .addAction(
-//                        new Action.Builder()
-//                                .setTitle("Back")
-//                                .setBackgroundColor(CarColor.BLUE)
-//                                .build()
-//                )
-//                .addAction(
-//                        new Action.Builder()
-//                                .setTitle("Left")
-//                                .setBackgroundColor(CarColor.BLUE)
-//                                .build()
-//                ).build();
-
-//        return new PaneTemplate.Builder(pane)
-//                .setHeaderAction(Action.BACK)
-//                .build();
-//    }
 
 }
