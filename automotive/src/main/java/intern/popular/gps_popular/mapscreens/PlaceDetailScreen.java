@@ -1,4 +1,4 @@
-package intern.popular.gps_popular;
+package intern.popular.gps_popular.mapscreens;
 
 import androidx.annotation.NonNull;
 import androidx.car.app.CarContext;
@@ -13,11 +13,13 @@ import androidx.car.app.model.Template;
 
 public class PlaceDetailScreen extends Screen {
 
-    private Place place;
+    private String name;
+    private String address;
 
-    public PlaceDetailScreen(CarContext carContext, Place place) {
+    public PlaceDetailScreen(CarContext carContext, String name, String address) {
         super(carContext);
-        this.place = place;
+        this.name = name;
+        this.address = address.replace("\"", "");
     }
 
     @NonNull
@@ -38,12 +40,12 @@ public class PlaceDetailScreen extends Screen {
                 .addRow(
                         new Row.Builder()
                                 .setTitle("Address")
-                                .addText(place.getLocation().toString())
+                                .addText(address)
                                 .build()
                 )
                 .build();
         return new PaneTemplate.Builder(pane)
-                .setTitle(place.toString())
+                .setTitle(name)
                 .setHeaderAction(Action.BACK)
                 .build();
     }

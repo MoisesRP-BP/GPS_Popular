@@ -1,4 +1,4 @@
-package intern.popular.gps_popular;
+package intern.popular.gps_popular.mapscreens;
 
 public class LocationSample {
     private int id;

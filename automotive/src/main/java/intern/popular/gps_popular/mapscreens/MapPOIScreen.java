@@ -1,22 +1,16 @@
-package intern.popular.gps_popular;
+package intern.popular.gps_popular.mapscreens;
 
-import android.Manifest;
-import android.content.pm.PackageManager;
 import android.content.res.AssetManager;
 import android.location.Location;
-import android.text.SpannableString;
 import android.util.Log;
 
 import androidx.annotation.NonNull;
-import androidx.annotation.RawRes;
 import androidx.car.app.CarContext;
 import androidx.car.app.Screen;
 import androidx.car.app.ScreenManager;
 import androidx.car.app.model.Action;
 import androidx.car.app.model.CarColor;
 import androidx.car.app.model.CarLocation;
-import androidx.car.app.model.Distance;
-import androidx.car.app.model.DistanceSpan;
 import androidx.car.app.model.ItemList;
 import androidx.car.app.model.Metadata;
 import androidx.car.app.model.OnClickListener;
@@ -25,13 +19,9 @@ import androidx.car.app.model.PlaceListMapTemplate;
 import androidx.car.app.model.PlaceMarker;
 import androidx.car.app.model.Row;
 import androidx.car.app.model.Template;
-import androidx.core.app.ActivityCompat;
 
 import com.google.android.gms.location.FusedLocationProviderClient;
-import com.google.android.gms.location.LocationServices;
 import com.google.android.gms.maps.model.LatLng;
-import com.google.android.gms.tasks.OnCompleteListener;
-import com.google.android.gms.tasks.Task;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -40,12 +30,11 @@ import java.io.InputStreamReader;
 import java.nio.charset.Charset;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.StringTokenizer;
 
-public class MiBancoScreen extends Screen {
+public class MapPOIScreen extends Screen {
     private static final int SPAN_INCLUSIVE_INCLUSIVE = 6;
 
-    public MiBancoScreen(CarContext carContext) {
+    public MapPOIScreen(CarContext carContext) {
         super(carContext);
     }
 
@@ -59,10 +48,13 @@ public class MiBancoScreen extends Screen {
         ItemList.Builder items = new ItemList.Builder();
 
         //Download list from data file
-        List<Location> list = new ArrayList<>();
+        List<LocationSample> list = new ArrayList<>();
         list = readData();
 
-        for (Location loc : list) {
+        for (LocationSample location : list) {
+            Location loc = new Location(location.getName());
+            loc.setLatitude(location.getLat());
+            loc.setLongitude(location.getLon());
 
             String label = "";
             if (loc.getProvider().toUpperCase().contains("ATM")) {
@@ -87,7 +79,7 @@ public class MiBancoScreen extends Screen {
                     .setOnClickListener(new OnClickListener() {
                         @Override
                         public void onClick() {
-                            onPlaceClick(place);
+                            onPlaceClick(location.getName(), location.getAddress());
                         }
                     })
                     .build());
@@ -106,13 +98,14 @@ public class MiBancoScreen extends Screen {
         }
     }
 
-    private void onPlaceClick(Place place) {
-        getCarContext().getCarService(ScreenManager.class).push(new PlaceDetailScreen(getCarContext(), place));
+    private void onPlaceClick(String name, String address) {
+        getCarContext().getCarService(ScreenManager.class).push(new PlaceDetailScreen(getCarContext(), name, address));
     }
 
-    private List<Location> readData() {
+    private List<LocationSample> readData() {
 
         List<Location> location = new ArrayList<>();
+        List<LocationSample> locsamp = new ArrayList<>();
         AssetManager assetManager = getCarContext().getAssets();
         InputStream is = null;
 
@@ -171,11 +164,12 @@ public class MiBancoScreen extends Screen {
 
                 Log.d("My Activity", "Just created:" + sample);
 
-                Location newLocation = new Location(sample.getName());
-                newLocation.setLatitude(sample.getLat());
-                newLocation.setLongitude(sample.getLon());
-
-                location.add(newLocation);
+                locsamp.add(sample);
+//                Location newLocation = new Location(sample.getName());
+//                newLocation.setLatitude(sample.getLat());
+//                newLocation.setLongitude(sample.getLon());
+//
+//                location.add(newLocation);
 
             }
         } catch (IOException e) {
@@ -184,7 +178,7 @@ public class MiBancoScreen extends Screen {
         }
 
 
-        return location;
+        return locsamp;
     }
 
 }

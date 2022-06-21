@@ -2,25 +2,19 @@ package intern.popular.gps_popular;
 
 import static java.lang.Thread.sleep;
 
-import android.location.Location;
-
 import androidx.annotation.NonNull;
 import androidx.car.app.CarContext;
 import androidx.car.app.Screen;
 import androidx.car.app.ScreenManager;
 import androidx.car.app.model.Action;
-import androidx.car.app.model.CarColor;
-import androidx.car.app.model.CarLocation;
-import androidx.car.app.model.GridItem;
-import androidx.car.app.model.GridTemplate;
 import androidx.car.app.model.ItemList;
 import androidx.car.app.model.ListTemplate;
 import androidx.car.app.model.OnClickListener;
-import androidx.car.app.model.Pane;
-import androidx.car.app.model.PaneTemplate;
-import androidx.car.app.model.Place;
 import androidx.car.app.model.Row;
 import androidx.car.app.model.Template;
+
+import intern.popular.gps_popular.mapscreens.MapPOIScreen;
+import intern.popular.gps_popular.servicescreen.CustomerServiceScreen;
 
 public class StartScreen extends Screen {
 
@@ -62,7 +56,7 @@ public class StartScreen extends Screen {
         ItemList.Builder list = new ItemList.Builder();
 
         Row one = new Row.Builder()
-            .setTitle("Atm & Sucursales")
+                .setTitle("Atm & Sucursales")
                 .setBrowsable(true)
                 .setOnClickListener(new OnClickListener() {
                     @Override
@@ -70,13 +64,15 @@ public class StartScreen extends Screen {
                         OnMapClick();
                     }
                 })
-            .build();
+                .build();
         Row two = new Row.Builder()
                 .setTitle("Realizar Pago")
                 .setBrowsable(true)
                 .setOnClickListener(new OnClickListener() {
                     @Override
-                    public void onClick() {OnMapClick();}
+                    public void onClick() {
+                        OnMapClick();
+                    }
                 })
                 .build();
         Row three = new Row.Builder()
@@ -95,7 +91,9 @@ public class StartScreen extends Screen {
                 .setBrowsable(true)
                 .setOnClickListener(new OnClickListener() {
                     @Override
-                    public void onClick() {OnMapClick();}
+                    public void onClick() {
+                        OnMapClick();
+                    }
                 })
                 .build();
 
@@ -108,26 +106,36 @@ public class StartScreen extends Screen {
 
 
     private void OnMapClick() {
-//        Location one = new Location("Test");
-//        one.setLatitude(18.445945);
-//        one.setLongitude(-66.068358);
-//        CarLocation car = CarLocation.create(one);
-//        Place place = new Place.Builder(car).build();
-
-        for (int i = 0; i < 2; i++) {
-            if(i==0){
-                getCarContext().getCarService(ScreenManager.class).push(new MiBancoScreen(getCarContext()));
-                try {
-                    sleep(3);
-                } catch (InterruptedException e) {
-                    e.printStackTrace();
-                }
-            }else{
-                getCarContext().getCarService(ScreenManager.class).push(new MiBancoScreen(getCarContext()));
-            }
+        try {
+            sleep(3);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
         }
+        getCarContext().getCarService(ScreenManager.class).push(new MapPOIScreen(getCarContext()));
+    }
+    private void OnAccountClick() {
+        try {
+            sleep(3);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        getCarContext().getCarService(ScreenManager.class).push(new MapPOIScreen(getCarContext()));
+    }
+    private void OnPaymentClick() {
+        try {
+            sleep(3);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        getCarContext().getCarService(ScreenManager.class).push(new MapPOIScreen(getCarContext()));
+    }
 
-
-
+    private void OnCustomerClick() {
+        try {
+            sleep(3);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        getCarContext().getCarService(ScreenManager.class).push(new CustomerServiceScreen(getCarContext()));
     }
 }
