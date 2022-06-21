@@ -81,22 +81,22 @@ public class StartScreen extends Screen {
                 .build();
         Row three = new Row.Builder()
                 .setTitle("Verificar Cuentas")
-//                .setBrowsable(true)
-//                .setOnClickListene r(new OnClickListener() {
-//                    @Override
-//                    public void onClick() {
-//                        OnMapClick();
-//                    }
-//                })
+                .setBrowsable(true)
+                .setOnClickListener(new OnClickListener() {
+                    @Override
+                    public void onClick() {
+                        OnMapClick();
+                    }
+                })
                 .build();
 
         Row four = new Row.Builder()
                 .setTitle("Servicios al Cliente")
-//                .setBrowsable(true)
-//                .setOnClickListener(new OnClickListener() {
-//                    @Override
-//                    public void onClick() {OnMapClick();}
-//                })
+                .setBrowsable(true)
+                .setOnClickListener(new OnClickListener() {
+                    @Override
+                    public void onClick() {OnMapClick();}
+                })
                 .build();
 
         list.addItem(one).addItem(two).addItem(three).addItem(four);
