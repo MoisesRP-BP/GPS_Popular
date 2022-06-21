@@ -1,9 +1,14 @@
 package intern.popular.gps_popular;
 
+import android.Manifest;
+import android.content.pm.PackageManager;
+import android.content.res.AssetManager;
 import android.location.Location;
 import android.text.SpannableString;
+import android.util.Log;
 
 import androidx.annotation.NonNull;
+import androidx.annotation.RawRes;
 import androidx.car.app.CarContext;
 import androidx.car.app.Screen;
 import androidx.car.app.ScreenManager;
@@ -20,9 +25,22 @@ import androidx.car.app.model.PlaceListMapTemplate;
 import androidx.car.app.model.PlaceMarker;
 import androidx.car.app.model.Row;
 import androidx.car.app.model.Template;
+import androidx.core.app.ActivityCompat;
 
+import com.google.android.gms.location.FusedLocationProviderClient;
+import com.google.android.gms.location.LocationServices;
+import com.google.android.gms.maps.model.LatLng;
+import com.google.android.gms.tasks.OnCompleteListener;
+import com.google.android.gms.tasks.Task;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.nio.charset.Charset;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.StringTokenizer;
 
 public class MiBancoScreen extends Screen {
     private static final int SPAN_INCLUSIVE_INCLUSIVE = 6;
@@ -30,6 +48,8 @@ public class MiBancoScreen extends Screen {
     public MiBancoScreen(CarContext carContext) {
         super(carContext);
     }
+
+    private FusedLocationProviderClient mFusedLocationClient;
 
     @NonNull
     @Override
@@ -40,57 +60,36 @@ public class MiBancoScreen extends Screen {
 
         //Download list from data file
         List<Location> list = new ArrayList<>();
-
-        Location one = new Location("Test");
-        one.setLatitude(18.445945);
-        one.setLongitude(-66.068358);
-        Location two = new Location("Test2");
-        two.setLatitude(18.464325);
-        two.setLongitude(-66.115256);
-        Location three = new Location("Test3");
-        three.setLatitude(18.38078);
-        three.setLongitude(-65.962161);
-        Location four = new Location("Test4");
-        four.setLatitude(18.380254);
-        four.setLongitude(-66.05493);
-        Location five = new Location("Test5");
-        five.setLatitude(18.451288);
-        five.setLongitude(-66.058589);
-        list.add(one);
-        list.add(two);
-        list.add(three);
-        list.add(four);
-        list.add(five);
+        list = readData();
 
         for (Location loc : list) {
 
-            String a = "ATM";
+            String label = "";
+            if (loc.getProvider().toUpperCase().contains("ATM")) {
+                label = "ATM";
+            } else {
+                label = "Suc";
+            }
 
-            PlaceMarker mark = new PlaceMarker.Builder().setLabel(a).setColor(CarColor.RED).build();
+            PlaceMarker mark = new PlaceMarker.Builder().setLabel(label).setColor(CarColor.RED).build();
 
             CarLocation car = CarLocation.create(loc);
             Place place = new Place.Builder(car).setMarker(mark).build();
 
-            String temp = loc.getProvider();
-            SpannableString string = new SpannableString("  " + temp + " Point-of-Interest 1");
-            string.setSpan(
-                    DistanceSpan.create(
-                            Distance.create(1000, Distance.UNIT_METERS)), 0, 1, SPAN_INCLUSIVE_INCLUSIVE);
-
             items.addItem(new Row.Builder()
-                    .setTitle(string)
+                    .setTitle(loc.getProvider())
                     .setMetadata(
                             new Metadata.Builder()
                                     .setPlace(place)
                                     .build()
                     )
                     .setBrowsable(true)
-                                    .setOnClickListener(new OnClickListener() {
-                                        @Override
-                                        public void onClick() {
-                                            onPlaceClick(place);
-                                        }
-                                    })
+                    .setOnClickListener(new OnClickListener() {
+                        @Override
+                        public void onClick() {
+                            onPlaceClick(place);
+                        }
+                    })
                     .build());
 
         }
@@ -109,7 +108,83 @@ public class MiBancoScreen extends Screen {
 
     private void onPlaceClick(Place place) {
         getCarContext().getCarService(ScreenManager.class).push(new PlaceDetailScreen(getCarContext(), place));
+    }
 
+    private List<Location> readData() {
+
+        List<Location> location = new ArrayList<>();
+        AssetManager assetManager = getCarContext().getAssets();
+        InputStream is = null;
+
+        try {
+            is = assetManager.open("data.csv");
+
+        } catch (IOException e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+        }
+
+        BufferedReader reader = null;
+        reader = new BufferedReader(new InputStreamReader(is, Charset.forName("UTF-8")));
+
+        String line = "";
+
+        try {
+            reader.readLine();
+
+            //temporary coordinates
+            double userlat = 18.196343;
+            double userlon = -67.141985;
+
+            while ((line = reader.readLine()) != null) {
+                String[] tokens = line.split(",(?=(?:[^\"]*\"[^\"]*\")*[^\"]*$)", -1);
+
+                LatLng latLng = new LatLng(Double.parseDouble(tokens[11]), Double.parseDouble(tokens[12]));
+                if(Math.sqrt(Math.pow((userlat -latLng.latitude),2) + Math.pow((userlon -latLng.longitude),2))>=0.08){
+                    continue;
+                }
+
+                //Read data
+                LocationSample sample = new LocationSample();
+
+                sample.setId(Integer.parseInt(tokens[0]));
+                sample.setType(Integer.parseInt(tokens[1]));
+                sample.setName(tokens[2]);
+                sample.setName_en(tokens[3]);
+                sample.setArea(tokens[4]);
+                if(tokens[5].length()>0){
+                    sample.setPhone(tokens[5]);
+                } else{
+                    sample.setPhone("0");
+                }
+                if(tokens[5].length()>0){
+                    sample.setFax(tokens[6]);
+                } else{
+                    sample.setFax("0");
+                }
+                sample.setHours_weekly_range(Boolean.getBoolean(tokens[7]));
+                sample.setHours(tokens[8]);
+                sample.setAddress(tokens[9]);
+                sample.setCity(tokens[10]);
+                sample.setLat(Double.parseDouble(tokens[11]));
+                sample.setLon(Double.parseDouble(tokens[12]));
+
+                Log.d("My Activity", "Just created:" + sample);
+
+                Location newLocation = new Location(sample.getName());
+                newLocation.setLatitude(sample.getLat());
+                newLocation.setLongitude(sample.getLon());
+
+                location.add(newLocation);
+
+            }
+        } catch (IOException e) {
+
+            e.printStackTrace();
+        }
+
+
+        return location;
     }
 
 }

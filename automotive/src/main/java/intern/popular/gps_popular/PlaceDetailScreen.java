@@ -43,7 +43,7 @@ public class PlaceDetailScreen extends Screen {
                 )
                 .build();
         return new PaneTemplate.Builder(pane)
-                .setTitle("Morovis")
+                .setTitle(place.toString())
                 .setHeaderAction(Action.BACK)
                 .build();
     }
