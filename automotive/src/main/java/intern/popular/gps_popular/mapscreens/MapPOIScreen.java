@@ -1,7 +1,14 @@
 package intern.popular.gps_popular.mapscreens;
 
+import static java.lang.Thread.sleep;
+
+import android.Manifest;
+import android.content.pm.PackageManager;
 import android.content.res.AssetManager;
+import android.location.Address;
 import android.location.Location;
+import android.location.LocationListener;
+import android.location.LocationManager;
 import android.util.Log;
 
 import androidx.annotation.NonNull;
@@ -21,7 +28,9 @@ import androidx.car.app.model.Row;
 import androidx.car.app.model.Template;
 
 import com.google.android.gms.location.FusedLocationProviderClient;
+import com.google.android.gms.location.LocationServices;
 import com.google.android.gms.maps.model.LatLng;
+import com.google.android.gms.tasks.OnSuccessListener;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -31,14 +40,16 @@ import java.nio.charset.Charset;
 import java.util.ArrayList;
 import java.util.List;
 
+import intern.popular.gps_popular.StartScreen;
+
 public class MapPOIScreen extends Screen {
     private static final int SPAN_INCLUSIVE_INCLUSIVE = 6;
 
     public MapPOIScreen(CarContext carContext) {
         super(carContext);
     }
-
-    private FusedLocationProviderClient mFusedLocationClient;
+//    private Location currentLocation;
+    private Location userLocation = StartScreen.currentLocation;
 
     @NonNull
     @Override
@@ -49,6 +60,11 @@ public class MapPOIScreen extends Screen {
 
         //Download list from data file
         List<LocationSample> list = new ArrayList<>();
+//        try {
+//            getcurrentLocation();
+//        } catch (InterruptedException e) {
+//            e.printStackTrace();
+//        }
         list = readData();
 
         for (LocationSample location : list) {
@@ -126,8 +142,9 @@ public class MapPOIScreen extends Screen {
             reader.readLine();
 
             //temporary coordinates
-            double userlat = 18.196343;
-            double userlon = -67.141985;
+
+            double userlat = userLocation.getLatitude();
+            double userlon = userLocation.getLongitude();
 
             while ((line = reader.readLine()) != null) {
                 String[] tokens = line.split(",(?=(?:[^\"]*\"[^\"]*\")*[^\"]*$)", -1);
@@ -177,8 +194,25 @@ public class MapPOIScreen extends Screen {
             e.printStackTrace();
         }
 
-
         return locsamp;
     }
+
+//    LocationListener locationListerGPS = new LocationListener() {
+//        @Override
+//        public void onLocationChanged(@NonNull Location location) {
+//            double lat = location.getLatitude();
+//            double lon = location.getLongitude();
+//            userLocation = location);
+//        }
+//    };
+//
+//
+//    private void getcurrentLocation() throws InterruptedException {
+//        Location loc = StartScreen.currentLocation;
+//            LocationManager location = (LocationManager) getCarContext().getSystemService(getCarContext().LOCATION_SERVICE);
+//            location.requestLocationUpdates(LocationManager.GPS_PROVIDER, 2000,10, locationListerGPS);
+//            sleep(3);
+//
+//    }
 
 }
