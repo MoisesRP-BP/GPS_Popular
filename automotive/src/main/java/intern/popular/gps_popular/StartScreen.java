@@ -3,14 +3,10 @@ package intern.popular.gps_popular;
 import static java.lang.Thread.sleep;
 
 import android.Manifest;
-import android.app.Activity;
-import android.content.Context;
-import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.location.Location;
 import android.location.LocationListener;
 import android.location.LocationManager;
-import android.net.Uri;
 import android.os.Build;
 import android.widget.Toast;
 
@@ -25,18 +21,11 @@ import androidx.car.app.model.ListTemplate;
 import androidx.car.app.model.OnClickListener;
 import androidx.car.app.model.Row;
 import androidx.car.app.model.Template;
-import androidx.core.app.ActivityCompat;
 
 import com.google.android.gms.location.FusedLocationProviderClient;
-import com.google.android.gms.location.LocationServices;
-import com.google.android.gms.tasks.OnSuccessListener;
 
-import org.apache.commons.collections4.Get;
-
-import java.sql.Array;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.concurrent.Executor;
 
 import intern.popular.gps_popular.mapscreens.MapPOIScreen;
 import intern.popular.gps_popular.servicescreen.CustomerServiceScreen;
@@ -117,7 +106,7 @@ public class StartScreen extends Screen {
                 .build();
 
         Row four = new Row.Builder()
-                .setTitle("Servicios al Cliente")
+                .setTitle("Contactar Servicios al Cliente")
                 .setBrowsable(true)
                 .setOnClickListener(new OnClickListener() {
                     @Override
