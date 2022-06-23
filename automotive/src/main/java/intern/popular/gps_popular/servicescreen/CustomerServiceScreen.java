@@ -6,6 +6,7 @@ import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.drawable.Icon;
 import android.net.Uri;
+import android.widget.Button;
 
 import androidx.annotation.NonNull;
 import androidx.car.app.CarContext;
@@ -16,7 +17,6 @@ import androidx.car.app.model.GridItem;
 import androidx.car.app.model.GridTemplate;
 import androidx.car.app.model.ItemList;
 import androidx.car.app.model.OnClickListener;
-import androidx.car.app.model.Row;
 import androidx.car.app.model.Template;
 import androidx.core.graphics.drawable.IconCompat;
 import static android.Manifest.permission.CALL_PHONE;
@@ -31,13 +31,22 @@ public class CustomerServiceScreen extends Screen {
     @Override
     public Template onGetTemplate() {
 
-        Bitmap bit = BitmapFactory.decodeResource(getCarContext().getResources(),R.mipmap.mibanco_logo);
-        IconCompat iconCompat = IconCompat.createWithBitmap(bit);
-        CarIcon car = new CarIcon.Builder(iconCompat).build();
+        Bitmap bit1 = BitmapFactory.decodeResource(getCarContext().getResources(),R.mipmap.mibanco_logo);
+        Bitmap bit2 = BitmapFactory.decodeResource(getCarContext().getResources(), R.mipmap.popular_mortgage_foreground);
+
+        Bitmap logo1 = Bitmap.createScaledBitmap(bit1, 256, 256, true);
+        Bitmap logo2 = Bitmap.createScaledBitmap(bit2, 256, 256, true);
+
+        IconCompat iconCompat1 = IconCompat.createWithBitmap(logo1);
+        IconCompat iconCompat2 = IconCompat.createWithBitmap(logo2);
+        CarIcon car1 = new CarIcon.Builder(iconCompat1).build();
+        CarIcon car2 = new CarIcon.Builder(iconCompat2).build();
+
         ItemList.Builder list = new ItemList.Builder();
+
         list.addItem(new GridItem.Builder()
                         .setTitle("Hipotecas")
-                        .setImage(car)
+                        .setImage(car2)
                         .setOnClickListener(new OnClickListener() {
                             @Override
                             public void onClick() {
@@ -54,7 +63,7 @@ public class CustomerServiceScreen extends Screen {
                 )
                 .addItem(new GridItem.Builder()
                         .setTitle("Prestamos de Auto")
-                        .setImage(car)
+                        .setImage(car1)
                         .setOnClickListener(new OnClickListener() {
                             @Override
                             public void onClick() {
@@ -71,7 +80,7 @@ public class CustomerServiceScreen extends Screen {
                 )
                 .addItem(new GridItem.Builder()
                         .setTitle("Arrendamientos")
-                        .setImage(car)
+                        .setImage(car1)
                         .setOnClickListener(new OnClickListener() {
                             @Override
                             public void onClick() {
@@ -88,7 +97,7 @@ public class CustomerServiceScreen extends Screen {
                 )
                 .addItem(new GridItem.Builder()
                         .setTitle("Next")
-                        .setImage(car)
+                        .setImage(car1)
                         .build());
 
         return new GridTemplate.Builder().setSingleList(list.build())

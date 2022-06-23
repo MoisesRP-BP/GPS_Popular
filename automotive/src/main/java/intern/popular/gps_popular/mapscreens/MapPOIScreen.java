@@ -60,11 +60,6 @@ public class MapPOIScreen extends Screen {
 
         //Download list from data file
         List<LocationSample> list = new ArrayList<>();
-//        try {
-//            getcurrentLocation();
-//        } catch (InterruptedException e) {
-//            e.printStackTrace();
-//        }
         list = readData();
 
         for (LocationSample location : list) {
@@ -142,7 +137,6 @@ public class MapPOIScreen extends Screen {
             reader.readLine();
 
             //temporary coordinates
-
             double userlat = userLocation.getLatitude();
             double userlon = userLocation.getLongitude();
 
@@ -182,11 +176,6 @@ public class MapPOIScreen extends Screen {
                 Log.d("My Activity", "Just created:" + sample);
 
                 locsamp.add(sample);
-//                Location newLocation = new Location(sample.getName());
-//                newLocation.setLatitude(sample.getLat());
-//                newLocation.setLongitude(sample.getLon());
-//
-//                location.add(newLocation);
 
             }
         } catch (IOException e) {
@@ -197,22 +186,5 @@ public class MapPOIScreen extends Screen {
         return locsamp;
     }
 
-//    LocationListener locationListerGPS = new LocationListener() {
-//        @Override
-//        public void onLocationChanged(@NonNull Location location) {
-//            double lat = location.getLatitude();
-//            double lon = location.getLongitude();
-//            userLocation = location);
-//        }
-//    };
-//
-//
-//    private void getcurrentLocation() throws InterruptedException {
-//        Location loc = StartScreen.currentLocation;
-//            LocationManager location = (LocationManager) getCarContext().getSystemService(getCarContext().LOCATION_SERVICE);
-//            location.requestLocationUpdates(LocationManager.GPS_PROVIDER, 2000,10, locationListerGPS);
-//            sleep(3);
-//
-//    }
 
 }
