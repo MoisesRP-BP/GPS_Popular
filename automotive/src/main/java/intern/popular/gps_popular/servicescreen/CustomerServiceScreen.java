@@ -17,6 +17,7 @@ import androidx.car.app.model.GridItem;
 import androidx.car.app.model.GridTemplate;
 import androidx.car.app.model.ItemList;
 import androidx.car.app.model.OnClickListener;
+import androidx.car.app.model.Row;
 import androidx.car.app.model.Template;
 import androidx.core.graphics.drawable.IconCompat;
 import static android.Manifest.permission.CALL_PHONE;
@@ -96,9 +97,57 @@ public class CustomerServiceScreen extends Screen {
                         .build()
                 )
                 .addItem(new GridItem.Builder()
-                        .setTitle("Next")
+                        .setTitle("Prestamos Personales")
                         .setImage(car1)
-                        .build());
+                        .setOnClickListener(new OnClickListener() {
+                            @Override
+                            public void onClick() {
+                                Intent call = new Intent(Intent.ACTION_CALL);
+                                call.setData(Uri.parse("tel:787-522-4945"));
+                                call.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+
+                                if (getCarContext().checkSelfPermission(CALL_PHONE) == PackageManager.PERMISSION_GRANTED) {
+                                    getCarContext().startActivity(call);
+                                }
+                            }
+                        })
+                        .build()
+                )
+                .addItem(new GridItem.Builder()
+                        .setTitle("Tarjetas de Credito")
+                        .setImage(car1)
+                        .setOnClickListener(new OnClickListener() {
+                            @Override
+                            public void onClick() {
+                                Intent call = new Intent(Intent.ACTION_CALL);
+                                call.setData(Uri.parse("tel:787-775-1100"));
+                                call.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+
+                                if (getCarContext().checkSelfPermission(CALL_PHONE) == PackageManager.PERMISSION_GRANTED) {
+                                    getCarContext().startActivity(call);
+                                }
+                            }
+                        })
+                        .build()
+                )
+                .addItem(new GridItem.Builder()
+                        .setTitle("Arrendamientos")
+                        .setImage(car1)
+                        .setOnClickListener(new OnClickListener() {
+                            @Override
+                            public void onClick() {
+                                Intent call = new Intent(Intent.ACTION_CALL);
+                                call.setData(Uri.parse("tel:787-775-1100"));
+                                call.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+
+                                if (getCarContext().checkSelfPermission(CALL_PHONE) == PackageManager.PERMISSION_GRANTED) {
+                                    getCarContext().startActivity(call);
+                                }
+                            }
+                        })
+                        .build()
+                )
+        ;
 
         return new GridTemplate.Builder().setSingleList(list.build())
                 .setTitle("MiBancoApp")

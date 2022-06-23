@@ -18,6 +18,7 @@ import androidx.car.app.ScreenManager;
 import androidx.car.app.model.Action;
 import androidx.car.app.model.CarColor;
 import androidx.car.app.model.CarLocation;
+import androidx.car.app.model.CarText;
 import androidx.car.app.model.ItemList;
 import androidx.car.app.model.Metadata;
 import androidx.car.app.model.OnClickListener;
@@ -29,6 +30,7 @@ import androidx.car.app.model.Template;
 
 import com.google.android.gms.location.FusedLocationProviderClient;
 import com.google.android.gms.location.LocationServices;
+import com.google.android.gms.location.places.PlaceBuffer;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.tasks.OnSuccessListener;
 
@@ -38,6 +40,7 @@ import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.nio.charset.Charset;
 import java.util.ArrayList;
+import java.util.Comparator;
 import java.util.List;
 
 import intern.popular.gps_popular.StartScreen;
@@ -62,25 +65,40 @@ public class MapPOIScreen extends Screen {
         List<LocationSample> list = new ArrayList<>();
         list = readData();
 
+        list.sort(Comparator.comparingDouble(LocationSample::getDistance));
+
+//        Location temp = new Location(list.get(0).getName());
+//        temp.setLatitude(userLocation.getLatitude());
+//        temp.setLongitude(userLocation.getLongitude());
+//        CarColor tempcolor = CarColor.YELLOW;
+//        PlaceMarker marker = new PlaceMarker.Builder().setLabel("USR").setColor(tempcolor).build();
+//
+//        Place tempPlace = new Place.Builder(CarLocation.create(temp)).setMarker(marker).build();
+
+
         for (LocationSample location : list) {
             Location loc = new Location(location.getName());
             loc.setLatitude(location.getLat());
             loc.setLongitude(location.getLon());
 
+            CarColor color = CarColor.RED;
             String label = "";
             if (loc.getProvider().toUpperCase().contains("ATM")) {
                 label = "ATM";
+                loc.setProvider(loc.getProvider().substring(3));
             } else {
                 label = "Suc";
+                color = CarColor.BLUE;
             }
 
-            PlaceMarker mark = new PlaceMarker.Builder().setLabel(label).setColor(CarColor.RED).build();
+            PlaceMarker mark = new PlaceMarker.Builder().setLabel(label).setColor(color).build();
 
             CarLocation car = CarLocation.create(loc);
             Place place = new Place.Builder(car).setMarker(mark).build();
 
             items.addItem(new Row.Builder()
                     .setTitle(loc.getProvider())
+                    .addText(CarText.create(location.getAddress()))
                     .setMetadata(
                             new Metadata.Builder()
                                     .setPlace(place)
@@ -90,7 +108,7 @@ public class MapPOIScreen extends Screen {
                     .setOnClickListener(new OnClickListener() {
                         @Override
                         public void onClick() {
-                            onPlaceClick(location.getName(), location.getAddress());
+                            onPlaceClick(location.getName(), location.getAddress(), place);
                         }
                     })
                     .build());
@@ -100,7 +118,8 @@ public class MapPOIScreen extends Screen {
         PlaceListMapTemplate.Builder builder = new PlaceListMapTemplate.Builder()
                 .setTitle("Bancos & Atms")
                 .setHeaderAction(Action.BACK)
-                .setCurrentLocationEnabled(false);
+//                .setAnchor(tempPlace)
+                .setCurrentLocationEnabled(true);
 
         if (list.isEmpty()) {
             return builder.setLoading(true).build();
@@ -109,8 +128,9 @@ public class MapPOIScreen extends Screen {
         }
     }
 
-    private void onPlaceClick(String name, String address) {
-        getCarContext().getCarService(ScreenManager.class).push(new PlaceDetailScreen(getCarContext(), name, address));
+    //Open Detailed screen
+    private void onPlaceClick(String name, String address, Place place) {
+        getCarContext().getCarService(ScreenManager.class).push(new PlaceDetailScreen(getCarContext(), name, address, place));
     }
 
     private List<LocationSample> readData() {
@@ -144,7 +164,8 @@ public class MapPOIScreen extends Screen {
                 String[] tokens = line.split(",(?=(?:[^\"]*\"[^\"]*\")*[^\"]*$)", -1);
 
                 LatLng latLng = new LatLng(Double.parseDouble(tokens[11]), Double.parseDouble(tokens[12]));
-                if(Math.sqrt(Math.pow((userlat -latLng.latitude),2) + Math.pow((userlon -latLng.longitude),2))>=0.08){
+                double distance = Math.sqrt(Math.pow((userlat -latLng.latitude),2) + Math.pow((userlon -latLng.longitude),2));
+                if(distance>=0.03){
                     continue;
                 }
 
@@ -168,10 +189,11 @@ public class MapPOIScreen extends Screen {
                 }
                 sample.setHours_weekly_range(Boolean.getBoolean(tokens[7]));
                 sample.setHours(tokens[8]);
-                sample.setAddress(tokens[9]);
+                sample.setAddress(tokens[9].replace("\"", ""));
                 sample.setCity(tokens[10]);
                 sample.setLat(Double.parseDouble(tokens[11]));
                 sample.setLon(Double.parseDouble(tokens[12]));
+                sample.setDistance(distance);
 
                 Log.d("My Activity", "Just created:" + sample);
 

@@ -12,6 +12,7 @@ public class LocationSample {
     private String hours;
     private String address;
     private String city;
+    private double distance;
 
     private double lat;
     private double lon;
@@ -120,6 +121,15 @@ public class LocationSample {
         this.lon = lon;
     }
 
+
+    public double getDistance() {
+        return distance;
+    }
+
+    public void setDistance(double distance) {
+        this.distance = distance;
+    }
+
     @Override
     public String toString() {
         return "LocationSample{" +
@@ -134,6 +144,7 @@ public class LocationSample {
                 ", hours='" + hours + '\'' +
                 ", address='" + address + '\'' +
                 ", city='" + city + '\'' +
+                ", distance=" + distance +
                 ", lat=" + lat +
                 ", lon=" + lon +
                 '}';

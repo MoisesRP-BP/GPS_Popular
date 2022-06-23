@@ -169,11 +169,12 @@ public class StartScreen extends Screen {
         getCarContext().getCarService(ScreenManager.class).push(new CustomerServiceScreen(getCarContext()));
     }
 
+    //Confirm user location so we can send it to gps
     LocationListener locationListerGPS = new LocationListener() {
         @Override
         public void onLocationChanged(@NonNull Location location) {
-            double lat = location.getLatitude();
-            double lon = location.getLongitude();
+//            double lat = location.getLatitude();
+//            double lon = location.getLongitude();
             setCurrentLocation(location);
         }
     };
@@ -208,9 +209,6 @@ public class StartScreen extends Screen {
                 });
             }
         }
-    }
-    public Location getCurrentLocation() {
-        return currentLocation;
     }
 
     public void setCurrentLocation(Location currentLocation) {
