@@ -1,4 +1,4 @@
-package intern.popular.gps_popular;
+package intern.popular.gps_popular.mapscreens;
 
 import androidx.annotation.NonNull;
 import androidx.car.app.CarContext;

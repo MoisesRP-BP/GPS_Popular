@@ -2,8 +2,17 @@ package intern.popular.gps_popular;
 
 import static java.lang.Thread.sleep;
 
+import android.Manifest;
+import android.content.pm.PackageManager;
+import android.location.Location;
+import android.location.LocationListener;
+import android.location.LocationManager;
+import android.os.Build;
+import android.widget.Toast;
+
 import androidx.annotation.NonNull;
 import androidx.car.app.CarContext;
+import androidx.car.app.OnRequestPermissionsListener;
 import androidx.car.app.Screen;
 import androidx.car.app.ScreenManager;
 import androidx.car.app.model.Action;
@@ -12,7 +21,16 @@ import androidx.car.app.model.GridItem;
 import androidx.car.app.model.GridTemplate;
 import androidx.car.app.model.ItemList;
 import androidx.car.app.model.OnClickListener;
+import androidx.car.app.model.Row;
 import androidx.car.app.model.Template;
+
+import com.google.android.gms.location.FusedLocationProviderClient;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import intern.popular.gps_popular.mapscreens.MapPOIScreen;
+import intern.popular.gps_popular.servicescreen.CustomerServiceScreen;
 
 public class StartScreen extends Screen {
 
@@ -51,53 +69,7 @@ public class StartScreen extends Screen {
 //                .setHeaderAction(Action.APP_ICON)
 //                .build();
 
-
-//        ItemList.Builder list = new ItemList.Builder();
-//
-//        Row one = new Row.Builder()
-//                .setTitle("Atm & Sucursales")
-//                .setBrowsable(true)
-//                .setOnClickListener(new OnClickListener() {
-//                    @Override
-//                    public void onClick() {
-//                        OnMapClick();
-//                    }
-//                })
-//                .build();
-//        Row two = new Row.Builder()
-//                .setTitle("Realizar Pago")
-//                .setBrowsable(true)
-//                .setOnClickListener(new OnClickListener() {
-//                    @Override
-//                    public void onClick() {OnMapClick();}
-//                })
-//                .build();
-//        Row three = new Row.Builder()
-//                .setTitle("Verificar Cuentas")
-//                .setBrowsable(true)
-//                .setOnClickListener(new OnClickListener() {
-//                    @Override
-//                    public void onClick() {
-//                        OnMapClick();
-//                    }
-//                })
-//                .build();
-//
-//        Row four = new Row.Builder()
-//                .setTitle("Servicios al Cliente")
-//                .setBrowsable(true)
-//                .setOnClickListener(new OnClickListener() {
-//                    @Override
-//                    public void onClick() {OnMapClick();}
-//                })
-//                .build();
-//
-//        list.addItem(one).addItem(two).addItem(three).addItem(four);
-//
-//        return new ListTemplate.Builder().setSingleList(list.build())
-//                .setHeaderAction(Action.APP_ICON)
-//                .build();
-
+        PermissionGranted();
 
         ItemList.Builder itemList = new ItemList.Builder();
 
@@ -158,58 +130,85 @@ public class StartScreen extends Screen {
 
 
     private void OnMapClick() {
-//        Location one = new Location("Test");
-//        one.setLatitude(18.445945);
-//        one.setLongitude(-66.068358);
-//        CarLocation car = CarLocation.create(one);
-//        Place place = new Place.Builder(car).build();
-
-        for (int i = 0; i < 2; i++) {
-            if(i==0){
-                getCarContext().getCarService(ScreenManager.class).push(new MiBancoScreen(getCarContext()));
-                try {
-                    sleep(3);
-                } catch (InterruptedException e) {
-                    e.printStackTrace();
-                }
-            }else{
-                getCarContext().getCarService(ScreenManager.class).push(new MiBancoScreen(getCarContext()));
-            }
+        try {
+            sleep(3);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
         }
-
-
-
+        getCarContext().getCarService(ScreenManager.class).push(new MapPOIScreen(getCarContext()));
     }
 
-    private void OnPaymentClick()
-    {
-        for (int i = 0; i < 2; i++) {
-            if(i==0){
-                getCarContext().getCarService(ScreenManager.class).push(new PaymentScreen(getCarContext()));
-                try {
-                    sleep(3);
-                } catch (InterruptedException e) {
-                    e.printStackTrace();
-                }
-            }else{
-                getCarContext().getCarService(ScreenManager.class).push(new PaymentScreen(getCarContext()));
+    private void OnVerifyClick() {
+        try {
+            sleep(3);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        getCarContext().getCarService(ScreenManager.class).push(new VerifyScreen(getCarContext()));
+    }
+
+    private void OnPaymentClick() {
+        try {
+            sleep(3);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        getCarContext().getCarService(ScreenManager.class).push(new PaymentScreen(getCarContext()));
+    }
+
+    private void OnCustomerClick() {
+        try {
+            sleep(3);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        getCarContext().getCarService(ScreenManager.class).push(new CustomerServiceScreen(getCarContext()));
+    }
+
+    //Confirm user location so we can send it to gps
+    LocationListener locationListerGPS = new LocationListener() {
+        @Override
+        public void onLocationChanged(@NonNull Location location) {
+            setCurrentLocation(location);
+        }
+    };
+
+    private void PermissionGranted() {
+
+        if (getCarContext().checkSelfPermission(Manifest.permission.ACCESS_FINE_LOCATION) == PackageManager.PERMISSION_GRANTED) {
+            LocationManager location = (LocationManager) getCarContext().getSystemService(getCarContext().LOCATION_SERVICE);
+            location.requestLocationUpdates(LocationManager.GPS_PROVIDER, 2000, 10, locationListerGPS);
+
+        } else {
+            //permission not granted
+            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
+                List<String> permission = new ArrayList<String>();
+                permission.add(Manifest.permission.ACCESS_FINE_LOCATION);
+                permission.add(Manifest.permission.CALL_PHONE);
+
+                getCarContext().requestPermissions(permission, new OnRequestPermissionsListener() {
+                    @Override
+                    public void onRequestPermissionsResult(@NonNull List<String> grantedPermissions, @NonNull List<String> rejectedPermissions) {
+                        for (String requestCode : rejectedPermissions) {
+                            switch (requestCode) {
+                                case "ACCESS_FINE_LOCATION":
+                                    Toast.makeText(getCarContext(), "This app requires location to be granted in order to work properly", Toast.LENGTH_SHORT).show();
+                                    break;
+                                case "CALL_PHONE":
+                                    Toast.makeText(getCarContext(), "This app requires calls to be granted in order to work properly", Toast.LENGTH_SHORT).show();
+                                    break;
+                            }
+                        }
+                    }
+                });
             }
         }
     }
 
-    private void OnVerifyClick()
-    {
-        for (int i = 0; i < 2; i++) {
-            if(i==0){
-                getCarContext().getCarService(ScreenManager.class).push(new VerifyScreen(getCarContext()));
-                try {
-                    sleep(3);
-                } catch (InterruptedException e) {
-                    e.printStackTrace();
-                }
-            }else{
-                getCarContext().getCarService(ScreenManager.class).push(new VerifyScreen(getCarContext()));
-            }
-        }
+
+    public void setCurrentLocation(Location currentLocation) {
+        this.currentLocation = currentLocation;
     }
+
+
 }

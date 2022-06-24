@@ -13,6 +13,10 @@
     <uses-permission android:name="androidx.car.app.ACCESS_SURFACE" />
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
     <uses-permission android:name="androidx.car.app.MAP_TEMPLATES" /> <!-- Various required feature settings for an automotive app. -->
+
+    <uses-permission android:name="android.permission.MANAGE_OWN_CALLS"/>
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+
     <uses-feature
         android:name="android.hardware.type.automotive"
         android:required="true" />
@@ -31,27 +35,10 @@
 
     <application
         android:extractNativeLibs="false"
-        android:label="@string/app_name">
+        android:label="@string/app_name"
+        android:icon="@mipmap/mibanco_logo_round"
+        android:largeHeap="true">
 
-        <!--
-             TODO: Before you run your application, you need a Google Maps API key.
-
-             To get one, follow the directions here:
-
-                https://developers.google.com/maps/documentation/android-sdk/get-api-key
-
-             Once you have your API key (it starts with "AIza"), define a new property in your
-             project's local.properties file (e.g. MAPS_API_KEY=Aiza...), and replace the
-             "YOUR_API_KEY" string in this file with "${MAPS_API_KEY}".
-        -->
-        <meta-data
-            android:name="com.google.android.geo.API_KEY"
-            android:value="YOUR_API_KEY" />
-
-        <activity
-            android:name=".MapsActivity"
-            android:exported="false"
-            android:label="@string/title_activity_maps" />
 
         <meta-data
             android:name="com.android.automotive"
@@ -62,24 +49,22 @@
             android:value="1"
             tools:ignore="MetadataTagInsideApplicationTag" />
 
+
         <service
             android:name=".MiBanco"
             android:exported="true"
             android:foregroundServiceType="location">
             <intent-filter>
                 <action android:name="androidx.car.app.CarAppService" />
-
-                <category android:name="androidx.car.app.category.NAVIGATION" />
+                <category android:name="androidx.car.app.category.POI" />
             </intent-filter>
-        </service> <!-- <service -->
-        <!-- android:name="intern.popular.gps_popular.MiBanco" -->
-        <!-- android:enabled="true" -->
-        <!-- android:exported="true"> -->
-        <!-- </service> -->
+        </service>
+
+
         <activity
             android:name="androidx.car.app.activity.CarAppActivity"
             android:exported="true"
-            android:label="Navigation"
+            android:label="Popular Android Auto"
             android:launchMode="singleTask"
             android:theme="@android:style/Theme.DeviceDefault.NoActionBar">
             <intent-filter>
@@ -87,11 +72,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
             <intent-filter>
-                <action android:name="androidx.car.app.action.NAVIGATE" />
+                <action android:name="androidx.car.app.action.POI" />
                 <category android:name="android.intent.category.DEFAULT" />
-
                 <data android:scheme="geo" />
             </intent-filter>
+
+
 
             <meta-data
                 android:name="distractionOptimized"
