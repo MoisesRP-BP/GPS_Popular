@@ -2,25 +2,16 @@ package intern.popular.gps_popular;
 
 import static java.lang.Thread.sleep;
 
-import android.location.Location;
-
 import androidx.annotation.NonNull;
 import androidx.car.app.CarContext;
 import androidx.car.app.Screen;
 import androidx.car.app.ScreenManager;
 import androidx.car.app.model.Action;
-import androidx.car.app.model.CarColor;
 import androidx.car.app.model.CarIcon;
-import androidx.car.app.model.CarLocation;
 import androidx.car.app.model.GridItem;
 import androidx.car.app.model.GridTemplate;
 import androidx.car.app.model.ItemList;
-import androidx.car.app.model.ListTemplate;
 import androidx.car.app.model.OnClickListener;
-import androidx.car.app.model.Pane;
-import androidx.car.app.model.PaneTemplate;
-import androidx.car.app.model.Place;
-import androidx.car.app.model.Row;
 import androidx.car.app.model.Template;
 
 public class StartScreen extends Screen {
@@ -127,7 +118,7 @@ public class StartScreen extends Screen {
                 .setOnClickListener(new OnClickListener() {
                     @Override
                     public void onClick() {
-                        OnMapClick();
+                        OnPaymentClick();
                     }
                 })
                 .build();
@@ -138,7 +129,7 @@ public class StartScreen extends Screen {
                 .setOnClickListener(new OnClickListener() {
                     @Override
                     public void onClick() {
-                        OnMapClick();
+                        OnVerifyClick();
                     }
                 })
                 .build();
@@ -188,5 +179,37 @@ public class StartScreen extends Screen {
 
 
 
+    }
+
+    private void OnPaymentClick()
+    {
+        for (int i = 0; i < 2; i++) {
+            if(i==0){
+                getCarContext().getCarService(ScreenManager.class).push(new PaymentScreen(getCarContext()));
+                try {
+                    sleep(3);
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+            }else{
+                getCarContext().getCarService(ScreenManager.class).push(new PaymentScreen(getCarContext()));
+            }
+        }
+    }
+
+    private void OnVerifyClick()
+    {
+        for (int i = 0; i < 2; i++) {
+            if(i==0){
+                getCarContext().getCarService(ScreenManager.class).push(new VerifyScreen(getCarContext()));
+                try {
+                    sleep(3);
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+            }else{
+                getCarContext().getCarService(ScreenManager.class).push(new VerifyScreen(getCarContext()));
+            }
+        }
     }
 }
