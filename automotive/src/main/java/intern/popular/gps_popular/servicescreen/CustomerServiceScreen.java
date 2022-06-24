@@ -36,7 +36,7 @@ public class CustomerServiceScreen extends Screen {
 
         String titleAuto = "Popular Auto";
         String titleMortgage = "Popular Mortgage";
-        String titleTeleBanco = "Popular TeleBanco";
+        String titleTeleBanco = "TeleBanco";
         String titleSeguros = "Seguros";
         String titleSecurity = "Seguridad & Fraudes";
         String titleOtros = "Otros";
@@ -136,14 +136,18 @@ public class CustomerServiceScreen extends Screen {
         List<CarIcon> list = new ArrayList<>();
         List<Bitmap> bitmaps = new ArrayList<>();
 
-        //Logo Mibanco
-
+        //Logo TeleBanco
         bitmaps.add(BitmapFactory.decodeResource(getCarContext().getResources(),R.mipmap.mibanco_logo_foreground));
+        //Logo Popular Mortgage
         bitmaps.add(BitmapFactory.decodeResource(getCarContext().getResources(), R.mipmap.popular_mortgage_foreground));
+        //Logo Popular Auto
         bitmaps.add(BitmapFactory.decodeResource(getCarContext().getResources(),R.mipmap.mibanco_logo_foreground));
-        bitmaps.add(BitmapFactory.decodeResource(getCarContext().getResources(), R.mipmap.popular_mortgage_foreground));
+        //Logo Popular Seguros
         bitmaps.add(BitmapFactory.decodeResource(getCarContext().getResources(),R.mipmap.mibanco_logo_foreground));
-        bitmaps.add(BitmapFactory.decodeResource(getCarContext().getResources(), R.mipmap.popular_mortgage_foreground));
+        //Logo Popular Security
+        bitmaps.add(BitmapFactory.decodeResource(getCarContext().getResources(), R.mipmap.lock_indentity_foreground));
+        //Logo Others
+        bitmaps.add(BitmapFactory.decodeResource(getCarContext().getResources(),R.mipmap.mibanco_logo_foreground));
 
         for(Bitmap bit: bitmaps){
             Bitmap logo = Bitmap.createScaledBitmap(bit, 256, 256, true);
