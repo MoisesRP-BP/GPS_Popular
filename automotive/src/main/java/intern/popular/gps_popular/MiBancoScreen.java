@@ -14,34 +14,21 @@ public class MiBancoScreen extends Screen {
         super(carContext);
     }
 
+//    @NonNull
+//    @Override
+//    public Template onGetTemplate() {
+//        Row row = new Row.Builder().setTitle("Hello AA World:").addText("Example Test").build();
+//        return new PaneTemplate.Builder(new Pane.Builder().addRow(row).build()).setTitle("AA Hello World").build();
+//    }
+//
         @NonNull
         @Override
         public Template onGetTemplate() {
-
             Row row = new Row.Builder().setTitle("Hello world!").build();
-//            Row a = new Row.Builder().setTitle("Mai frend").build();
             Pane pane = new Pane.Builder().addRow(row).build();
-//            Pane pane = new Pane.Builder().addRow(row).addRow(a).build();
-
-//            ItemList rows = new ItemList.Builder().addItem(row).addItem(a).build();
-
-//            return new GridTemplate.Builder().setSingleList(rows).setHeaderAction(Action.APP_ICON).build();
-
             return new PaneTemplate.Builder(pane)
                     .setHeaderAction(Action.APP_ICON)
                     .build();
-//            Item a = new
-//            ItemList list = new ItemList.Builder().addItem("ATM & Sucursales").build();
-
-//            Item item;
-//
-//            Button button1, button2, button3, button4;
-//
-//            GridTemplate grid = new GridTemplate.Builder().setSingleList(rows);
-//
-//            return new GridTemplate.Builder(grid)
-//                    .setHeaderAction(Action.APP_ICON)
-//                    .build();
         }
 
 }
