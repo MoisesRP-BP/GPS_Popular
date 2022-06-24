@@ -9,6 +9,10 @@
         <entry key="..\:/Users/Moises_Robles04/StudioProjects/GPS_Popular/automotive/src/main/res/xml/activity_maps.xml" value="0.2183698296836983" />
         <entry key="..\:/Users/Moises_Robles04/StudioProjects/GPS_Popular/mobile/src/main/res/layout/activity_maps.xml" value="0.21958637469586376" />
         <entry key="..\:/Users/Moises_Robles04/StudioProjects/GPS_Popular/mobile/src/main/res/layout/activity_show_saved_location_list.xml" value="0.18802083333333333" />
+        <entry key="automotive/src/main/res/drawable/MiBanco_logo.xml" value="0.225" />
+        <entry key="automotive/src/main/res/drawable/ic_launcher_background.xml" value="0.225" />
+        <entry key="automotive/src/main/res/layout/activity_main.xml" value="0.6445054622752243" />
+        <entry key="automotive/src/main/res/layout/activity_show_saved_location_list.xml" value="0.2548661800486618" />
         <entry key="mobile/src/main/res/layout/activity_main.xml" value="0.375" />
         <entry key="mobile/src/main/res/layout/activity_show_saved_location_list.xml" value="0.5" />
       </map>

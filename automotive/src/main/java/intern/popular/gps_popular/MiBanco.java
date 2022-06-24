@@ -22,7 +22,7 @@ public class MiBanco extends CarAppService {
             @NonNull
             @Override
             public Screen onCreateScreen(@NonNull Intent intent) {
-                return new MiBancoScreen(getCarContext());
+                return new StartScreen(getCarContext());
             }
         };
     }

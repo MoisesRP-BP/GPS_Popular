@@ -7,6 +7,7 @@ import androidx.core.app.ActivityCompat;
 import android.Manifest;
 import android.content.Intent;
 import android.content.pm.PackageManager;
+import android.content.res.Resources;
 import android.location.Address;
 import android.location.Geocoder;
 import android.location.Location;
@@ -278,7 +279,8 @@ public class MainActivity extends AppCompatActivity {
     private List<LocationSample> locationSamples= new ArrayList<>();
 
     private List<Location> readLocationData() {
-        InputStream is = getResources().openRawResource(R.raw.data);
+        Resources resources = getResources();
+        InputStream is = resources.openRawResource(R.raw.data);
         BufferedReader reader = new BufferedReader(
                 new InputStreamReader(is, Charset.forName("UTF-8"))
         );
