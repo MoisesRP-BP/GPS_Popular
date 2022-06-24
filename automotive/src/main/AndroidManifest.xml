@@ -36,6 +36,7 @@
     <application
         android:extractNativeLibs="false"
         android:label="@string/app_name"
+        android:icon="@mipmap/mibanco_logo_round"
         android:largeHeap="true">
 
 
@@ -63,7 +64,7 @@
         <activity
             android:name="androidx.car.app.activity.CarAppActivity"
             android:exported="true"
-            android:label="Navigation"
+            android:label="Popular Android Auto"
             android:launchMode="singleTask"
             android:theme="@android:style/Theme.DeviceDefault.NoActionBar">
             <intent-filter>

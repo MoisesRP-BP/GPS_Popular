@@ -4,7 +4,6 @@ import static android.Manifest.permission.CALL_PHONE;
 
 import android.content.Intent;
 import android.content.pm.PackageManager;
-import android.net.Uri;
 
 import androidx.annotation.NonNull;
 import androidx.car.app.CarContext;
@@ -14,7 +13,6 @@ import androidx.car.app.model.GridItem;
 import androidx.car.app.model.GridTemplate;
 import androidx.car.app.model.ItemList;
 import androidx.car.app.model.OnClickListener;
-import androidx.car.app.model.Row;
 import androidx.car.app.model.Template;
 
 import java.util.List;
@@ -52,7 +50,7 @@ public class PopularContactScreen extends Screen {
         }
 
         return new GridTemplate.Builder().setSingleList(list.build())
-                .setTitle(Ptitle)
+                .setTitle("Contactos para " + Ptitle)
                 .setHeaderAction(Action.BACK)
                 .build();
     }

@@ -162,8 +162,6 @@ public class StartScreen extends Screen {
     LocationListener locationListerGPS = new LocationListener() {
         @Override
         public void onLocationChanged(@NonNull Location location) {
-//            double lat = location.getLatitude();
-//            double lon = location.getLongitude();
             setCurrentLocation(location);
         }
     };
