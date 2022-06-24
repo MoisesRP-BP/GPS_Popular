@@ -141,9 +141,9 @@ public class CustomerServiceScreen extends Screen {
         //Logo Popular Mortgage
         bitmaps.add(BitmapFactory.decodeResource(getCarContext().getResources(), R.mipmap.popular_mortgage_foreground));
         //Logo Popular Auto
-        bitmaps.add(BitmapFactory.decodeResource(getCarContext().getResources(),R.mipmap.mibanco_logo_foreground));
+        bitmaps.add(BitmapFactory.decodeResource(getCarContext().getResources(),R.mipmap.popular_auto_foreground));
         //Logo Popular Seguros
-        bitmaps.add(BitmapFactory.decodeResource(getCarContext().getResources(),R.mipmap.mibanco_logo_foreground));
+        bitmaps.add(BitmapFactory.decodeResource(getCarContext().getResources(),R.mipmap.popular_insurance_foreground));
         //Logo Popular Security
         bitmaps.add(BitmapFactory.decodeResource(getCarContext().getResources(), R.mipmap.lock_indentity_foreground));
         //Logo Others

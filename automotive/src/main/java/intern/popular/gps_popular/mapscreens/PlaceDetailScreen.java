@@ -76,6 +76,7 @@ public class PlaceDetailScreen extends Screen {
         Intent intent = new Intent(getCarContext().ACTION_NAVIGATE, uri);
         intent.setPackage("com.google.android.apps.maps");
         getCarContext().startCarApp(intent);
+        getCarContext().getCarService(ScreenManager.class).popToRoot();
     }
 
     private void OnClickBack() {
