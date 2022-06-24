@@ -67,15 +67,6 @@ public class MapPOIScreen extends Screen {
 
         list.sort(Comparator.comparingDouble(LocationSample::getDistance));
 
-//        Location temp = new Location(list.get(0).getName());
-//        temp.setLatitude(userLocation.getLatitude());
-//        temp.setLongitude(userLocation.getLongitude());
-//        CarColor tempcolor = CarColor.YELLOW;
-//        PlaceMarker marker = new PlaceMarker.Builder().setLabel("USR").setColor(tempcolor).build();
-//
-//        Place tempPlace = new Place.Builder(CarLocation.create(temp)).setMarker(marker).build();
-
-
         for (LocationSample location : list) {
             Location loc = new Location(location.getName());
             loc.setLatitude(location.getLat());

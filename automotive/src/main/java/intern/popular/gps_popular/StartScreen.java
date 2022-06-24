@@ -34,6 +34,8 @@ import intern.popular.gps_popular.servicescreen.CustomerServiceScreen;
 
 public class StartScreen extends Screen {
 
+    public static Location currentLocation;
+
     protected StartScreen(@NonNull CarContext carContext) {
         super(carContext);
     }
@@ -41,33 +43,6 @@ public class StartScreen extends Screen {
     @NonNull
     @Override
     public Template onGetTemplate() {
-//        ItemList.Builder list = new ItemList.Builder();
-//        list.addItem(new GridItem.Builder()
-//                        .setTitle("ATM & Sucursales")
-//                        .setOnClickListener(new OnClickListener() {
-//                            @Override
-//                            public void onClick() {
-//                                OnMapClick();
-//                            }
-//                        })
-//                        .build()
-//                )
-//                .addItem(new GridItem.Builder()
-//                        .setTitle("Verificar Cuenta")
-//                        .build()
-//                )
-//                .addItem(new GridItem.Builder()
-//                        .setTitle("Realizar Pagos")
-//                        .build()
-//                )
-//                .addItem(new GridItem.Builder()
-//                        .setTitle("Contactar Servicios al cliente")
-//                        .build());
-//
-//        return new GridTemplate.Builder().setSingleList(list.build())
-//                .setTitle("MiBancoApp")
-//                .setHeaderAction(Action.APP_ICON)
-//                .build();
 
         PermissionGranted();
 
@@ -112,7 +87,7 @@ public class StartScreen extends Screen {
                 .setOnClickListener(new OnClickListener() {
                     @Override
                     public void onClick() {
-                        OnMapClick();
+                        OnCustomerClick();
                     }
                 })
                 .build();
@@ -124,6 +99,7 @@ public class StartScreen extends Screen {
 
         return new GridTemplate.Builder().setSingleList(itemList.build())
                 .setHeaderAction(Action.APP_ICON)
+                .setTitle("MiBanco")
                 .build();
 
     }
