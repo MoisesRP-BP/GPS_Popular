@@ -21,10 +21,8 @@ import androidx.car.app.model.GridItem;
 import androidx.car.app.model.GridTemplate;
 import androidx.car.app.model.ItemList;
 import androidx.car.app.model.OnClickListener;
-import androidx.car.app.model.Row;
 import androidx.car.app.model.Template;
-
-import com.google.android.gms.location.FusedLocationProviderClient;
+import com.google.android.gms.maps.model.LatLng;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -35,6 +33,8 @@ import intern.popular.gps_popular.servicescreen.CustomerServiceScreen;
 public class StartScreen extends Screen {
 
     public static Location currentLocation;
+    boolean gps_enabled=false;
+    boolean network_enabled=false;
 
     protected StartScreen(@NonNull CarContext carContext) {
         super(carContext);
@@ -106,7 +106,7 @@ public class StartScreen extends Screen {
 
     private void OnMapClick() {
         try {
-            sleep(15);
+            sleep(10);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
@@ -144,6 +144,7 @@ public class StartScreen extends Screen {
     LocationListener locationListerGPS = new LocationListener() {
         @Override
         public void onLocationChanged(@NonNull Location location) {
+            LatLng latLng = new LatLng(location.getLatitude(), location.getLongitude());
             setCurrentLocation(location);
         }
     };
@@ -152,7 +153,16 @@ public class StartScreen extends Screen {
 
         if (getCarContext().checkSelfPermission(Manifest.permission.ACCESS_FINE_LOCATION) == PackageManager.PERMISSION_GRANTED) {
             LocationManager location = (LocationManager) getCarContext().getSystemService(getCarContext().LOCATION_SERVICE);
-            location.requestLocationUpdates(LocationManager.GPS_PROVIDER, 2000, 10, locationListerGPS);
+
+            try{gps_enabled=location.isProviderEnabled(LocationManager.GPS_PROVIDER);}catch(Exception ex){}
+            try{network_enabled=location.isProviderEnabled(LocationManager.NETWORK_PROVIDER);}catch(Exception ex){}
+
+            if(gps_enabled){
+                location.requestLocationUpdates(LocationManager.GPS_PROVIDER, 2000, 10, locationListerGPS);
+            }
+            if(network_enabled && currentLocation==null){
+                location.requestLocationUpdates(LocationManager.NETWORK_PROVIDER, 2000, 10, locationListerGPS);
+            }
 
         } else {
             //permission not granted
@@ -179,7 +189,6 @@ public class StartScreen extends Screen {
             }
         }
     }
-
 
     public void setCurrentLocation(Location currentLocation) {
         this.currentLocation = currentLocation;

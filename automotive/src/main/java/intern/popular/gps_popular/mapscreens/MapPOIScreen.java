@@ -109,7 +109,6 @@ public class MapPOIScreen extends Screen {
         PlaceListMapTemplate.Builder builder = new PlaceListMapTemplate.Builder()
                 .setTitle("Bancos & Atms")
                 .setHeaderAction(Action.BACK)
-//                .setAnchor(tempPlace)
                 .setCurrentLocationEnabled(true);
 
         if (list.isEmpty()) {
