@@ -43,7 +43,6 @@ public class StartScreen extends Screen {
     @NonNull
     @Override
     public Template onGetTemplate() {
-
         PermissionGranted();
 
         ItemList.Builder itemList = new ItemList.Builder();
@@ -107,7 +106,7 @@ public class StartScreen extends Screen {
 
     private void OnMapClick() {
         try {
-            sleep(3);
+            sleep(15);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
