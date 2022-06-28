@@ -1,4 +1,4 @@
-package intern.popular.gps_popular;
+package intern.popular.gps_popular.accountscreen;
 
 import androidx.annotation.NonNull;
 import androidx.car.app.CarContext;
@@ -12,6 +12,10 @@ import androidx.car.app.model.Template;
 
 public class VerifyScreen extends Screen {
 
+    public static double check_account= 700.00;
+    public static double save_account= 1234.56;
+    public static double card_account= 3500.80;
+
 
     public VerifyScreen(CarContext carContext) {
         super(carContext);
@@ -24,22 +28,19 @@ public class VerifyScreen extends Screen {
         ItemList.Builder itemList = new ItemList.Builder();
 
         GridItem one = new GridItem.Builder()
-                .setTitle("CHEQUE")
-                .setText("x0987")
+                .setTitle("CHEQUE: x0987")
                 .setText("$700.00")
                 .setImage(CarIcon.APP_ICON)
                 .build();
 
         GridItem two = new GridItem.Builder()
-                .setTitle("AHORRO")
-                .setText("x1234")
+                .setTitle("AHORRO: x1234")
                 .setText("$1,234.56")
                 .setImage(CarIcon.APP_ICON)
                 .build();
 
         GridItem three = new GridItem.Builder()
-                .setTitle("Black Dual Mastercard")
-                .setText("x4322")
+                .setTitle("Black Dual Mastercard: x4322")
                 .setText("$2,000.00")
                 .setImage(CarIcon.APP_ICON)
                 .build();

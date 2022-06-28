@@ -27,7 +27,9 @@ import com.google.android.gms.maps.model.LatLng;
 import java.util.ArrayList;
 import java.util.List;
 
+import intern.popular.gps_popular.accountscreen.VerifyScreen;
 import intern.popular.gps_popular.mapscreens.MapPOIScreen;
+import intern.popular.gps_popular.paymentscreen.PaymentScreen;
 import intern.popular.gps_popular.servicescreen.CustomerServiceScreen;
 
 public class StartScreen extends Screen {
