@@ -42,7 +42,7 @@ public class PaymentScreen extends Screen {
 
         Row one = new Row.Builder()
                 .setTitle(luma.getAccount())
-                .addText(String.format("%.2f",luma.getAmount()))
+                .addText("$" + String.format("%.2f",luma.getAmount()))
                 .setImage(luma.getCarIcon())
                 .setBrowsable(true)
                 .setOnClickListener(new OnClickListener() {
@@ -53,7 +53,7 @@ public class PaymentScreen extends Screen {
 
         Row two = new Row.Builder()
                 .setTitle(claro.getAccount())
-                .addText(String.format("%.2f",claro.getAmount()))
+                .addText("$" + String.format("%.2f",claro.getAmount()))
                 .setImage(claro.getCarIcon())
                 .setBrowsable(true)
                 .setOnClickListener(new OnClickListener() {
@@ -65,7 +65,7 @@ public class PaymentScreen extends Screen {
 
         Row three = new Row.Builder()
                 .setTitle(liberty.getAccount())
-                .addText(String.format("%.2f",liberty.getAmount()))
+                .addText("$" + String.format("%.2f",liberty.getAmount()))
                 .setImage(liberty.getCarIcon())
                 .setBrowsable(true)
                 .setOnClickListener(new OnClickListener() {

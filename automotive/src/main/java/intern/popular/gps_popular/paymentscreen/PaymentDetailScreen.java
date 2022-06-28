@@ -15,6 +15,8 @@ import androidx.car.app.model.PaneTemplate;
 import androidx.car.app.model.Row;
 import androidx.car.app.model.Template;
 
+import intern.popular.gps_popular.accountscreen.VerifyScreen;
+
 public class PaymentDetailScreen extends Screen {
 
     private AccountsSample account;
@@ -53,7 +55,7 @@ public class PaymentDetailScreen extends Screen {
                 )
                 .addRow(
                         new Row.Builder()
-                                .setTitle("Payment for an amount of: " + account.getAmount())
+                                .setTitle("Payment for an amount of: $" + String.format("%.2f", account.getAmount()))
                                 .addText("Card ending in x1234")
                                 .build()
                 )
@@ -70,18 +72,24 @@ public class PaymentDetailScreen extends Screen {
         switch(pay){
             case("LUMA"):
                 sub = PaymentScreen.LumaPay;
-                PaymentScreen.LumaPay = 0;
+                if(VerifyScreen.Check_Account>=sub){
+                    PaymentScreen.LumaPay = 0;
+                }
                 break;
             case("Claro"):
                 sub = PaymentScreen.ClaroPay;
-                PaymentScreen.ClaroPay = 0;
+                if(VerifyScreen.Check_Account>=sub) {
+                    PaymentScreen.ClaroPay = 0;
+                }
                 break;
             case("Liberty"):
                 sub = PaymentScreen.LibertyPay;
-                PaymentScreen.LibertyPay = 0;
+                if(VerifyScreen.Check_Account>=sub) {
+                    PaymentScreen.LibertyPay = 0;
+                }
                 break;
         }
-
+        VerifyScreen.Check_Account= VerifyScreen.Check_Account-sub;
         getCarContext().getCarService(ScreenManager.class).pop();
     }
 
