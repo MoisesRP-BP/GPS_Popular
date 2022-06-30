@@ -1,6 +1,9 @@
 package intern.popular.gps_popular.mapscreens;
 
+import static android.Manifest.permission.CALL_PHONE;
+
 import android.content.Intent;
+import android.content.pm.PackageManager;
 import android.net.Uri;
 
 import androidx.annotation.NonNull;
@@ -16,26 +19,37 @@ import androidx.car.app.model.Place;
 import androidx.car.app.model.Row;
 import androidx.car.app.model.Template;
 
+import java.util.zip.ZipInputStream;
+
 public class PlaceDetailScreen extends Screen {
 
     private String name;
     private String address;
     private Place place;
+    private String phone;
 
-    public PlaceDetailScreen(CarContext carContext, String name, String address, Place place) {
+    public PlaceDetailScreen(CarContext carContext, String name, String address, Place place, String phone) {
         super(carContext);
         this.name = name;
         this.address = address;
         this.place = place;
+        this.phone = phone;
     }
 
     @NonNull
     @Override
     public Template onGetTemplate() {
+
+        String title1 = "Navigate";
+        String title2 = "Back";
+        if(!phone.equals("0")){
+            title2= "Llamar";
+        }
+
         Pane pane = new Pane.Builder()
                 .addAction(
                         new Action.Builder()
-                                .setTitle("Navigate")
+                                .setTitle(title1)
                                 .setBackgroundColor(CarColor.BLUE)
                                 .setOnClickListener(new OnClickListener() {
                                     @Override
@@ -46,12 +60,16 @@ public class PlaceDetailScreen extends Screen {
                                 .build()
                 ).addAction(
                         new Action.Builder()
-                                .setTitle("Back")
+                                .setTitle(title2)
                                 .setBackgroundColor(CarColor.BLUE)
                                 .setOnClickListener(new OnClickListener() {
                                     @Override
                                     public void onClick() {
-                                        OnClickBack();
+                                        if(!phone.equals("0")){
+                                            OnClickCall();
+                                        } else{
+                                            OnClickBack();
+                                        }
                                     }
                                 })
                                 .build()
@@ -67,6 +85,21 @@ public class PlaceDetailScreen extends Screen {
                 .setTitle(name)
                 .setHeaderAction(Action.BACK)
                 .build();
+    }
+
+    private void OnClickCall() {
+        Intent call = new Intent(Intent.ACTION_DIAL);
+        call.setData(Uri.parse("tel:" + phone));
+        PermissionCheckCall(call);
+        getCarContext().getCarService(ScreenManager.class).popToRoot();
+
+    }
+
+    private void PermissionCheckCall(Intent intent){
+        if (getCarContext().checkSelfPermission(CALL_PHONE) == PackageManager.PERMISSION_GRANTED) {
+            intent.setPackage("com.samsung.android.incallui");
+            getCarContext().startCarApp(intent);
+        }
     }
 
     private void OnClickNavigate(Place place, String name) {

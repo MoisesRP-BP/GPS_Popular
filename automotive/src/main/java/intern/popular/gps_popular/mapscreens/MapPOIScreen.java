@@ -46,7 +46,6 @@ import java.util.List;
 import intern.popular.gps_popular.StartScreen;
 
 public class MapPOIScreen extends Screen {
-    private static final int SPAN_INCLUSIVE_INCLUSIVE = 6;
 
     public MapPOIScreen(CarContext carContext) {
         super(carContext);
@@ -99,7 +98,7 @@ public class MapPOIScreen extends Screen {
                     .setOnClickListener(new OnClickListener() {
                         @Override
                         public void onClick() {
-                            onPlaceClick(location.getName(), location.getAddress(), place);
+                            onPlaceClick(location.getName(), location.getAddress(), place, location.getPhone());
                         }
                     })
                     .build());
@@ -119,8 +118,8 @@ public class MapPOIScreen extends Screen {
     }
 
     //Open Detailed screen
-    private void onPlaceClick(String name, String address, Place place) {
-        getCarContext().getCarService(ScreenManager.class).push(new PlaceDetailScreen(getCarContext(), name, address, place));
+    private void onPlaceClick(String name, String address, Place place, String phone) {
+        getCarContext().getCarService(ScreenManager.class).push(new PlaceDetailScreen(getCarContext(), name, address, place, phone));
     }
 
     private List<LocationSample> readData() {
