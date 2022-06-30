@@ -20,6 +20,10 @@ import intern.popular.gps_popular.accountscreen.VerifyScreen;
 public class PaymentDetailScreen extends Screen {
 
     private AccountsSample account;
+    public static double LumaCost = 0;
+    public static double ClaroCost = 0;
+    public static double LibertyCost = 0;
+
 
     public PaymentDetailScreen(CarContext carContext, AccountsSample account) {
         super(carContext);
@@ -73,18 +77,21 @@ public class PaymentDetailScreen extends Screen {
             case("LUMA"):
                 sub = PaymentScreen.LumaPay;
                 if(VerifyScreen.Check_Account>=sub){
+                    LumaCost = PaymentScreen.LumaPay;
                     PaymentScreen.LumaPay = 0;
                 }
                 break;
             case("Claro"):
                 sub = PaymentScreen.ClaroPay;
                 if(VerifyScreen.Check_Account>=sub) {
+                    ClaroCost = PaymentScreen.ClaroPay;
                     PaymentScreen.ClaroPay = 0;
                 }
                 break;
             case("Liberty"):
                 sub = PaymentScreen.LibertyPay;
                 if(VerifyScreen.Check_Account>=sub) {
+                    LibertyCost = PaymentScreen.LibertyPay;
                     PaymentScreen.LibertyPay = 0;
                 }
                 break;

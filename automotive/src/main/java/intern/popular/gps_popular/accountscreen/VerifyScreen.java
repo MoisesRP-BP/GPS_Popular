@@ -49,12 +49,20 @@ public class VerifyScreen extends Screen {
                 .setTitle(saveTitle)
                 .setText("$" + String.format("%.2f", Save_Account))
                 .setImage(CarIcon.APP_ICON)
+                .setOnClickListener(new OnClickListener() {
+                    @Override
+                    public void onClick() { OnClickPayment(saveTitle);}
+                })
                 .build();
 
         GridItem three = new GridItem.Builder()
                 .setTitle(cardTitle)
                 .setText("$" + String.format("%.2f", Card_Account))
                 .setImage(CarIcon.APP_ICON)
+                .setOnClickListener(new OnClickListener() {
+                    @Override
+                    public void onClick() { OnClickPayment(cardTitle);}
+                })
                 .build();
 
         itemList.addItem(one).addItem(two).addItem(three);
@@ -66,7 +74,6 @@ public class VerifyScreen extends Screen {
     }
 
     private void OnClickPayment(String name) {
-
         String[] accounts = name.split(":");
 
         getCarContext().getCarService(ScreenManager.class).push(new AccountDetailScreen(getCarContext(), accounts[0]));

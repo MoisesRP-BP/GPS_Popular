@@ -14,6 +14,9 @@ import androidx.core.graphics.drawable.IconCompat;
 
 import java.util.ArrayList;
 import java.util.List;
+
+import intern.popular.gps_popular.paymentscreen.PaymentDetailScreen;
+import intern.popular.gps_popular.paymentscreen.PaymentScreen;
 import intern.popular.gps_popular.servicescreen.PhoneList;
 
 public class AccountDetailScreen extends Screen {
@@ -52,11 +55,33 @@ public class AccountDetailScreen extends Screen {
 
         switch(string){
 
-            //Popular Auto contacts
+            //Transacciones Cheque
             case("Cheque"):
+                List<String> claropay = new ArrayList<>();
+                List<String> lumapay = new ArrayList<>();
+                List<String> libertypay = new ArrayList<>();
+
                 List<String> cheque1 = new ArrayList<>();
                 List<String> cheque2 = new ArrayList<>();
                 List<String> cheque3 = new ArrayList<>();
+
+                if(PaymentScreen.LibertyPay==0){
+                    libertypay.add("LIBERTY CABLEVISION");
+                    libertypay.add("-$" + String.format("%.2f", PaymentDetailScreen.LibertyCost));
+                    results.add(libertypay);
+                }
+
+                if(PaymentScreen.ClaroPay==0){
+                    claropay.add("MI CLARO PR");
+                    claropay.add("-$" + String.format("%.2f",PaymentDetailScreen.ClaroCost));
+                    results.add(claropay);
+                }
+
+                if(PaymentScreen.LumaPay==0){
+                    lumapay.add("AEE-PREPA");
+                    lumapay.add("-$" + String.format("%.2f", PaymentDetailScreen.LumaCost));
+                    results.add(lumapay);
+                }
 
                 cheque1.add("Spotify USA");
                 cheque1.add("-$5.56");
@@ -73,24 +98,35 @@ public class AccountDetailScreen extends Screen {
 
                 break;
 
-            //Popular Mortgage contacts
+            //Transacciones Ahorro
             case("Ahorro"):
-                List<String> cheque4 = new ArrayList<>();
-                List<String> cheque5 = new ArrayList<>();
-                List<String> cheque6 = new ArrayList<>();
+                List<String> save1 = new ArrayList<>();
+                List<String> save2 = new ArrayList<>();
 
-                cheque4.add("Spotify USA");
-                cheque4.add("-$5.56");
+                save1.add("INTERES PAGADOS");
+                save1.add("$0.52");
 
-                cheque5.add("SUPERMERCADO");
-                cheque5.add("-$210.45");
+                save2.add("ATH WITHDRAWAL");
+                save2.add("-$450.00");
 
-                cheque6.add("BANCO POPULAR DE PAYROLL");
-                cheque6.add("$997.50");
+                results.add(save1);
+                results.add(save2);
 
-                results.add(cheque4);
-                results.add(cheque5);
-                results.add(cheque6);
+                break;
+            //Transacciones tarjeta
+            case("Black Dual Mastercard"):
+                List<String> card1 = new ArrayList<>();
+                List<String> card2 = new ArrayList<>();
+
+                card1.add("Spotify USA");
+                card1.add("-$5.56");
+
+                card2.add("SUPERMERCADO");
+                card2.add("-$210.45");
+
+
+                results.add(card1);
+                results.add(card2);
 
                 break;
         }
