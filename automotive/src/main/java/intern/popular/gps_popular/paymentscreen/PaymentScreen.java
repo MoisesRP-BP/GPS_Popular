@@ -1,5 +1,7 @@
 package intern.popular.gps_popular.paymentscreen;
 
+import android.graphics.BitmapFactory;
+
 import androidx.annotation.NonNull;
 import androidx.car.app.CarContext;
 import androidx.car.app.Screen;
@@ -11,10 +13,12 @@ import androidx.car.app.model.ListTemplate;
 import androidx.car.app.model.OnClickListener;
 import androidx.car.app.model.Row;
 import androidx.car.app.model.Template;
+import androidx.core.graphics.drawable.IconCompat;
 
 import java.util.ArrayList;
 import java.util.List;
 
+import intern.popular.gps_popular.R;
 import intern.popular.gps_popular.mapscreens.PlaceDetailScreen;
 
 public class PaymentScreen extends Screen {
@@ -47,42 +51,6 @@ public class PaymentScreen extends Screen {
                     })
                     .build());
         }
-//        Row one = new Row.Builder()
-//                .setTitle(luma.getAccount())
-//                .addText("$" + String.format("%.2f",luma.getAmount()))
-//                .setImage(luma.getCarIcon())
-//                .setBrowsable(true)
-//                .setOnClickListener(new OnClickListener() {
-//                    @Override
-//                    public void onClick() { OnClickPayment(luma);}
-//                })
-//                .build();
-//
-//        Row two = new Row.Builder()
-//                .setTitle(claro.getAccount())
-//                .addText("$" + String.format("%.2f",claro.getAmount()))
-//                .setImage(claro.getCarIcon())
-//                .setBrowsable(true)
-//                .setOnClickListener(new OnClickListener() {
-//                    @Override
-//                    public void onClick() {
-//                        OnClickPayment(claro);}
-//                })
-//                .build();
-//
-//        Row three = new Row.Builder()
-//                .setTitle(liberty.getAccount())
-//                .addText("$" + String.format("%.2f",liberty.getAmount()))
-//                .setImage(liberty.getCarIcon())
-//                .setBrowsable(true)
-//                .setOnClickListener(new OnClickListener() {
-//                    @Override
-//                    public void onClick() {
-//                        OnClickPayment(liberty);}
-//                })
-//                .build();
-//
-//        itemList.addItem(one).addItem(two).addItem(three);
         
         return new ListTemplate.Builder().setSingleList(itemList.build())
                 .setHeaderAction(Action.BACK)
@@ -102,14 +70,23 @@ public class PaymentScreen extends Screen {
 
         if(LumaPay!=0){
             AccountsSample luma = new AccountsSample("LUMA", LumaPay, CarIcon.APP_ICON);
+            IconCompat iconCompat;
+            iconCompat = IconCompat.createWithBitmap(BitmapFactory.decodeResource(getCarContext().getResources(), R.mipmap.luma_logo_foreground));
+            luma.setCarIcon(new CarIcon.Builder(iconCompat).build());
             result.add(luma);
         }
         if(ClaroPay!=0){
             AccountsSample claro = new AccountsSample("Claro", ClaroPay, CarIcon.APP_ICON);
+            IconCompat iconCompat;
+            iconCompat = IconCompat.createWithBitmap(BitmapFactory.decodeResource(getCarContext().getResources(), R.mipmap.claro_logo_foreground));
+            claro.setCarIcon(new CarIcon.Builder(iconCompat).build());
             result.add(claro);
         }
         if(LibertyPay!=0){
             AccountsSample liberty = new AccountsSample("Liberty", LibertyPay, CarIcon.APP_ICON);
+            IconCompat iconCompat;
+            iconCompat = IconCompat.createWithBitmap(BitmapFactory.decodeResource(getCarContext().getResources(), R.mipmap.liberty_logo_foreground));
+            liberty.setCarIcon(new CarIcon.Builder(iconCompat).build());
             result.add(liberty);
         }
 
