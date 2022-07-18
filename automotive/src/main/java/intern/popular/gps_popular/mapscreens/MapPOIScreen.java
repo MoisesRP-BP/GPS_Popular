@@ -163,9 +163,6 @@ public class MapPOIScreen extends Screen {
 
                 LatLng latLng = new LatLng(Double.parseDouble(tokens[11]), Double.parseDouble(tokens[12]));
                 double distance = Math.sqrt(Math.pow((userlat -latLng.latitude),2) + Math.pow((userlon -latLng.longitude),2));
-//                if(distance>=0.03){
-//                    continue;
-//                }
 
                 //Read data
                 LocationSample sample = new LocationSample();
