@@ -35,7 +35,7 @@
 
     <application
         android:extractNativeLibs="false"
-        android:label="@string/app_name"
+        android:label="MiBanco"
         android:icon="@mipmap/mibanco_logo_round"
         android:largeHeap="true">
 

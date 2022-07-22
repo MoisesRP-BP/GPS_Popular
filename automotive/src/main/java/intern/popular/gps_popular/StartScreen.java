@@ -4,6 +4,8 @@ import static java.lang.Thread.sleep;
 
 import android.Manifest;
 import android.content.pm.PackageManager;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
 import android.location.Location;
 import android.location.LocationListener;
 import android.location.LocationManager;
@@ -22,6 +24,8 @@ import androidx.car.app.model.GridTemplate;
 import androidx.car.app.model.ItemList;
 import androidx.car.app.model.OnClickListener;
 import androidx.car.app.model.Template;
+import androidx.core.graphics.drawable.IconCompat;
+
 import com.google.android.gms.maps.model.LatLng;
 
 import java.util.ArrayList;
@@ -46,6 +50,11 @@ public class StartScreen extends Screen {
     @Override
     public Template onGetTemplate() {
         PermissionGranted();
+
+        Bitmap bitmaps = BitmapFactory.decodeResource(getCarContext().getResources(),R.mipmap.athmovil_logo_foreground);
+        IconCompat iconCompat = IconCompat.createWithBitmap(bitmaps);
+        CarIcon athmovil = new CarIcon.Builder(iconCompat).build();
+
 
         ItemList.Builder itemList = new ItemList.Builder();
 
@@ -93,10 +102,17 @@ public class StartScreen extends Screen {
                 })
                 .build();
 
+        GridItem item5 = new GridItem.Builder()
+                .setTitle("ATH Movil")
+                .setText("Coming Soon")
+                .setImage(athmovil)
+                .build();
+
         itemList.addItem(item1);
         itemList.addItem(item2);
         itemList.addItem(item3);
         itemList.addItem(item4);
+        itemList.addItem(item5);
 
         return new GridTemplate.Builder().setSingleList(itemList.build())
                 .setHeaderAction(Action.APP_ICON)
