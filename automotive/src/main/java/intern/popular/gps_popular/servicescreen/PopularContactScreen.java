@@ -60,11 +60,6 @@ public class PopularContactScreen extends Screen {
             )  .build();
         }
 
-//        return new GridTemplate.Builder().setSingleList(list.build())
-//                .setTitle("Contactos para " + Ptitle)
-//                .setHeaderAction(Action.BACK)
-//                .build();
-
         return new ListTemplate.Builder().setSingleList(list.build())
                 .setTitle("Contactos para " + Ptitle)
                 .setHeaderAction(Action.BACK)
