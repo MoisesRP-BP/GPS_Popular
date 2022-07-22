@@ -5,6 +5,7 @@ import static java.lang.Thread.sleep;
 import android.Manifest;
 import android.content.pm.PackageManager;
 import android.content.res.AssetManager;
+import android.graphics.BitmapFactory;
 import android.location.Address;
 import android.location.Location;
 import android.location.LocationListener;
@@ -17,6 +18,7 @@ import androidx.car.app.Screen;
 import androidx.car.app.ScreenManager;
 import androidx.car.app.model.Action;
 import androidx.car.app.model.CarColor;
+import androidx.car.app.model.CarIcon;
 import androidx.car.app.model.CarLocation;
 import androidx.car.app.model.CarText;
 import androidx.car.app.model.ItemList;
@@ -27,6 +29,7 @@ import androidx.car.app.model.PlaceListMapTemplate;
 import androidx.car.app.model.PlaceMarker;
 import androidx.car.app.model.Row;
 import androidx.car.app.model.Template;
+import androidx.core.graphics.drawable.IconCompat;
 
 import com.google.android.gms.location.FusedLocationProviderClient;
 import com.google.android.gms.location.LocationServices;
@@ -43,6 +46,7 @@ import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
 
+import intern.popular.gps_popular.R;
 import intern.popular.gps_popular.StartScreen;
 
 public class MapPOIScreen extends Screen {
@@ -78,17 +82,27 @@ public class MapPOIScreen extends Screen {
             loc.setLatitude(location.getLat());
             loc.setLongitude(location.getLon());
 
-            CarColor color = CarColor.RED;
+            CarColor color = CarColor.BLUE;
             String label = "";
+            PlaceMarker mark = null;
             if (loc.getProvider().toUpperCase().contains("ATM")) {
                 label = "ATM";
                 loc.setProvider(loc.getProvider().substring(3));
+
+//                IconCompat iconCompat = IconCompat.createWithBitmap(BitmapFactory.decodeResource(getCarContext().getResources(), R.mipmap.atmmark_foreground));
+//                CarIcon car = new CarIcon.Builder(iconCompat).build();
+//                mark = new PlaceMarker.Builder().setIcon(car, PlaceMarker.TYPE_IMAGE).build();
+
             } else {
-                label = "Suc";
-                color = CarColor.BLUE;
+                label = "S";
+                color = CarColor.RED;
+//                IconCompat iconCompat = IconCompat.createWithBitmap(BitmapFactory.decodeResource(getCarContext().getResources(), R.mipmap.sucmark_foreground));
+//                CarIcon car = new CarIcon.Builder(iconCompat).build();
+//                mark = new PlaceMarker.Builder().setIcon(car, PlaceMarker.TYPE_ICON).build();
+
             }
 
-            PlaceMarker mark = new PlaceMarker.Builder().setLabel(label).setColor(color).build();
+             mark = new PlaceMarker.Builder().setLabel(label).setColor(color).build();
 
             CarLocation car = CarLocation.create(loc);
             Place place = new Place.Builder(car).setMarker(mark).build();

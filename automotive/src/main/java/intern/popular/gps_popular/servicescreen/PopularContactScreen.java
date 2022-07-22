@@ -226,35 +226,35 @@ public class PopularContactScreen extends Screen {
         List<Bitmap> bitmaps = new ArrayList<>();
 
         //Logo Popular Auto: Servicios
-        bitmaps.add(BitmapFactory.decodeResource(getCarContext().getResources(), R.mipmap.popular_auto_foreground));
+        bitmaps.add(BitmapFactory.decodeResource(getCarContext().getResources(), R.mipmap.popautoserv_foreground));
         //Logo Popular Auto: Ventas
-        bitmaps.add(BitmapFactory.decodeResource(getCarContext().getResources(), R.mipmap.popular_auto_foreground));
+        bitmaps.add(BitmapFactory.decodeResource(getCarContext().getResources(), R.mipmap.popautovent_foreground));
         //Logo Popular Mortgage: Compras
-        bitmaps.add(BitmapFactory.decodeResource(getCarContext().getResources(), R.mipmap.popular_mortgage_foreground));
+        bitmaps.add(BitmapFactory.decodeResource(getCarContext().getResources(), R.mipmap.popmortcompras_foreground));
         //Logo Popular Mortgage: Hipotecas
-        bitmaps.add(BitmapFactory.decodeResource(getCarContext().getResources(), R.mipmap.popular_mortgage_foreground));
+        bitmaps.add(BitmapFactory.decodeResource(getCarContext().getResources(), R.mipmap.popmorthipotecas_foreground));
         //Logo Seguridad & Fraude: Robo de identidad
-        bitmaps.add(BitmapFactory.decodeResource(getCarContext().getResources(),R.mipmap.lock_indentity_foreground));
+        bitmaps.add(BitmapFactory.decodeResource(getCarContext().getResources(),R.mipmap.popsecidentidad_foreground));
         //Logo Seguridad & Fraude: Tarjeta Perdida
-        bitmaps.add(BitmapFactory.decodeResource(getCarContext().getResources(), R.mipmap.visa_logo_foreground));
+        bitmaps.add(BitmapFactory.decodeResource(getCarContext().getResources(), R.mipmap.popsectarjeta_foreground));
         //Logo Seguridad & Fraude: ATH Visa Internacional
-        bitmaps.add(BitmapFactory.decodeResource(getCarContext().getResources(),R.mipmap.visa_logo_foreground));
+        bitmaps.add(BitmapFactory.decodeResource(getCarContext().getResources(),R.mipmap.popsecath_foreground));
         //Logo Seguridad & Fraude: Security Popular
-        bitmaps.add(BitmapFactory.decodeResource(getCarContext().getResources(), R.mipmap.lock_indentity_foreground));
+        bitmaps.add(BitmapFactory.decodeResource(getCarContext().getResources(), R.mipmap.popsecurity_foreground));
         //Logo Seguros: Insurance
-        bitmaps.add(BitmapFactory.decodeResource(getCarContext().getResources(),R.mipmap.popular_insurance_foreground));
+        bitmaps.add(BitmapFactory.decodeResource(getCarContext().getResources(),R.mipmap.popseginsurance_foreground));
         //Logo Seguros: Risks
-        bitmaps.add(BitmapFactory.decodeResource(getCarContext().getResources(), R.mipmap.popular_insurance_foreground));
+        bitmaps.add(BitmapFactory.decodeResource(getCarContext().getResources(), R.mipmap.popsegrisk_foreground));
         //Logo Otros: Arrendamiento
-        bitmaps.add(BitmapFactory.decodeResource(getCarContext().getResources(), R.mipmap.popular_mortgage_foreground));
+        bitmaps.add(BitmapFactory.decodeResource(getCarContext().getResources(), R.mipmap.otherarrend_foreground));
         //Logo Otros: Prestamos Personales
-        bitmaps.add(BitmapFactory.decodeResource(getCarContext().getResources(),R.mipmap.mibanco_logo_foreground));
+        bitmaps.add(BitmapFactory.decodeResource(getCarContext().getResources(),R.mipmap.otherprestamos_foreground));
         //Logo Otros: Tarjetas de Creditos
-        bitmaps.add(BitmapFactory.decodeResource(getCarContext().getResources(),R.mipmap.visa_logo_foreground));
+        bitmaps.add(BitmapFactory.decodeResource(getCarContext().getResources(),R.mipmap.othertarjeta_foreground));
         //Logo Otros: Banca Comercial
-        bitmaps.add(BitmapFactory.decodeResource(getCarContext().getResources(),R.mipmap.mibanco_logo_foreground));
+        bitmaps.add(BitmapFactory.decodeResource(getCarContext().getResources(),R.mipmap.otherbanca_foreground));
         //Logo Otros: Fideicomiso
-        bitmaps.add(BitmapFactory.decodeResource(getCarContext().getResources(),R.mipmap.popular_insurance_foreground));
+        bitmaps.add(BitmapFactory.decodeResource(getCarContext().getResources(),R.mipmap.otherfideicomiso_foreground));
 
         for(Bitmap bit: bitmaps){
             Bitmap logo = Bitmap.createScaledBitmap(bit, 256, 256, true);

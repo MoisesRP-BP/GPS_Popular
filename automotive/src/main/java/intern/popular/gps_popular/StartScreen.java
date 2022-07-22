@@ -6,6 +6,8 @@ import android.Manifest;
 import android.content.pm.PackageManager;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
+import android.graphics.Canvas;
+import android.graphics.drawable.Drawable;
 import android.location.Location;
 import android.location.LocationListener;
 import android.location.LocationManager;
@@ -39,8 +41,8 @@ import intern.popular.gps_popular.servicescreen.CustomerServiceScreen;
 public class StartScreen extends Screen {
 
     public static Location currentLocation;
-    boolean gps_enabled=false;
-    boolean network_enabled=false;
+    boolean gps_enabled = false;
+    boolean network_enabled = false;
 
     protected StartScreen(@NonNull CarContext carContext) {
         super(carContext);
@@ -50,17 +52,13 @@ public class StartScreen extends Screen {
     @Override
     public Template onGetTemplate() {
         PermissionGranted();
-
-        Bitmap bitmaps = BitmapFactory.decodeResource(getCarContext().getResources(),R.mipmap.athmovil_logo_foreground);
-        IconCompat iconCompat = IconCompat.createWithBitmap(bitmaps);
-        CarIcon athmovil = new CarIcon.Builder(iconCompat).build();
-
+        List<CarIcon> icons = IconMaker();
 
         ItemList.Builder itemList = new ItemList.Builder();
 
         GridItem item1 = new GridItem.Builder()
                 .setTitle("ATM & Sucursales")
-                .setImage(CarIcon.APP_ICON)
+                .setImage(icons.get(0))
                 .setOnClickListener(new OnClickListener() {
                     @Override
                     public void onClick() {
@@ -71,7 +69,7 @@ public class StartScreen extends Screen {
 
         GridItem item2 = new GridItem.Builder()
                 .setTitle("Realizar Pago")
-                .setImage(CarIcon.APP_ICON)
+                .setImage(icons.get(1))
                 .setOnClickListener(new OnClickListener() {
                     @Override
                     public void onClick() {
@@ -82,7 +80,7 @@ public class StartScreen extends Screen {
 
         GridItem item3 = new GridItem.Builder()
                 .setTitle("Verificar Cuentas")
-                .setImage(CarIcon.APP_ICON)
+                .setImage(icons.get(2))
                 .setOnClickListener(new OnClickListener() {
                     @Override
                     public void onClick() {
@@ -93,7 +91,7 @@ public class StartScreen extends Screen {
 
         GridItem item4 = new GridItem.Builder()
                 .setTitle("Servicio al Cliente")
-                .setImage(CarIcon.APP_ICON)
+                .setImage(icons.get(3))
                 .setOnClickListener(new OnClickListener() {
                     @Override
                     public void onClick() {
@@ -105,7 +103,7 @@ public class StartScreen extends Screen {
         GridItem item5 = new GridItem.Builder()
                 .setTitle("ATH Movil")
                 .setText("Coming Soon")
-                .setImage(athmovil)
+                .setImage(icons.get(4))
                 .build();
 
         itemList.addItem(item1);
@@ -172,13 +170,19 @@ public class StartScreen extends Screen {
         if (getCarContext().checkSelfPermission(Manifest.permission.ACCESS_FINE_LOCATION) == PackageManager.PERMISSION_GRANTED) {
             LocationManager location = (LocationManager) getCarContext().getSystemService(getCarContext().LOCATION_SERVICE);
 
-            try{gps_enabled=location.isProviderEnabled(LocationManager.GPS_PROVIDER);}catch(Exception ex){}
-            try{network_enabled=location.isProviderEnabled(LocationManager.NETWORK_PROVIDER);}catch(Exception ex){}
+            try {
+                gps_enabled = location.isProviderEnabled(LocationManager.GPS_PROVIDER);
+            } catch (Exception ex) {
+            }
+            try {
+                network_enabled = location.isProviderEnabled(LocationManager.NETWORK_PROVIDER);
+            } catch (Exception ex) {
+            }
 
-            if(gps_enabled){
+            if (gps_enabled) {
                 location.requestLocationUpdates(LocationManager.GPS_PROVIDER, 2000, 10, locationListerGPS);
             }
-            if(network_enabled && currentLocation==null){
+            if (network_enabled && currentLocation == null) {
                 location.requestLocationUpdates(LocationManager.NETWORK_PROVIDER, 2000, 10, locationListerGPS);
             }
 
@@ -212,5 +216,27 @@ public class StartScreen extends Screen {
         this.currentLocation = currentLocation;
     }
 
+    private List<CarIcon> IconMaker() {
+        List<CarIcon> list = new ArrayList<>();
+        List<Bitmap> bitmaps = new ArrayList<>();
 
+        //ATM+Sucursales
+        bitmaps.add(BitmapFactory.decodeResource(getCarContext().getResources(), R.mipmap.atmsucursales_foreground));
+        //Payments
+        bitmaps.add(BitmapFactory.decodeResource(getCarContext().getResources(), R.mipmap.payment_foreground));
+        //Cuentas
+        bitmaps.add(BitmapFactory.decodeResource(getCarContext().getResources(), R.mipmap.cuentas_foreground));
+        //Customer Service)
+        bitmaps.add(BitmapFactory.decodeResource(getCarContext().getResources(), R.mipmap.custserv_foreground));
+        //ATH Movil
+        bitmaps.add(BitmapFactory.decodeResource(getCarContext().getResources(), R.mipmap.athmovil_foreground));
+
+
+        for (Bitmap bit : bitmaps) {
+            IconCompat iconCompat = IconCompat.createWithBitmap(bit);
+            CarIcon car = new CarIcon.Builder(iconCompat).build();
+            list.add(car);
+        }
+        return list;
+    }
 }

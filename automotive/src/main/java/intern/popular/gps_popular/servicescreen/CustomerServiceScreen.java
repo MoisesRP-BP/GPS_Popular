@@ -137,17 +137,17 @@ public class CustomerServiceScreen extends Screen {
         List<Bitmap> bitmaps = new ArrayList<>();
 
         //Logo TeleBanco
-        bitmaps.add(BitmapFactory.decodeResource(getCarContext().getResources(),R.mipmap.mibanco_logo_foreground));
+        bitmaps.add(BitmapFactory.decodeResource(getCarContext().getResources(),R.mipmap.telebanco_foreground));
         //Logo Popular Mortgage
-        bitmaps.add(BitmapFactory.decodeResource(getCarContext().getResources(), R.mipmap.popular_mortgage_foreground));
+        bitmaps.add(BitmapFactory.decodeResource(getCarContext().getResources(), R.mipmap.popularmortgage_foreground));
         //Logo Popular Auto
-        bitmaps.add(BitmapFactory.decodeResource(getCarContext().getResources(),R.mipmap.popular_auto_foreground));
+        bitmaps.add(BitmapFactory.decodeResource(getCarContext().getResources(),R.mipmap.popularauto_foreground));
         //Logo Popular Seguros
-        bitmaps.add(BitmapFactory.decodeResource(getCarContext().getResources(),R.mipmap.popular_insurance_foreground));
+        bitmaps.add(BitmapFactory.decodeResource(getCarContext().getResources(),R.mipmap.popularseguros_foreground));
         //Logo Popular Security
-        bitmaps.add(BitmapFactory.decodeResource(getCarContext().getResources(), R.mipmap.lock_indentity_foreground));
+        bitmaps.add(BitmapFactory.decodeResource(getCarContext().getResources(), R.mipmap.popularsecurity_foreground));
         //Logo Others
-        bitmaps.add(BitmapFactory.decodeResource(getCarContext().getResources(),R.mipmap.mibanco_logo_foreground));
+        bitmaps.add(BitmapFactory.decodeResource(getCarContext().getResources(),R.mipmap.otherslogos_foreground));
 
         for(Bitmap bit: bitmaps){
             Bitmap logo = Bitmap.createScaledBitmap(bit, 256, 256, true);

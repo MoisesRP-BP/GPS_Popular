@@ -1,5 +1,8 @@
 package intern.popular.gps_popular.accountscreen;
 
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
+
 import androidx.annotation.NonNull;
 import androidx.car.app.CarContext;
 import androidx.car.app.Screen;
@@ -11,7 +14,12 @@ import androidx.car.app.model.GridTemplate;
 import androidx.car.app.model.ItemList;
 import androidx.car.app.model.OnClickListener;
 import androidx.car.app.model.Template;
+import androidx.core.graphics.drawable.IconCompat;
 
+import java.util.ArrayList;
+import java.util.List;
+
+import intern.popular.gps_popular.R;
 import intern.popular.gps_popular.paymentscreen.AccountsSample;
 import intern.popular.gps_popular.paymentscreen.PaymentDetailScreen;
 
@@ -33,12 +41,14 @@ public class VerifyScreen extends Screen {
         String saveTitle = "Ahorro: x1234";
         String cardTitle = "Black Dual Mastercard: x4322";
 
+        List<CarIcon> icons = IconMaker();
+
         ItemList.Builder itemList = new ItemList.Builder();
 
         GridItem one = new GridItem.Builder()
                 .setTitle(checkTitle)
                 .setText("$" + String.format("%.2f", Check_Account))
-                .setImage(CarIcon.APP_ICON)
+                .setImage(icons.get(0))
                 .setOnClickListener(new OnClickListener() {
                     @Override
                     public void onClick() { OnClickPayment(checkTitle);}
@@ -48,7 +58,7 @@ public class VerifyScreen extends Screen {
         GridItem two = new GridItem.Builder()
                 .setTitle(saveTitle)
                 .setText("$" + String.format("%.2f", Save_Account))
-                .setImage(CarIcon.APP_ICON)
+                .setImage(icons.get(1))
                 .setOnClickListener(new OnClickListener() {
                     @Override
                     public void onClick() { OnClickPayment(saveTitle);}
@@ -58,7 +68,7 @@ public class VerifyScreen extends Screen {
         GridItem three = new GridItem.Builder()
                 .setTitle(cardTitle)
                 .setText("$" + String.format("%.2f", Card_Account))
-                .setImage(CarIcon.APP_ICON)
+                .setImage(icons.get(2))
                 .setOnClickListener(new OnClickListener() {
                     @Override
                     public void onClick() { OnClickPayment(cardTitle);}
@@ -78,5 +88,24 @@ public class VerifyScreen extends Screen {
 
         getCarContext().getCarService(ScreenManager.class).push(new AccountDetailScreen(getCarContext(), accounts[0]));
 
+    }
+
+    private List<CarIcon> IconMaker() {
+        List<CarIcon> list = new ArrayList<>();
+        List<Bitmap> bitmaps = new ArrayList<>();
+
+        //cheque
+        bitmaps.add(BitmapFactory.decodeResource(getCarContext().getResources(), R.mipmap.cuenta_foreground));
+        //ahorro
+        bitmaps.add(BitmapFactory.decodeResource(getCarContext().getResources(), R.mipmap.cuenta_foreground));
+        //BlackDual
+        bitmaps.add(BitmapFactory.decodeResource(getCarContext().getResources(), R.mipmap.blackdual_foreground));
+
+        for (Bitmap bit : bitmaps) {
+            IconCompat iconCompat = IconCompat.createWithBitmap(bit);
+            CarIcon car = new CarIcon.Builder(iconCompat).build();
+            list.add(car);
+        }
+        return list;
     }
 }
