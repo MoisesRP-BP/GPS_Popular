@@ -226,7 +226,7 @@ public class StartScreen extends Screen {
         bitmaps.add(BitmapFactory.decodeResource(getCarContext().getResources(), R.mipmap.payment_foreground));
         //Cuentas
         bitmaps.add(BitmapFactory.decodeResource(getCarContext().getResources(), R.mipmap.cuentas_foreground));
-        //Customer Service)
+        //Customer Service
         bitmaps.add(BitmapFactory.decodeResource(getCarContext().getResources(), R.mipmap.custserv_foreground));
         //ATH Movil
         bitmaps.add(BitmapFactory.decodeResource(getCarContext().getResources(), R.mipmap.athmovil_foreground));
